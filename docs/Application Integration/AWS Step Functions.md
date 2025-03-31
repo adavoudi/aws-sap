@@ -1,4 +1,4 @@
-# Orchestrating Serverless Workflows with AWS Step Functions
+# AWS Step Functions
 
 ## 1. Introduction
 

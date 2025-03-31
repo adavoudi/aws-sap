@@ -1,4 +1,4 @@
-# Migrating Traditional Message Brokers to Amazon MQ
+# Amazon MQ
 
 ## 1. Introduction
 

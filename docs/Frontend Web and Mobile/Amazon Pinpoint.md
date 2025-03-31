@@ -1,4 +1,4 @@
-# Amazon Pinpoint: A Unified Marketing Communications Service
+# Amazon Pinpoint
 
 ## 1. Introduction
 

@@ -1,6 +1,6 @@
-# **Amazon CloudFront**
+# Amazon CloudFront
 
-## **1. Introduction**
+## 1. Introduction
 
 In today’s digital age, end-user experience is paramount. Speed, responsiveness, and security are critical for modern web applications. A Content Delivery Network (CDN) is an overlay network designed to reduce latency and improve the performance of content delivery by caching and delivering content from servers located closer to the user. The traditional model—where user requests travel long distances to a centralized data center—can lead to delays, higher latency, and reduced application responsiveness. CloudFront overcomes these limitations by distributing content to multiple Edge Locations, ensuring that end users can access data quickly and efficiently regardless of their geographic location.
 
@@ -12,11 +12,11 @@ CloudFront is not just a caching mechanism; it is a comprehensive solution that 
 - **Flexibility:** CloudFront supports a variety of origin types—from Amazon S3 buckets and Application Load Balancers (ALB) to custom HTTP servers—and allows fine-grained control over caching behaviors.
 - **Cost Efficiency:** By caching frequently accessed content at the edge, CloudFront helps reduce the load on your origins, which can result in cost savings for bandwidth and compute resources.
 
-## **2. Core Concepts**
+## 2. Core Concepts
 
 This section provides an in-depth look at the foundational elements of Amazon CloudFront. We examine the overall architecture and operational flow, and then delve into the various types of origins that can be integrated with CloudFront.
 
-### **2.1 CloudFront Overview: How It Works**
+### 2.1 CloudFront Overview: How It Works
 
 CloudFront is designed around a two-tier caching hierarchy that optimizes content delivery at a global scale. To understand its inner workings, it is important to grasp the roles played by the two primary caching layers: the Edge Locations and the Regional Edge Caches.
 
@@ -75,7 +75,7 @@ CloudFront is deeply integrated with other AWS services, creating a seamless exp
 
 In summary, CloudFront’s core architecture—with its strategic combination of Edge Locations and Regional Edge Caches—ensures that content is delivered swiftly, securely, and reliably across the globe.
 
-### **2.2 CloudFront Origins: S3, ALB, Custom Origins, and Multi-Origin Configurations**
+### 2.2 CloudFront Origins: S3, ALB, Custom Origins, and Multi-Origin Configurations
 
 The flexibility of CloudFront is largely derived from its ability to integrate with a wide variety of origin sources. In this section, we explore the different origin types and the best practices for configuring them.
 
@@ -135,11 +135,11 @@ To maximize availability and resilience, CloudFront supports multi-origin config
 In summary, the flexibility in configuring origins is one of CloudFront’s key strengths. Whether you are serving static content from an S3 bucket, dynamic content from an ALB, or custom content from an on-premises server, CloudFront’s architecture and configuration options allow you to tailor your delivery network to meet your specific performance, security, and reliability needs.
 
 
-## **3. Origin Configuration and Security**
+## 3. Origin Configuration and Security
 
 A critical aspect of designing a robust CloudFront distribution is ensuring that your origins are not only optimized for performance but also secured against unauthorized access. This section explores techniques for customizing origin behavior through headers, securing origins with Origin Access Control (OAC) and AWS WAF, and implementing origin failover for high availability.
 
-### **3.1 Customizing Origin Behavior with Headers**
+### 3.1 Customizing Origin Behavior with Headers
 
 CloudFront provides the ability to insert and manipulate HTTP headers on requests that are forwarded from the CDN to the origin. This capability is essential for multiple reasons, including security, caching optimizations, and content personalization.
 
@@ -182,7 +182,7 @@ The ability to customize headers opens up many possibilities:
 
 In conclusion, custom headers are a powerful tool in the CloudFront arsenal. They not only enhance security by ensuring that only authorized traffic reaches the origin but also provide the flexibility needed to fine-tune caching and content delivery strategies.
 
-### **3.2 Securing Origins: Origin Access Control (OAC) and AWS WAF Integration**
+### 3.2 Securing Origins: Origin Access Control (OAC) and AWS WAF Integration
 
 Security is paramount when deploying a global CDN. In this section, we explore two critical security mechanisms: Origin Access Control (OAC) and AWS Web Application Firewall (WAF). Both of these features work together to ensure that your origin resources—be they S3 buckets or custom HTTP servers—are accessible only through CloudFront.
 
@@ -220,7 +220,7 @@ To summarize, securing your origin in a CloudFront configuration involves:
 - **Additional Measures:**  
     Implementing network-level security by whitelisting CloudFront IP ranges and automating key rotation to maintain a robust security posture.
 
-### **3.3 Origin Failover: High Availability for Critical Workloads**
+### 3.3 Origin Failover: High Availability for Critical Workloads
 
 In mission-critical applications, high availability is essential. CloudFront supports origin failover, ensuring that your application remains available even if the primary origin encounters an issue.
 
@@ -270,11 +270,11 @@ To achieve maximum resilience, consider the following best practices:
 
 By leveraging origin failover mechanisms, you can maintain uninterrupted service for your global audience even in the face of localized origin failures.
 
-## **4. Encryption and Secure Delivery**
+## 4. Encryption and Secure Delivery
 
 Security is a fundamental concern when delivering content over the internet. CloudFront provides multiple mechanisms to ensure that the connection between the client and the origin is secure. In this section, we explore the practices and technologies involved in enforcing HTTPS and establishing end-to-end encryption.
 
-### **4.1 Enforcing HTTPS: SSL/TLS Certificates and Viewer Protocol Policies**
+### 4.1 Enforcing HTTPS: SSL/TLS Certificates and Viewer Protocol Policies
 
 Securing the connection between the end user (viewer) and CloudFront is the first step in ensuring data integrity and confidentiality. HTTPS (using SSL/TLS) is the industry standard for securing web traffic.
 
@@ -324,7 +324,7 @@ To further harden HTTPS connections, CloudFront allows you to specify security p
 
 By configuring these policies, you can ensure that all connections are secured using the strongest available encryption methods.
 
-### **4.2 End-to-End Encryption: Origin-to-Viewer Data Security**
+### 4.2 End-to-End Encryption: Origin-to-Viewer Data Security
 
 While enforcing HTTPS between the viewer and CloudFront is crucial, ensuring that the entire data path—from the origin server to the viewer—is encrypted is equally important. End-to-end encryption ensures that data is protected at every step.
 
@@ -365,11 +365,11 @@ For a robust, secure CloudFront deployment, it is recommended to:
 
 By implementing these practices, you can ensure that all data exchanged between the origin and the viewer remains secure from interception or tampering.
 
-## **5. Content Customization and Access Control**
+## 5. Content Customization and Access Control
 
 Amazon CloudFront offers advanced features that allow you to customize content delivery and enforce access controls based on geographic location or through edge computing. In this section, we explore geographic restrictions and edge computing capabilities provided by CloudFront Functions and Lambda@Edge.
 
-### **5.1 Geographic Restrictions: Blocking or Allowing Traffic by Location**
+### 5.1 Geographic Restrictions: Blocking or Allowing Traffic by Location
 
 Geographic restrictions are a powerful feature that lets you control access to your content based on the location of the viewer. This functionality is useful for complying with legal regulations, managing content licensing, or enforcing regional business policies.
 
@@ -401,14 +401,14 @@ Geo restrictions can be configured via the CloudFront management console, AWS CL
 
 In summary, geographic restrictions provide a simple yet effective way to control content access and ensure compliance with legal and business requirements.
 
-### **5.2 Edge Computing**
+### 5.2 Edge Computing
 
 Edge computing extends CloudFront’s functionality beyond simple caching. By running code at the Edge, you can manipulate HTTP requests and responses, perform authentication and authorization, and even conduct real-time content transformations. CloudFront supports two primary models for edge computing: CloudFront Functions and Lambda@Edge.
 
 
 ![cloudfront-Edge Computing](./_assets/cloudfront-edge_computing.png)
 
-#### **5.2.1 CloudFront Functions (Lightweight JavaScript at the Edge)**
+#### 5.2.1 CloudFront Functions (Lightweight JavaScript at the Edge)
 
 CloudFront Functions are designed for high-performance, latency-sensitive tasks that must be executed as close as possible to the viewer. They offer a lightweight execution environment for simple tasks such as header manipulation, URL rewrites, or cache key normalization.
 
@@ -434,7 +434,7 @@ CloudFront Functions are designed for high-performance, latency-sensitive tasks 
 
 These functions are typically deployed at the viewer request or viewer response stage, ensuring that modifications occur before the request reaches the origin or before the response is sent back to the client.
 
-#### **5.2.2 Lambda@Edge (Custom Code Execution for Advanced Workflows)**
+#### 5.2.2 Lambda@Edge (Custom Code Execution for Advanced Workflows)
 
 Lambda@Edge is a more robust solution for running custom code in response to CloudFront events. Unlike CloudFront Functions, Lambda@Edge supports a wider range of use cases and offers greater flexibility in terms of programming languages, execution time, and network access.
 
@@ -481,11 +481,11 @@ To help you understand the difference between CloudFront Functions and Lambda@Ed
 
 In many architectures, you might use a combination of both approaches—CloudFront Functions for ultra-fast, simple tasks, and Lambda@Edge for more sophisticated processing.
 
-## **6. Performance and Advanced Integrations**
+## 6. Performance and Advanced Integrations
 
 Optimizing the performance of your content delivery network is critical for maintaining a responsive and efficient user experience. In this section, we examine AWS Global Accelerator and cache optimization strategies that further enhance CloudFront’s performance.
 
-### **6.1 AWS Global Accelerator: Improving Availability and Latency**
+### 6.1 AWS Global Accelerator: Improving Availability and Latency
 
 AWS Global Accelerator is a networking service designed to improve the availability and performance of your applications by directing user traffic through the optimal AWS edge location. It works in tandem with CloudFront by leveraging the AWS global network.
 
@@ -538,7 +538,7 @@ Although Global Accelerator and CloudFront serve different use cases, they can c
 | **Pricing**        | Based on data transfer out and HTTP requests                    | Charges fixed hourly fees plus data transfer rates                                |
 | **DDoS Protection**| Provides DDoS Protection with AWS Shield                        | Provides DDoS Protection with AWS Shield                                          |
 
-### **6.2 Cache Optimization: TTLs, Invalidation, and Cache Policies**
+### 6.2 Cache Optimization: TTLs, Invalidation, and Cache Policies
 
 Efficient caching is the backbone of a high-performance CDN. In this section, we cover the principles of cache optimization, including Time-to-Live (TTL) settings, cache invalidation strategies, and the configuration of custom cache policies.
 
@@ -569,7 +569,7 @@ Efficient caching is the backbone of a high-performance CDN. In this section, we
 
 By applying these cache optimization strategies, you can significantly reduce latency, decrease load on your origin, and improve the overall performance of your content delivery network.
 
-## **7. Monitoring: Logging, Metrics, and Cost Alerts**
+## 7. Monitoring: Logging, Metrics, and Cost Alerts
 
 Robust monitoring is essential to ensure that your CloudFront distribution is performing as expected and to detect any anomalies early. This section covers the various tools and techniques for monitoring CloudFront, from logging and metrics to setting up cost alerts.
 
@@ -617,6 +617,6 @@ The following diagram shows how CloudFront logs information about requests for y
 
 By establishing a comprehensive monitoring and alerting framework, you ensure that your CloudFront deployment remains healthy, performant, and cost effective.
 
-## **8. Conclusion**
+## 8. Conclusion
 
 Amazon CloudFront is a versatile and robust solution for delivering content at scale. Whether you are hosting a static website, streaming media, or deploying a complex, globally distributed application, CloudFront provides the tools and integrations necessary to ensure that your content is delivered quickly, securely, and reliably.

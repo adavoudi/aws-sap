@@ -1,4 +1,4 @@
-# AWS Trusted Advisor – Your Personal Cloud Expert
+# AWS Trusted Advisor
 
 ## 1. Introduction
 

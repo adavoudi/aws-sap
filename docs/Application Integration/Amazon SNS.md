@@ -1,4 +1,4 @@
-# Mastering Amazon SNS for Scalable Notifications
+# Amazon SNS
 
 ## 1. Introduction
 

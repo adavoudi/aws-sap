@@ -1,4 +1,4 @@
-# Amazon SQS Essentials for Architecture and Scalability
+# Amazon SQS
 
 ## 1. Introduction
 

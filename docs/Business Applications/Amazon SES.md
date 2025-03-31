@@ -1,4 +1,4 @@
-# Mastering Amazon Simple Email Service (SES)
+# Amazon Simple Email Service (SES)
 
 ## 1. Introduction
 

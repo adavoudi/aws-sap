@@ -1,4 +1,5 @@
 # Amazon EventBridge
+
 ## 1. Introduction
 Amazon EventBridge, formerly known as CloudWatch Events, serves as a powerful event bus that can integrate multiple AWS services, partner applications, and custom events. It provides a way to detect changes in your environment—whether on a schedule, in response to specific events, or both—and trigger actions in your AWS infrastructure. 
 
