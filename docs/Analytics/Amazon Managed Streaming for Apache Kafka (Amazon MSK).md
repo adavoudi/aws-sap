@@ -1,4 +1,4 @@
-# Amazon Managed Streaming for Apache Kafka (MSK)
+# Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 
 ## 1. Introduction
 

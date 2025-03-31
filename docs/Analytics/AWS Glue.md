@@ -1,4 +1,4 @@
-# AWS Glue: Managed Data Integration for Analytics
+# AWS Glue
 
 ## 1. Introduction
 

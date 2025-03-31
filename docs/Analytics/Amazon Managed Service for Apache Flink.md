@@ -1,4 +1,4 @@
-# Real-Time Data Stream Processing with Amazon Managed Service for Apache Flink
+# Amazon Managed Service for Apache Flink
 
 ## 1. Introduction
 

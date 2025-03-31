@@ -1,8 +1,9 @@
-# Kinesis Data Firehose: Managed Streaming Delivery
+# Kinesis Data Firehose
 
 ## 1. Introduction
 
 Amazon Kinesis Data Firehose is a fully managed service designed to reliably capture, transform, and load streaming data into various destinations. It automatically scales to accommodate varying data throughputs and employs a buffering mechanism to batch records, enabling near real-time delivery. With built-in support for optional data transformations via AWS Lambda, robust backup options, and seamless integration with key AWS services, Kinesis Data Firehose is an ideal choice for modern data ingestion pipelines—from real-time analytics to data lake formation.
+
 ## 2. Core Concepts and Key Features
 
 ![kinesis-data-firehose](./_assets/kinesis-data-firehose.png)

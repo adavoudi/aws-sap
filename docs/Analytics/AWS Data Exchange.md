@@ -1,4 +1,4 @@
-# AWS Data Exchange: Empowering Access to Third-Party Data
+# AWS Data Exchange
 
 ## 1. Introduction
 

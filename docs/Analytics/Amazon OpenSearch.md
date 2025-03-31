@@ -1,4 +1,4 @@
-# Harnessing Amazon OpenSearch for Scalable Search and Analytics
+# Amazon OpenSearch
 
 ## 1. Introduction
 

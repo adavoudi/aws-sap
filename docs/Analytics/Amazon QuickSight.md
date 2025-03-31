@@ -1,4 +1,4 @@
-# Amazon QuickSight: Serverless Business Intelligence
+# Amazon QuickSight
 
 ## 1. Introduction
 Amazon QuickSight is a fully managed, visually rich analytics solution that enables organizations to derive insights from their data in a highly scalable, serverless manner. By leveraging powerful in-memory functionality and seamless integration with numerous data sources, QuickSight makes it straightforward to create interactive dashboards and analytical reports. 

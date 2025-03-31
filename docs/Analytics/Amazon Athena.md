@@ -1,6 +1,6 @@
-# Amazon Athena – Serverless Querying and Analysis
+# Amazon Athena
 
-## 1. Overview of Amazon Athena
+## 1. Introduction
 
 Amazon Athena is a fully managed, serverless query service that empowers organizations to analyze data directly in Amazon S3 using standard SQL. It eliminates the complexities of setting up and managing servers or clusters, allowing you to run ad hoc queries against vast datasets stored in Amazon S3 with ease. You only pay for the data scanned by your queries, making Athena a cost-effective solution for business intelligence and analytics. The cost model is pay-as-you-go, priced at **$5 per TB of data scanned**. Crucially, only successful and cancelled queries are counted towards billing; failed queries are not charged, and there are **no charges for Data Definition Language (DDL)** operations like `CREATE`, `ALTER`, and `DROP`.
 
