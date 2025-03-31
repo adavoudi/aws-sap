@@ -4,7 +4,7 @@
 
 Amazon Kendra is a fully managed, intelligent search service that leverages advanced machine learning and natural language processing techniques to deliver highly accurate and contextually relevant search results. Unlike traditional keyword-based search systems, Kendra uses semantic understanding to interpret natural language queries and return precise answers. It allows organizations to build a unified search experience across multiple repositories—from on‑premises file systems to cloud data sources such as Amazon S3, SharePoint, Box, and databases—helping users quickly find the information they need. In addition, recent enhancements include integration with generative AI capabilities for retrieval augmented generation (RAG) and enterprise search solutions.  
 
-![[amazon-kendra.png]]
+![amazon-kendra](./_assets/amazon-kendra.png)
 
 ## 2. Features and Capabilities
 

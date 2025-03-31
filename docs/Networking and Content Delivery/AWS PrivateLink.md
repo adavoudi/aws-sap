@@ -12,7 +12,7 @@ AWS PrivateLink simplifies the secure connection between a service provider’s 
 
 At the core of AWS PrivateLink is the concept of decoupling service exposure from full VPC connectivity. In a typical PrivateLink architecture, a service provider hosts its application services within its own VPC. These services are not exposed directly but are instead made accessible through a dedicated endpoint service. The service provider registers the application endpoints with a Network Load Balancer (NLB).
 
-![[AWS PrivateLink.png]]
+![AWS PrivateLink](./_assets/aws_privatelink.png)
 
 On the consumer side, an interface VPC endpoint is created. This endpoint provisions Elastic Network Interfaces (ENIs) within the consumer’s VPC subnets, providing private IP addresses that serve as the entry point to the service provider’s application. All communication between the consumer and provider occurs over the AWS private network, ensuring that traffic is isolated from the public internet. This architecture supports both a single AWS environment and hybrid scenarios where services hosted on-premises are connected via Direct Connect to an edge VPC that fronts a PrivateLink-enabled NLB.
 

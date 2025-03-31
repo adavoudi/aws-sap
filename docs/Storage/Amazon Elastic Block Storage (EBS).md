@@ -234,7 +234,7 @@ With Fast Snapshot Restore enabled:
 - There's no performance impact when accessing data for the first time
 - Applications can achieve full performance immediately, without waiting for data to be loaded
 
-![[S3-Fast Snapshot Restore.png]]
+![S3-Fast Snapshot Restore](./_assets/s3-fast_snapshot_restore.png)
 
 FSR is particularly valuable for:
 

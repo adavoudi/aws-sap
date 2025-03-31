@@ -8,7 +8,7 @@ Amazon Inspector provides a systematic approach to security by performing contin
 
 Amazon Inspector incorporates several core features that make it an essential tool for maintaining a robust security posture in the cloud. These include continuous security assessments, integration with a comprehensive vulnerability database, and risk scoring to prioritize remediation efforts.
 
-![[Amazon Inspector.png]]
+![Amazon Inspector](./_assets/amazon_inspector.png)
 
 ### 2.1. Continuous Security Assessments
 

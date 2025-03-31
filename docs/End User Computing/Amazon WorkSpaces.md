@@ -10,7 +10,7 @@ Key aspects include:
 - **Flexibility:** Supports persistent desktops (each user gets their own desktop) as well as pooled desktops (for shared use cases).
 - **Scalability:** Quickly scale from one to thousands of desktops using the AWS Management Console, CLI, or APIs.
 
-![[workspaces.png]]
+![workspaces](./_assets/workspaces.png)
 
 ## 2. Key Features
 

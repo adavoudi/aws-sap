@@ -8,7 +8,7 @@ Amazon Detective is an AWS service purpose-built to streamline the investigation
 
 Amazon Detective operates by automatically collecting, processing, and analyzing data from a variety of AWS sources. The service’s architecture is built around two key technologies: machine learning and graph analytics.
 
-![[Amazon Detective-arch.png]]
+![Amazon Detective-arch](./_assets/amazon_detective-arch.png)
 
 ### Data Collection and Processing
 
@@ -26,7 +26,7 @@ By consolidating data from these sources, Amazon Detective constructs a unified 
 
 At the heart of Amazon Detective lies its machine learning engine, which processes the collected data to identify patterns, anomalies, and correlations that may not be immediately apparent. Graph analytics further enhances this process by visually mapping out relationships between different entities—such as users, resources, and network flows—across the environment.
 
-![[Amazon-Detective-Machine Learning and Graph Analytics.png]]
+![Amazon-Detective-Machine Learning and Graph Analytics](./_assets/amazon-detective-machine_learning_and_graph_analytics.png)
 
 This dual approach allows Amazon Detective to:
 

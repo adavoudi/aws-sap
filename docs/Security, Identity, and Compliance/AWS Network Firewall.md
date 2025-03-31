@@ -18,7 +18,7 @@ Together, these services create a layered security model; however, when the requ
 
 ## 4. What is AWS Network Firewall?
 
-![[AWS Network Firewall - arch.png]]
+![AWS Network Firewall - arch](./_assets/aws_network_firewall_-_arch.png)
 
 AWS Network Firewall is a fully managed, stateful, network-level firewall service designed to protect entire VPCs. It acts as a security barrier at the perimeter of your VPC, inspecting traffic that enters and exits your cloud environment. Key points include:
 
@@ -63,7 +63,7 @@ AWS Network Firewall is designed to integrate seamlessly into various network ar
     - **Protected Subnet:** Hosts components such as an Application Load Balancer (ALB) and a NAT gateway.
     - **Private Subnet:** Contains critical resources such as EC2 instances.
     - **Public Subnet:** May host additional services or serve as an ingress point, with routing configured to ensure all traffic flows through the firewall endpoints.
-![[network-firewall-network-firewall-Multiple Subnet Configuration.png]]
+![network-firewall-network-firewall-Multiple Subnet Configuration](./_assets/network-firewall-network-firewall-multiple_subnet_configuration.png)
 
 - **Traffic Flow and Routing:**
     - **Outbound Traffic:** Traffic originating from EC2 instances in the private subnet flows to the NAT gateway, then is routed through the firewall endpoints for inspection before reaching the internet.

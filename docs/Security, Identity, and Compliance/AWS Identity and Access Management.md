@@ -328,7 +328,7 @@ When cross-account access is involved, both the identity-based policy (from the 
 
 The following diagram summarizes the evaluation logic:
 
-![[iam evaluation logic.png]]
+![iam evaluation logic](./_assets/iam_evaluation_logic.png)
 
 ## 5. Managing IAM Roles and Credentials
 
@@ -533,7 +533,7 @@ Monitoring and auditing IAM activity is essential for maintaining a secure AWS e
 
 ### 7.1 IAM Access Analyzer: Identifying Resource Exposure
 
-![[IAM Access Analyzer.png]]
+![IAM Access Analyzer](./_assets/iam_access_analyzer.png)
 
 IAM Access Analyzer is a service that helps you identify resources that are shared with external entities. This tool reviews resource policies (attached to S3 buckets, IAM roles, KMS keys, Lambda functions, SQS queues, and Secrets Manager secrets) to detect unintended access.
 
@@ -543,7 +543,7 @@ In addition to identifying exposures, IAM Access Analyzer also offers policy val
 
 ### 7.2 IAM Access Advisor: Reviewing Service Permissions
 
-![[IAM Access Advisor.png]]
+![IAM Access Advisor](./_assets/iam_access_advisor.png)
 
 IAM Access Advisor is another critical tool, but it operates at the individual user level. It provides detailed information about which AWS services have been accessed by a specific IAM user, along with the timestamp of the last access. This granularity allows you to identify unused permissions and reduce a user’s permissions in accordance with the principle of least privilege.
 
@@ -553,7 +553,7 @@ IAM Access Advisor is particularly useful for ongoing operational security, as i
 
 ### 7.3 IAM Credentials Report: Auditing User and Role Keys
 
-![[IAM Credentials Report.png]]
+![IAM Credentials Report](./_assets/iam_credentials_report.png)
 
 The IAM Credentials Report is a comprehensive CSV file that provides an overview of all IAM users in your account and the status of their credentials. This report includes details such as:
 

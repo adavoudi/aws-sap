@@ -22,7 +22,7 @@ CloudFront is designed around a two-tier caching hierarchy that optimizes conten
 
 #### 2.1.1 The Two-Tier Caching Architecture
 
-![[cloudfront-The Two-Tier Caching Architecture.png]]
+![cloudfront-The Two-Tier Caching Architecture](./_assets/cloudfront-the_two-tier_caching_architecture.png)
 
 - **Edge Locations:**  
 	These are the first points of presence where content is served to end users. When a user sends a request for a file—such as an image, video, or web page—the request is routed to the nearest Edge Location based on network proximity and latency considerations. If the requested object is cached at the Edge Location, it is served immediately to the user, ensuring rapid response times. If not, the Edge Location forwards the request to a Regional Edge Cache.
@@ -35,7 +35,7 @@ This multi-tier caching hierarchy not only reduces the load on origin servers by
 #### 2.1.2 The Flow of a Request
 
 
-![[cloudfront-Flow of a Request.png]]
+![cloudfront-Flow of a Request](./_assets/cloudfront-flow_of_a_request.png)
 
 
 1. A user accesses your website or application and sends a request for an object, such as an image file or an HTML file.
@@ -224,7 +224,7 @@ To summarize, securing your origin in a CloudFront configuration involves:
 
 In mission-critical applications, high availability is essential. CloudFront supports origin failover, ensuring that your application remains available even if the primary origin encounters an issue.
 
-![[cloudfront- Origin Failover.png]]
+![cloudfront- Origin Failover](./_assets/cloudfront-_origin_failover.png)
 
 #### 3.3.1 Configuring Origin Groups
 
@@ -406,7 +406,7 @@ In summary, geographic restrictions provide a simple yet effective way to contro
 Edge computing extends CloudFront’s functionality beyond simple caching. By running code at the Edge, you can manipulate HTTP requests and responses, perform authentication and authorization, and even conduct real-time content transformations. CloudFront supports two primary models for edge computing: CloudFront Functions and Lambda@Edge.
 
 
-![[cloudfront-Edge Computing.png]]
+![cloudfront-Edge Computing](./_assets/cloudfront-edge_computing.png)
 
 #### **5.2.1 CloudFront Functions (Lightweight JavaScript at the Edge)**
 
@@ -582,7 +582,7 @@ Robust monitoring is essential to ensure that your CloudFront distribution is pe
 
 The following diagram shows how CloudFront logs information about requests for your objects. In this example, the distributions are configured to send access logs to an Amazon S3 bucket.
 
-![[CloudFront Access Logs.png]]
+![CloudFront Access Logs](./_assets/cloudfront_access_logs.png)
 
 1. In this example, you have two websites, A and B, and two corresponding CloudFront distributions. Users request your objects using URLs that are associated with your distributions.
     

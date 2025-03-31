@@ -9,7 +9,7 @@ Apache Flink is an open-source engine designed for stateful stream processing an
 
 ## 3. Amazon Managed Service for Apache Flink: An Overview
 
-![[managed-flink.png]]
+![managed-flink](./_assets/managed-flink.png)
 
 Amazon Managed Service for Apache Flink is a fully managed service that lets you build, deploy, and run Apache Flink applications without the need to manage the underlying infrastructure. Formerly known as Amazon Kinesis Data Analytics for Apache Flink, the service abstracts away server provisioning, capacity planning, and cluster management. Key benefits include:
 

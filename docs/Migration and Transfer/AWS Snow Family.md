@@ -6,7 +6,7 @@ The AWS Snow Family is a suite of physical devices designed to simplify and secu
 
 ## 2. AWS Snow Family Overview
 
-![[AWS Snow Family.png]]
+![AWS Snow Family](./_assets/aws_snow_family.png)
 
 The Snow Family consists of three main products, each tailored for different scales and scenarios:
 

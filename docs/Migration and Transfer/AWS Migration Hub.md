@@ -39,7 +39,7 @@ AWS Migration Hub is a centralized service designed to streamline and simplify y
 
 The following diagram illustrates how to manage your cloud journey from assessment to migration with AWS Migration Hub:
 
-![[AWS Migration Hub.png]]
+![AWS Migration Hub](./_assets/aws_migration_hub.png)
 
 Here are the three steps necessary to migrate your first workload:
 

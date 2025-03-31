@@ -5,7 +5,7 @@
 Amazon Pinpoint is a fully managed AWS service designed for customer engagement and targeted messaging. It enables organizations to communicate with their customers through multiple channels—including email, SMS, push notifications, in‑app messages, and voice messages—and to gain deep insights into campaign performance and user behavior. With a flexible API, a robust console, and rich SDK support, Amazon Pinpoint makes it easier to plan, execute, and analyze both transactional and marketing campaigns.
 ## 2. Key Features and Capabilities
 
-![[amazon-pinpoint.png]]
+![amazon-pinpoint](./_assets/amazon-pinpoint.png)
 
 ### 2.1. Multi‑Channel Messaging
 

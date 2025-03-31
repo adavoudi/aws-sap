@@ -4,7 +4,7 @@
 
 AWS X‑Ray is a distributed tracing service designed to help developers analyze and debug production and distributed applications. It provides an end‑to‑end view of requests as they travel through an application—from the client to backend services—making it easier to identify performance bottlenecks, errors, and other issues in microservices or serverless architectures. AWS X‑Ray collects data from your application (via SDKs and agents), processes it into traces, and then displays the data in the form of a service map and detailed trace timelines.
 
-![[x-ray.png]]
+![x-ray](./_assets/x-ray.png)
 
 ## 2. Key Features
 
@@ -12,7 +12,7 @@ AWS X‑Ray is a distributed tracing service designed to help developers analyze
     AWS X‑Ray records data for every request served by your application. It aggregates this data into a “trace” that shows the complete journey of a request.
 - **Service Map & Visualizations:**  
     It automatically generates a service graph (or map) that visually represents your application’s components and how they interact. This helps quickly pinpoint problematic areas in your architecture. Below you can see an example Service Map:
-    ![[x-ray-service-map.png]]
+    ![x-ray-service-map](./_assets/x-ray-service-map.png)
 - **Segmentation & Subsegments:**  
     The service uses “segments” to capture data from individual components. Within segments, “subsegments” break down work into more granular parts (for example, a call to an AWS service or a database query).
 - **Annotations & Metadata:**  

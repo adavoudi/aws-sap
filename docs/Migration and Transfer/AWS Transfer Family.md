@@ -5,7 +5,7 @@ AWS Transfer Family is a fully managed service that lets you securely transfer f
 
 ## 2. Core Protocols & Integration
 
-![[AWS Transfer Family.png]]
+![AWS Transfer Family](./_assets/aws_transfer_family.png)
 AWS Transfer Family currently supports multiple file transfer protocols:
 
 - **FTP (File Transfer Protocol):** An unencrypted protocol, typically used in internal or controlled environments.

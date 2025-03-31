@@ -8,7 +8,7 @@ AWS Control Tower is an AWS-managed service that simplifies the setup and govern
 
 ## 2. Key Features and Benefits
 
-![[AWS Control Tower.png]]
+![AWS Control Tower](./_assets/aws_control_tower.png)
 
 ### 2.1 Landing Zone
 

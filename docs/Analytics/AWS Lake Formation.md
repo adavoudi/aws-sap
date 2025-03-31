@@ -79,7 +79,7 @@ AWS Lake Formation streamlines tasks that would otherwise require significant ma
 
 ## 3. How AWS Lake Formation Works
 
-![[Lake-formation-Components.png]]
+![Lake-formation-Components](./_assets/lake-formation-components.png)
 
 AWS Lake Formation dramatically simplifies the creation of a **secure, centralized, and curated data lake**. The process involves:
 
@@ -101,7 +101,7 @@ AWS Lake Formation dramatically simplifies the creation of a **secure, centraliz
 
 ## 4. Fine-Grained Permissions and Security
 
-![[Lake-formation-Fine-Grained Permissions.png]]
+![Lake-formation-Fine-Grained Permissions](./_assets/lake-formation-fine-grained_permissions.png)
 
 Lake Formation’s security model is a key differentiator:
 

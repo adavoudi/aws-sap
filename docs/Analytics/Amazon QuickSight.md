@@ -5,7 +5,7 @@ Amazon QuickSight is a fully managed, visually rich analytics solution that enab
 
 ## 2. Core Features and Capabilities
 
-![[quicksight.png]]
+![quicksight](./_assets/quicksight.png)
 
 * **Serverless and Machine Learning Powered:**
 	Because **QuickSight is fully managed**, there is no need to provision or maintain underlying infrastructure. Its serverless nature allows it to automatically scale capacity based on the size and complexity of your datasets. Additionally, QuickSight uses machine learning–powered insights to identify trends, outliers, and key drivers behind your data.

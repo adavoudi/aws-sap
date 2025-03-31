@@ -52,13 +52,13 @@ One of Cognito User Pools’ significant advantages is its native integration wi
 
 #### Securing API Gateway with Cognito
 
-![[cognito-API Gateway.png]]
+![cognito-API Gateway](./_assets/cognito-api_gateway.png)
 
 API Gateway is a critical component for building serverless applications. When integrated with Cognito, API Gateway can delegate authentication and authorization to the User Pool. Users first authenticate with the User Pool and obtain a JWT. This token is then presented to the API Gateway, which validates the token before allowing access to backend resources. This integration streamlines the process of securing APIs without the need to implement custom authentication logic.
 
 #### Application Load Balancer (ALB) Authentication
 
-![[cognito-ALB.png]]
+![cognito-ALB](./_assets/cognito-alb.png)
 
 Similarly, Cognito integrates with Application Load Balancers (ALB) to manage user authentication. By leveraging ALB listeners and rules, Cognito can be used to authenticate users before directing traffic to backend targets such as EC2 instances, Lambda functions, or ECS containers. This native integration simplifies the security architecture by consolidating authentication at the load balancer level, thereby protecting internal resources without extensive application modifications.
 
@@ -66,7 +66,7 @@ Similarly, Cognito integrates with Application Load Balancers (ALB) to manage us
 
 While Cognito User Pools provide comprehensive user management and authentication, many applications require secure, temporary access to AWS resources. This is where Cognito Identity Pools come into play, enabling federated identities and the issuance of temporary AWS credentials via the AWS Security Token Service (STS).
 
-![[Cognito Identity Pools.png]]
+![Cognito Identity Pools](./_assets/cognito_identity_pools.png)
 
 ### 3.1 Identity Pools Overview
 

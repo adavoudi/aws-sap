@@ -135,7 +135,7 @@ When creating a VIF, you must provide several key parameters:
 
 There are three distinct types of virtual interfaces that you can create on top of your Direct Connect connection:
 
-![[VIF.png]]
+![VIF](./_assets/vif.png)
 
 #### 4.3.1 Public VIF: Accessing AWS Public Services
 
@@ -157,7 +157,7 @@ A private VIF is used to access resources inside a VPC. It is attached either di
 
 #### 4.3.3 Transit VIF: Integration with Transit Gateway (TGW)
 
-![[Transit VIF.png]]
+![Transit VIF](./_assets/transit_vif.png)
 
 A transit VIF is used for connectivity between your Direct Connect connection and an AWS Transit Gateway. Transit Gateways allow you to connect hundreds or thousands of VPCs and even interconnect on‑premises networks from different regions. Characteristics include:
 
@@ -216,7 +216,7 @@ High availability is a crucial consideration for any enterprise network. AWS Dir
 
 ### 6.1 Link Aggregation Groups (LAGs): Combining Connections
 
-![[Link Aggregation Groups.png]]
+![Link Aggregation Groups](./_assets/link_aggregation_groups.png)
 
 Link Aggregation Groups (LAGs) allow you to combine multiple Direct Connect connections into a single logical connection. This has two main benefits:
 
@@ -284,7 +284,7 @@ The AWS Transit Gateway (TGW) is a regional hub that connects your VPCs and on�
 
 ### 7.3 Direct Connect SiteLink: Simplifying Multi‑Site Connectivity
 
-![[Direct Connect SiteLink.png]]
+![Direct Connect SiteLink](./_assets/direct_connect_sitelink.png)
 
 Direct Connect SiteLink is a relatively new feature that streamlines multi‑site connectivity:
 

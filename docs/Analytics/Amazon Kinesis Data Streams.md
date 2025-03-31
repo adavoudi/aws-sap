@@ -5,7 +5,7 @@
 Amazon Kinesis Data Streams is a fully managed, scalable service designed to ingest, process, and analyze streaming data in real time. It empowers organizations to capture high-throughput data from diverse sources—such as website clickstreams, IoT devices, and system logs—and make it immediately available for real-time analytics, monitoring, and operational dashboards. By combining durability, rapid ingestion, and near-instantaneous processing, Kinesis Data Streams underpins modern data architectures that require continuous insights and immediate responses.
 ## 2. Real-Time Data and Use Cases
 
-![[kinesis-data-streams.png]]
+![kinesis-data-streams](./_assets/kinesis-data-streams.png)
 
 Real-time data is information that is generated and consumed as events occur. This immediacy enables applications to react within seconds—or even milliseconds—to changing conditions. Common real-time data scenarios include:
 

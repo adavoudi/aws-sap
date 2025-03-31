@@ -35,7 +35,7 @@ IPSec (Internet Protocol Security) is the foundational protocol used in AWS VPN 
 
 AWS Site-to-Site VPN provides a secure connection between your AWS VPC and an external network, such as an on-premises data center. It is designed for high availability, security, and ease of integration.
 
-![[AWS Site-to-Site VPN.png]]
+![AWS Site-to-Site VPN](./_assets/aws_site-to-site_vpn.png)
 
 ### 3.1 Core Components
 
@@ -66,9 +66,9 @@ The routing options available in AWS Site-to-Site VPN include:
 High availability is a critical feature of the AWS Site-to-Site VPN architecture:
 
 - **Dual Tunnels:** AWS automatically provisions two separate tunnels for every VPN connection. These tunnels are distributed across different availability zones to enhance resilience.
-![[site-to-site-Dual Tunnels.png]]
+![site-to-site-Dual Tunnels](./_assets/site-to-site-dual_tunnels.png)
 - **Failover Mechanism:** If one tunnel experiences an outage, traffic is automatically rerouted through the secondary tunnel, ensuring continuous connectivity.
-![[site-to-site-Failover Mechanism.png]]
+![site-to-site-Failover Mechanism](./_assets/site-to-site-failover_mechanism.png)
 
 ## 4. AWS VPN CloudHub
 
@@ -76,7 +76,7 @@ AWS VPN CloudHub is designed for organizations with multiple branch offices that
 
 ### 4.1 Architecture and Use Cases
 
-![[AWS VPN CloudHub.png]]
+![AWS VPN CloudHub](./_assets/aws_vpn_cloudhub.png)
 
 In the VPN CloudHub model:
 
@@ -105,7 +105,7 @@ AWS Client VPN is a managed client-based VPN solution that provides secure remot
 
 ### 5.1 Key Components
 
-![[AWS Client VPN.png]]
+![AWS Client VPN](./_assets/aws_client_vpn.png)
 
 The AWS Client VPN solution comprises:
 

@@ -10,7 +10,7 @@ AWS Macie is engineered to help organizations secure their data by continuously 
 
 AWS Macie automates the protection of sensitive data through:
 
-![[AWS Macie.png]]
+![AWS Macie](./_assets/aws_macie.png)
 
 - **Machine Learning and Pattern Matching:** Macie continuously scans S3 buckets, employing sophisticated algorithms to identify data that could be classified as PII.
 - **Automated Alerts:** When sensitive data is detected, Macie generates notifications via EventBridge. These alerts can be routed to other AWS services such as SNS or Lambda, enabling automated remediation or further analysis.

@@ -5,7 +5,7 @@
 AWS Data Exchange is a fully managed service that helps AWS customers easily **share, subscribe to, and manage third‐party data** in the cloud. It streamlines the process of discovering high‑value data sets, subscribing to them with consistent pricing options, and integrating the data with AWS analytics and machine learning services. In essence, it serves as a centralized marketplace where data consumers can access a wide variety of data assets and where data providers can publish their data products without having to build and maintain their own delivery and entitlement infrastructure.
 ## 2. Key Concepts
 
-![[data-exchange.png]]
+![data-exchange](./_assets/data-exchange.png)
 ### 2.1. Data Grants
 
 A **data grant** is the fundamental unit of exchange in AWS Data Exchange. It is created by a data sender to give a data receiver access to a curated data set. Each grant includes:
@@ -32,7 +32,7 @@ AWS Data Exchange supports five types of data sets:
 
 ### 3.1. Finding and Subscribing to Data
 
-![[data-exchange-2.png]]
+![data-exchange-2](./_assets/data-exchange-2.png)
 With AWS Data Exchange, you can browse a centralized catalog containing thousands of data products from independent software vendors, data publishers, and aggregators. After subscribing to a dataset, you can programmatically or manually retrieve it for storage in Amazon S3. This makes data immediately accessible for further processing by AWS services such as Amazon SageMaker, AWS Glue, or Amazon Athena.
 
 ### 3.2. Diverse Data Providers

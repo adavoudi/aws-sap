@@ -4,11 +4,11 @@
 
 **AWS Outposts** is a fully managed service designed to bring native AWS services, infrastructure, and operating models to virtually any on-premises or edge location. Outposts allows organizations to build and run applications that require low latency, local data processing, or data residency needs while still leveraging the full breadth of AWS services. By extending AWS to your data center, you gain consistency between on-premises and cloud environments, which simplifies hybrid architectures and eases application migration.
 
-![[aws-outpost.png]]
+![aws-outpost](./_assets/aws-outpost.png)
 
 Below is an image of an AWS Outposts Rack:
 
-![[outpost-rack.png]]
+![outpost-rack](./_assets/outpost-rack.png)
 
 ## 2. Overview
 

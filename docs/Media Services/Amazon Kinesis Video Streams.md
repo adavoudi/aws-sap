@@ -4,7 +4,7 @@
 
 Amazon Kinesis Video Streams is a fully managed AWS service designed to ingest, process, store, and retrieve streaming video (as well as audio and other time-encoded data) from millions of connected devices. It enables developers to build real-time video processing applications, perform batch-oriented analytics, and integrate with machine learning services—all without managing any underlying infrastructure. Whether you’re capturing video from security cameras, drones, mobile devices, or IoT sensors, Kinesis Video Streams offers secure and scalable ingestion and playback capabilities that serve as the foundation for building intelligent video-enabled applications.  
 
-![[video-stream.png]]
+![video-stream](./_assets/video-stream.png)
 
 ## 2. Features and Capabilities
 

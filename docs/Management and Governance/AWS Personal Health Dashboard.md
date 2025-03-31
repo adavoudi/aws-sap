@@ -6,7 +6,7 @@ Ensuring that your AWS infrastructure remains resilient and quickly recovers fro
 
 ## 2. Understanding the AWS Personal Health Dashboard
 
-![[AWS Personal Health Dashboard.png]]
+![AWS Personal Health Dashboard](./_assets/aws_personal_health_dashboard.png)
 
 The Personal Health Dashboard is a global service that monitors and displays only the events relevant to your specific AWS environment. Its key functions include:
 

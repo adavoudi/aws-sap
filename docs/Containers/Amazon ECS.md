@@ -89,7 +89,7 @@ For tasks running on the EC2 launch type, Amazon ECS uses a two-step process to 
 
 ### 3.2. AWS Fargate Launch Type
 
-![[aws-fargate.png]]
+![aws-fargate](./_assets/aws-fargate.png)
 
 AWS Fargate abstracts the underlying compute infrastructure. You simply define your container’s resource requirements (CPU, memory, and networking settings) in the task definition, and Fargate automatically provisions the appropriate infrastructure at runtime. This removes the burden of managing EC2 instances and the associated scaling, patching, and maintenance tasks.
 
@@ -208,7 +208,7 @@ AWS provides a set of best practices for networking with ECS:
 
 The flow chart below shows the task lifecycle flow.
 
-![[ecs-task-lifecycle.png]]
+![ecs-task-lifecycle](./_assets/ecs-task-lifecycle.png)
 
 
 * **PROVISIONING**

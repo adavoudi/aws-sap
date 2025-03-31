@@ -3,7 +3,7 @@
 
 Amazon Managed Blockchain is a fully managed service that makes it simple to create, manage, and scale blockchain networks. It supports both public blockchain nodes (for networks like Ethereum, Bitcoin, and Polygon) and private, permissioned blockchain networks built with the Hyperledger Fabric framework. By abstracting away the underlying infrastructure, AMB lets you focus on building and deploying your blockchain applications without the need to provision hardware, install software, or manage network scaling and security manually.
 
-![[blockchain.png]]
+![blockchain](./_assets/blockchain.png)
 ## 2. Features and Capabilities
 
 - **Fully Managed Infrastructure:**  

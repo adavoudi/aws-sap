@@ -6,7 +6,7 @@ AWS Batch is a fully managed batch processing service that enables developers, s
 
 ## 2. Components of AWS Batch
 
-![[aws-batch.png]]
+![aws-batch](./_assets/aws-batch.png)
 ### 2.1. Job Definitions
 
 AWS Batch job definitions specify how jobs are to be run. While each job must reference a job definition, many of the parameters that are specified in the job definition can be overridden at runtime.

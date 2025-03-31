@@ -8,7 +8,7 @@ Amazon Step Functions is a fully managed serverless orchestration service that h
 
 Step Functions allows you to define state machines, each describing a set of states and transitions in JSON. At runtime, AWS uses your state machine definition to generate a visual representation, providing real-time tracking of each workflow’s progress.
 
-![[step-functions-def.png]]
+![step-functions-def](./_assets/step-functions-def.png)
 
 Key features:
 
@@ -59,7 +59,7 @@ When using Express workflows, you can start them either synchronously or asynchr
 
 ## 4. Handling Errors and Monitoring
 
-![[step-functions-error-handling.png]]
+![step-functions-error-handling](./_assets/step-functions-error-handling.png)
 
 Step Functions natively supports automatic retries and catch blocks within your state machine definition. For example, you can configure a task to retry on specific error types a given number of times before failing permanently.
 

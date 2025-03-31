@@ -3,7 +3,7 @@
 
 AWS Application Migration Service (AWS MGN) is a comprehensive, automated solution designed to simplify, expedite, and reduce the cost of migrating applications to AWS. It is especially effective for “lift-and-shift” migrations, where the goal is to move applications with minimal downtime and without the need for extensive re-architecting.
 
-![[AWS Application Migration Service (MGN).png]]
+![AWS Application Migration Service (MGN)](./_assets/aws_application_migration_service_(mgn).png)
 
 AWS MGN enables you to migrate on-premises, virtualized, and cloud-based applications to AWS quickly. It automates the conversion of your source servers—whether running on physical hardware, VMware, Hyper-V, or other environments—into native AWS instances. This automation minimizes manual, error-prone processes during migration.
 

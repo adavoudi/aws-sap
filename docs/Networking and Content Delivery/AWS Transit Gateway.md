@@ -120,7 +120,7 @@ AWS Transit Gateway provides a flexible platform for implementing a variety of n
 
 The hub-and-spoke model is one of the most popular network designs enabled by Transit Gateway. In this pattern:
 
-![[transit-Hub-and-Spoke.png]]
+![transit-Hub-and-Spoke](./_assets/transit-hub-and-spoke.png)
 
 - **Central Hub:** The Transit Gateway serves as the central hub that connects all VPCs and external networks.
 - **Spoke VPCs:** Each VPC acts as a spoke, attaching to the Transit Gateway. This configuration simplifies the network topology by reducing the number of point-to-point connections.
@@ -145,7 +145,7 @@ As organizations expand globally, the need for multi-region and cross-account co
 
 #### Multi-Region Architectures
 
-![[transit-Multi-Region.png]]
+![transit-Multi-Region](./_assets/transit-multi-region.png)
 
 - **Transit Gateway Peering:** While a single Transit Gateway is regional, you can peer Transit Gateways across different regions to enable global connectivity. In a multi-region architecture, each region hosts its own Transit Gateway, and peering connections between these gateways provide secure, private, and encrypted connectivity.
 - **Static Route Management:** Because Transit Gateway peering does not support dynamic routing protocols such as BGP, you must manage static routes on both sides of the peering connection. This means carefully planning which routes are advertised and ensuring that they are kept in sync.
@@ -153,7 +153,7 @@ As organizations expand globally, the need for multi-region and cross-account co
 
 #### Cross-Account Connectivity
 
-![[transit-gateway-cross-account.png]]
+![transit-gateway-cross-account](./_assets/transit-gateway-cross-account.png)
 
 - **Resource Sharing with AWS RAM:** In large organizations with multiple AWS accounts (whether as part of an AWS Organization or as separate entities), Transit Gateway sharing is enabled via AWS Resource Access Manager (RAM). This allows a central account to own the Transit Gateway while sharing it with other accounts, enabling seamless interconnectivity without duplicating infrastructure.
 - **Centralized Control vs. Distributed Access:** Although VPCs in different accounts can attach to a shared Transit Gateway, the control of route propagation and routing policies remains with the Transit Gateway owner. This centralization ensures consistent network policies but may also require coordination among teams.
@@ -354,7 +354,7 @@ When designing your AWS network architecture, you often face the choice between 
 
 Both Transit Gateway and VPC peering have their merits. However, they differ significantly in terms of scalability, manageability, and features.
 
-![[Transit Gateway and VPC Peering.png]]
+![Transit Gateway and VPC Peering](./_assets/transit_gateway_and_vpc_peering.png)
 
 #### Architectural Differences
 

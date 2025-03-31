@@ -5,7 +5,7 @@
 **Amazon Connect** is AWS’s cloud-based contact center solution designed to be easy to set up, scalable, and cost-effective. It lets organizations quickly launch an omnichannel contact center that supports voice, chat, and other channels while integrating AI and machine learning to enhance customer interactions. With a pay-as-you-go pricing model and a fully managed infrastructure, Amazon Connect minimizes the need for upfront investments and on-premises hardware.
 ## 2. Key Features and Capabilities
 
-![[amazon-connect.png]]
+![amazon-connect](./_assets/amazon-connect.png)
 
 - **Omnichannel Customer Experience:**  
     Amazon Connect provides a unified interface for voice and web chat interactions. It seamlessly integrates with other AWS services (such as Amazon Lex for conversational bots, AWS Lambda for custom logic, and Amazon Pinpoint for messaging) to extend its functionality and deliver personalized customer experiences.  

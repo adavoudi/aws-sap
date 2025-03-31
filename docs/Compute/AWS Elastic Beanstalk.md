@@ -42,7 +42,7 @@ A **web server environment** in AWS Elastic Beanstalk is designed to host applic
 - **Auto Scaling Group:** Manages a group of Amazon EC2 instances running your application. Auto Scaling adjusts the number of instances based on demand—adding instances during high load and terminating them when demand falls—while ensuring that at least one instance is always running.
 - **Amazon EC2 Instances:** These instances are launched with a preconfigured software stack, defined by the container type you choose. For example, an environment running an Apache Tomcat container will use Amazon Linux with Apache and Tomcat installed.
 
-![[eb-web-server.png]]
+![eb-web-server](./_assets/eb-web-server.png)
 
 ### 3.1. Key Components
 
@@ -67,7 +67,7 @@ A **web server environment** in AWS Elastic Beanstalk is designed to host applic
 
 A **worker environment** is designed for applications that process background tasks asynchronously. Instead of handling HTTP requests like web server environments, worker environments work by retrieving and processing messages from an Amazon SQS (Simple Queue Service) queue.
 
-![[eb-worker.png]]
+![eb-worker](./_assets/eb-worker.png)
 ### 4.1. Key Components
 
 - **Auto Scaling Group & EC2 Instances:**  

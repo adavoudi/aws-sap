@@ -6,7 +6,7 @@
 
 When an employee needs to edit photos, they simply log in through a web browser or the dedicated AppStream 2.0 client. A streaming instance is launched in the cloud that runs the photo editing application. The employee interacts with the application just as if it were installed on their own computer—even though all the heavy processing happens on AWS. This approach not only saves on hardware costs but also centralizes updates and improves security by keeping data in the cloud.
 
-![[appstream.png]]
+![appstream](./_assets/appstream.png)
 
 ## 2. Key Concepts & Architecture
 

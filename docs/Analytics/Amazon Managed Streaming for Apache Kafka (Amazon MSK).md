@@ -6,7 +6,7 @@ Amazon MSK is a fully managed service that makes it easy to build and run applic
 
 ## 2. Key Features of Amazon MSK
 
-![[managed-kafka.png]]
+![managed-kafka](./_assets/managed-kafka.png)
 
 - **Fully managed**: AWS manages the underlying infrastructure (brokers, ZooKeeper, storage).
 - **High availability**: Clusters can span multiple Availability Zones for resiliency.

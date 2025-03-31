@@ -21,7 +21,7 @@ The following table highlights the differences between basic monitoring and deta
 
 Amazon EC2 automatically performs two types of status checks on every running instance:
 
-![[ec2-status-checks.png]]
+![ec2-status-checks](../_assets/ec2-status-checks.png)
 
 - **System Status Checks:**  
     Monitor the AWS systems required to use your instance to ensure that they are working properly. These checks detect problems with your instance that require AWS involvement to repair. When a system status check fails, you can choose to wait for AWS to fix the issue or you can resolve it yourself (for example, by stopping and restarting or terminating and replacing an instance). Examples of problems that cause system status checks to fail include:
@@ -42,7 +42,7 @@ Both status check metrics are available in near real-time (every minute) and are
 
 ## 3. Amazon CloudWatch Agent
 
-![[ec2-cloudwatch-agent.png]]
+![ec2-cloudwatch-agent](../_assets/ec2-cloudwatch-agent.png)
 
 For metrics not provided by default—such as memory usage, swap usage, and custom application metrics—you can install the CloudWatch Agent on your instances. This agent collects both system-level and custom metrics, sending them to CloudWatch for detailed monitoring and alerting.
 

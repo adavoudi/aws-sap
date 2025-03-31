@@ -38,7 +38,7 @@ These integrations enable a broad, automated, and efficient collection of eviden
 
 The audit workflow in AWS Audit Manager is designed to provide an end-to-end solution for continuous compliance:
 
-![[AWS Audit Manager.png]]
+![AWS Audit Manager](./_assets/aws_audit_manager.png)
 
 1. **Framework Selection:** Begin by choosing one or more prebuilt frameworks that match the regulatory or industry standards your organization must meet. Frameworks provide a structured set of controls, each with detailed testing procedures and requirements.
 2. **Scope Definition:** Define the scope of your assessment by specifying the AWS accounts, regions, and services to be included. This step ensures that Audit Manager collects evidence from the correct resources and eliminates unnecessary noise.

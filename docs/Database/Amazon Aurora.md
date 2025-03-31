@@ -28,7 +28,7 @@ An Amazon Aurora _DB cluster_ consists of one or more DB instances and a clust
 
 The following diagram illustrates the relationship between the cluster volume, the writer DB instance, and reader DB instances in an Aurora DB cluster.
 
-![[aurora-cluster.png]]
+![aurora-cluster](./_assets/aurora-cluster.png)
 
 The Aurora DB cluster illustrates the separation of compute capacity and storage. For example, an Aurora configuration with only a single DB instance is still a cluster, because the underlying storage volume involves multiple storage nodes distributed across multiple Availability Zones (AZs).
 
@@ -114,7 +114,7 @@ With the Amazon Aurora Global Database feature, you set up multiple Aurora DB cl
 
 In the following diagram, you can find an example Aurora global database that spans two AWS Regions.
 
-![[aurora-global.png]]
+![aurora-global](./_assets/aurora-global.png)
 
 **Why It Matters:**
 
@@ -150,7 +150,7 @@ Performance Insights expands on existing Amazon RDS monitoring features to illus
 
 Zero‑ETL integration enables seamless, near‑real‑time movement of transactional data from Aurora to data warehouses like Amazon Redshift without the need for traditional extract, transform, and load (ETL) processes. Aurora continuously replicates changes to a target Redshift cluster so that you can run analytical queries directly against the replicated data.
 
-![[aurora-zero-etl.png]]
+![aurora-zero-etl](./_assets/aurora-zero-etl.png)
 
 ## 15. RDS Proxy
 

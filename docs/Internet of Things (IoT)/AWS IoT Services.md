@@ -8,7 +8,7 @@ This chapter explores several core AWS IoT services—AWS IoT 1-Click, AWS IoT C
 
 ## 2. AWS IoT 1-Click
 
-![[iot-1click.png]]
+![iot-1click](./_assets/iot-1click.png)
 
 AWS IoT 1-Click is designed for simplicity. It allows organizations to use a range of “out-of-the-box” devices that can trigger AWS Lambda functions with a single action—no custom firmware development needed.
 
@@ -22,7 +22,7 @@ Because AWS IoT 1-Click devices require minimal setup, they can be deployed quic
 
 ## 2. AWS IoT Core
 
-![[iot-core.png]]
+![iot-core](./_assets/iot-core.png)
 
 AWS IoT Core is often at the heart of an AWS-based IoT solution. It is a managed cloud service that securely routes messages between billions of IoT devices and AWS back-end applications, or between devices themselves.
 ### Key Benefits
@@ -36,7 +36,7 @@ With AWS IoT Core, you can build powerful IoT applications without having to man
 
 ## 3. AWS IoT Device Defender
 
-![[iot-device-defender.png]]
+![iot-device-defender](./_assets/iot-device-defender.png)
 
 As organizations connect more devices, ensuring the security of each endpoint becomes paramount. AWS IoT Device Defender is a fully managed service that continuously audits IoT configurations and monitors device activity for security anomalies.
 
@@ -52,7 +52,7 @@ As organizations connect more devices, ensuring the security of each endpoint be
 
 ## 4. AWS IoT Device Management
 
-![[iot-device-management.png]]
+![iot-device-management](./_assets/iot-device-management.png)
 
 Managing IoT devices at scale involves onboarding new devices, tracking each device’s health, and updating firmware. AWS IoT Device Management simplifies these tasks for fleets that may number in the thousands or even millions.
 
@@ -67,7 +67,7 @@ By automating these routine tasks, AWS IoT Device Management significantly reduc
 
 ## 5. AWS IoT Events
 
-![[iot-events.png]]
+![iot-events](./_assets/iot-events.png)
 
 Many IoT use cases involve the need to detect and respond to changing conditions in real time—whether it’s a temperature fluctuation, a production line breakdown, or an unauthorized entry. AWS IoT Events is a fully managed service for building event-driven applications without the complexity of custom-coded solutions.
 
@@ -81,7 +81,7 @@ By providing early detection and automatic responses to issues, AWS IoT Events h
 
 ## 6. AWS IoT Greengrass
 
-![[iot-greengrass.png]]
+![iot-greengrass](./_assets/iot-greengrass.png)
 
 For IoT devices operating in locations with intermittent or limited connectivity, AWS IoT Greengrass brings the power of AWS compute and machine learning to the edge. With Greengrass, devices can act on data locally, remaining operational even without continuous cloud connectivity.
 
@@ -96,7 +96,7 @@ Additionally, Greengrass supports **Connectors** that simplify integration with 
 
 ## 7. AWS IoT SiteWise
 
-![[iot-sitewise.png]]
+![iot-sitewise](./_assets/iot-sitewise.png)
 
 Industrial facilities generate vast amounts of data from sensors and machinery. Often, this data is locked in on-premises systems and requires specialized expertise to analyze. AWS IoT SiteWise streamlines this challenge by making it easier to collect, store, and organize industrial data for large-scale monitoring and analytics.
 

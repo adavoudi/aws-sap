@@ -28,7 +28,7 @@ AWS S3 offers several features that make it a preferred choice for object storag
 
 At the heart of S3’s design are buckets and objects:
 
-![[s3-Buckets and Objects.png]]
+![s3-Buckets and Objects](./_assets/s3-buckets_and_objects.png)
 
 - **Buckets:**  
     A bucket is a top-level container in S3 that holds objects. Key characteristics include:
@@ -49,7 +49,7 @@ At the heart of S3’s design are buckets and objects:
 
 AWS S3 offers several storage classes tailored to different access patterns and cost requirements. Each class provides the same 11 nines of durability but differs in availability, retrieval time, and pricing:
 
-![[S3 Storage Classes.png]]
+![S3 Storage Classes](./_assets/s3_storage_classes.png)
 
 - **S3 Standard – General Purpose:**  
     Designed for frequently accessed data, it offers low latency and high throughput with a 99.99% availability SLA. Use cases include dynamic websites, mobile and gaming applications, and big data analytics.
@@ -242,7 +242,7 @@ Cross-account access in S3 allows users from one AWS account to access buckets o
 
 Pre-signed URLs provide a method to grant temporary access to private S3 objects without changing the bucket’s overall access policy. These URLs are especially useful when you want to allow third parties or web applications to download or upload files securely.
 
-![[S3-Pre-signed URLs.png]]
+![S3-Pre-signed URLs](./_assets/s3-pre-signed_urls.png)
 
 #### Key Characteristics
 
@@ -263,7 +263,7 @@ Pre-signed URLs provide a method to grant temporary access to private S3 objects
 
 S3 Access Logs provide detailed records of the requests made to your S3 buckets. These logs are essential for auditing, compliance, and forensic investigations.
 
-![[S3 Access Logs.png]]
+![S3 Access Logs](./_assets/s3_access_logs.png)
 
 #### Key Aspects of Access Logging
 
@@ -334,7 +334,7 @@ Default encryption allows you to ensure that every object uploaded into a bucket
 
 To further optimize the use of SSE-KMS encryption, Amazon S3 offers the **S3 Bucket Key** feature.
 
-![[S3 Bucket Key.png]]
+![S3 Bucket Key](./_assets/s3_bucket_key.png)
 
 - **Purpose and Benefits:**  
 	When using SSE-KMS, each object upload typically requires an API call to AWS KMS to generate a data key. For high-throughput workloads, this can result in a large number of KMS requests, increasing both latency and cost. An S3 Bucket Key allows Amazon S3 to generate and cache a data key at the bucket level. Subsequent encryptions can then use this bucket key to encrypt objects without making additional calls to KMS for every single object upload.
@@ -409,7 +409,7 @@ MFA Delete is particularly important in environments where data integrity is par
 
 S3 Access Points are designed to simplify access management for S3 buckets containing large and diverse datasets. Rather than maintaining a single, monolithic bucket policy that applies to all objects, you can create multiple access points—each with its own policy tailored to a specific application or user group.
 
-![[S3 Access Points.png]]
+![S3 Access Points](./_assets/s3_access_points.png)
 
 **Key Features:**
 
@@ -435,7 +435,7 @@ By implementing S3 Access Points, organizations can efficiently enforce the prin
 
 S3 Multi-Region Access Points provide a single, global endpoint that spans multiple S3 buckets distributed across different AWS regions. This architecture is ideal for applications requiring low-latency global access, enhanced resiliency, and simplified cross-region management.
 
-![[S3 Multi-Region Access Points.png]]
+![S3 Multi-Region Access Points](./_assets/s3_multi-region_access_points.png)
 
 **Key Components and Benefits:**
 
@@ -471,7 +471,7 @@ S3 Object Lambda allows you to transform S3 objects on the fly as they are retri
 
 **Architecture Overview:**
 
-![[S3 Object Lambda.png]]
+![S3 Object Lambda](./_assets/s3_object_lambda.png)
 
 1. **Integration with Access Points:**  
     An S3 Object Lambda access point is created on top of an existing S3 bucket and is associated with a Lambda function.
@@ -535,7 +535,7 @@ Misconfigurations in bucket policies can inadvertently lock out all users, inclu
 
 S3 Versioning is a powerful feature that helps safeguard your data by keeping multiple variants of an object in the same bucket. When versioning is enabled, every update or deletion operation creates a new object version rather than permanently overwriting or removing the original.
 
-![[S3 Versioning.png]]
+![S3 Versioning](./_assets/s3_versioning.png)
 
 **Key Points:**
 
@@ -575,7 +575,7 @@ S3 Replication is designed to automatically and asynchronously copy objects betw
 
 Lifecycle rules in Amazon S3 automate the management of objects over time. These rules help you transition objects between storage classes and eventually expire (delete) objects that are no longer needed, thereby optimizing storage costs and simplifying data management.
 
-![[S3 Lifecycle Rules.png]]
+![S3 Lifecycle Rules](./_assets/s3_lifecycle_rules.png)
 
 **Key Points:**
 
@@ -695,7 +695,7 @@ Using SSE-KMS for large file uploads requires careful planning to ensure that bo
 
 For applications where clients are geographically distant from the S3 bucket’s region, **S3 Transfer Acceleration** offers a way to reduce latency and improve transfer speeds by leveraging AWS’s global edge network:
 
-![[S3 Transfer Acceleration.png]]
+![S3 Transfer Acceleration](./_assets/s3_transfer_acceleration.png)
 
 1. **How It Works:**
     - When Transfer Acceleration is enabled, data is first transferred from the client to a nearby AWS edge location.
@@ -901,13 +901,13 @@ Lifecycle rules automate the transition of objects between storage classes or th
     
 - **S3 Requester Pays:**  
     With this feature enabled, the requester—not the bucket owner—bears the cost of data transfer when accessing objects. This is particularly useful when sharing large datasets with multiple external users.
-    ![[S3 Requester Pays.png]]
+    ![S3 Requester Pays](./_assets/s3_requester_pays.png)
 
 ### 9.3. S3 Storage Lens
 
 S3 Storage Lens is an advanced analytics tool that provides comprehensive visibility into your S3 storage usage and activity. It plays a key role in cost management by enabling you to monitor trends, detect anomalies, and identify cost optimization opportunities.
 
-![[S3 Storage Lens.png]]
+![S3 Storage Lens](./_assets/s3_storage_lens.png)
 
 #### Key Features and Metrics
 

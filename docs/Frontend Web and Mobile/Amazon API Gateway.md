@@ -8,7 +8,7 @@ Amazon API Gateway is a fully managed service that enables developers to **creat
 
 The following diagram shows API Gateway architecture.
 
-![[api-gateway-arch.png]]
+![api-gateway-arch](./_assets/api-gateway-arch.png)
 
 This diagram illustrates how the APIs you build in Amazon API Gateway provide you or your developer customers with an integrated and consistent developer experience for building AWS serverless applications. API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls. These tasks include traffic management, authorization and access control, monitoring, and API version management.
 
@@ -41,7 +41,7 @@ These APIs are particularly advantageous when you need to build systems that pus
 - **Lifecycle Management:** API Gateway manages the lifecycle of each connection, invoking specific routes when a client connects or disconnects.
 #### 3.3.2. Routes and Route Selection
 
-![[api-gateway-websocket.png]]
+![api-gateway-websocket](./_assets/api-gateway-websocket.png)
 - **Built-in Routes:**
     - **$connect:** Triggered when a client initiates a connection. Often used to perform initial authentication or setup.
     - **$disconnect:** Called when a client disconnects, allowing for cleanup actions.
@@ -51,7 +51,7 @@ These APIs are particularly advantageous when you need to build systems that pus
 
 ## 4. Endpoint Types
 
-![[api-gateway-endpoint-types.png]]
+![api-gateway-endpoint-types](./_assets/api-gateway-endpoint-types.png)
 
 API Gateway lets you choose how your API is accessed by defining its endpoint type. In simple terms, an endpoint type determines the hostname and network routing for your API. Depending on your use case and where your clients are located, you can choose one of the following:
 
@@ -94,7 +94,7 @@ The following table summarizes key Security features and their support status ac
 
 ### 5.1. Mutual TLS Authentication
 
-![[api-gateway-mutual-tls.png]]
+![api-gateway-mutual-tls](./_assets/api-gateway-mutual-tls.png)
 
 Mutual TLS authentication is a robust security mechanism that establishes a two-way verification process. Both the client and the server must present X.509 certificates to confirm their identities, ensuring that only trusted parties can initiate communication. This protocol is especially critical for scenarios such as Internet of Things (IoT) networks and business-to-business (B2B) interactions where strong identity assurance is required.
 
@@ -119,7 +119,7 @@ For HTTP APIs, you can implement custom verification—such as using a Lambda au
 
 ### 5.3. AWS WAF
 
-![[api-gateway-waf.png]]
+![api-gateway-waf](./_assets/api-gateway-waf.png)
 
 AWS WAF (Web Application Firewall) is designed to protect your APIs from common web exploits such as SQL injection, cross-site scripting (XSS), and other malicious attacks. It enables you to define customizable rules that filter or block unwanted traffic based on criteria like IP addresses, request patterns, and rate limits.
 
@@ -172,7 +172,7 @@ For HTTP APIs, you can combine IAM authorization with external network-level con
 - **Multi-Tenant Environments:** Use resource policies to segregate access among different clients or business units, enforcing strict boundaries.
 ### 6.3. Amazon Cognito
 
-![[api-gateway-cognito.png]]
+![api-gateway-cognito](./_assets/api-gateway-cognito.png)
 
 Amazon Cognito offers managed user authentication, enabling you to control access to your API via user pools. It provides a secure way for users to sign up, sign in, and manage their sessions using identity and access tokens.
 
@@ -185,7 +185,7 @@ No special workaround is needed since both API types support this integration—
 
 ### 6.4. Custom Authorization with an AWS Lambda Function
 
-![[api-gateway-lambda-auth.png]]
+![api-gateway-lambda-auth](./_assets/api-gateway-lambda-auth.png)
 
 Custom authorization using AWS Lambda functions (Lambda authorizers) enables you to implement bespoke authentication and access control strategies tailored to your specific business logic. The Lambda function processes incoming requests, validates tokens or parameters, and returns an IAM policy dictating whether to allow or deny access.
 
@@ -325,7 +325,7 @@ For REST APIs, the API Gateway console includes a test-invoke feature where you 
 
 ### 8.3. Caching
 
-![[api-gateway-cache.png]]
+![api-gateway-cache](./_assets/api-gateway-cache.png)
 
 Caching in API Gateway helps reduce backend load and improve response times by temporarily storing responses from your integration. Cached responses are served directly to clients, reducing latency and lowering costs.
 

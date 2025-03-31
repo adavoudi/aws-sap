@@ -20,7 +20,7 @@ At its core, a load balancer is a server—or a collection of servers—that dis
 
 From a high-level perspective, the architecture of AWS ELB involves three critical layers:
 
-![[elb.png]]
+![elb](./_assets/elb.png)
 
 1. **Client to Load Balancer:** The client establishes a connection with the load balancer using protocols such as HTTP, HTTPS, TCP, or even UDP.
 2. **Load Balancer Processing:** The load balancer then processes the incoming request. It applies health checks, routing algorithms, and security policies (e.g., SSL termination, header insertion).
@@ -32,7 +32,7 @@ The advantages of using ELB extend beyond just distributing load; by incorporati
 
 AWS offers several types of load balancers, each tailored for different use cases, protocols, and performance characteristics. The main variants are the Classic Load Balancer (CLB), the Application Load Balancer (ALB), and the Network Load Balancer (NLB). (There is also the Gateway Load Balancer (GWLB), which primarily operates at the network layer, but our focus here will be on the three primary types relevant for most workloads.)
 
-![[elb-types.png]]
+![elb-types](./_assets/elb-types.png)
 
 #### 2.2.1 Classic Load Balancer (CLB): Legacy Use Cases
 
@@ -197,7 +197,7 @@ Session affinity, or sticky sessions, ensures that subsequent requests from the 
 
 **How Sticky Sessions Work:**
 
-![[ELB Sticky Sessions.png]]
+![ELB Sticky Sessions](./_assets/elb_sticky_sessions.png)
 
 - **Cookie-Based Mechanism:**  
     When sticky sessions are enabled, the load balancer uses cookies to “remember” which backend instance handled a client’s initial request. There are two types of cookies:
@@ -215,7 +215,7 @@ Sticky sessions can introduce load imbalances if a single backend becomes “sti
 Cross-zone load balancing refers to the ability of a load balancer to distribute traffic evenly across backend targets that are located in different Availability Zones (AZs). This capability is vital for ensuring that traffic is not inadvertently concentrated in a single AZ, particularly in environments where the number of instances per AZ may differ.
 
 **How Cross-Zone Load Balancing Works:**
-![[elb-cross-zone.png]]
+![elb-cross-zone](./_assets/elb-cross-zone.png)
 - **Even Distribution of Traffic:**  
     With cross-zone load balancing enabled, a load balancer instance in any given AZ will distribute its traffic across all available targets, regardless of the zone in which they reside. For example, if you have two AZs with a total of 10 instances (2 in one AZ and 8 in the other), each load balancer node will forward traffic evenly across all 10 instances rather than limiting its distribution to the two local targets.
     
@@ -247,7 +247,7 @@ Security is paramount for any web application. ELB can offload the computational
 
 #### 4.1.1 SSL/TLS Termination at the Load Balancer
 
-![[elb-TLS Termination.png]]
+![elb-TLS Termination](./_assets/elb-tls_termination.png)
 
 When SSL/TLS termination is configured on a load balancer:
 

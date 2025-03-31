@@ -4,7 +4,7 @@
 
 Cloud adoption at scale has reshaped how enterprises structure their IT operations. Instead of relying on a single, monolithic AWS account, modern organizations embrace a multi‐account strategy that leverages isolated accounts for different teams, projects, or environments. AWS Organizations provides the essential framework for this approach by enabling centralized management, policy enforcement, and consolidated billing across all member accounts.
 
-![[aws-org-capability.png]]
+![aws-org-capability](./_assets/aws-org-capability.png)
 
 By adopting AWS Organizations, companies can:
 
@@ -38,7 +38,7 @@ Within an organization, accounts fall into two distinct types:
 - **Management Account:** Formerly known as the “master account,” this is the account that creates and administers the organization. It carries the responsibility for billing and overall policy management. Its privileges allow it to create new accounts, invite existing ones, and enforce organizational controls.
 - **Member Accounts:** These are the accounts that contain your actual workloads—whether they run production applications, test environments, or experimental sandboxes. Member accounts are isolated from one another by default; they can only interact if explicit permissions are set up.
 
-![[aws-org-example.png]]
+![aws-org-example](./_assets/aws-org-example.png)
 A best practice is to reserve the management account solely for administrative functions and avoid deploying workloads there. This separation ensures that the management account remains secure and minimizes the risk of accidental changes or billing mix-ups.
 
 ### 3.3. Organizational Units (OUs)

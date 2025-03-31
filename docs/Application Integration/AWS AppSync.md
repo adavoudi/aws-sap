@@ -3,7 +3,7 @@
 
 **AWS AppSync** is a fully managed service from Amazon Web Services that simplifies the development of GraphQL APIs. By using GraphQL as its core language, AppSync lets your client applications fetch only the data they need through a single API endpoint, regardless of whether that data resides in one or many back-end sources. It abstracts away the complexity of connecting to multiple data stores and integrates with other AWS services seamlessly.  
 
-![[AWS AppSync.png]]
+![AWS AppSync](./_assets/aws_appsync.png)
 ## 2. Core Features
 
 1. **GraphQL API Layer**
@@ -33,7 +33,7 @@
 
 AWS AppSync operates as a proxy layer that intercepts GraphQL requests from client applications. Here’s a brief outline of its architecture:
 
-![[appsync-Architecture.png]]
+![appsync-Architecture](./_assets/appsync-architecture.png)
 
 - **GraphQL Proxy:** Accepts, parses, and validates incoming GraphQL queries.
 - **Resolvers:** Each field in the schema is linked to a resolver that maps to one or more data sources.

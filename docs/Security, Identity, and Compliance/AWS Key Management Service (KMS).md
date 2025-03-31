@@ -119,7 +119,7 @@ By choosing a custom key store with AWS CloudHSM, customers can align their cryp
 
 As organizations increasingly operate in global, multi-region environments, the need for keys that can be replicated across regions becomes critical. AWS KMS provides the ability to create multi-region keys, which simplify cross-region encryption and decryption workflows.
 
-![[KMS-Multi-Region Keys.png]]
+![KMS-Multi-Region Keys](./_assets/kms-multi-region_keys.png)
 
 Multi-region keys are designed for scenarios where data may be encrypted in one region and decrypted in another, without the need for re-encrypting data or incurring cross-region API calls:
 
@@ -139,7 +139,7 @@ Given that AWS KMS imposes a limit on the size of data that can be directly encr
 
 The GenerateDataKey API is central to the envelope encryption process:
 
-![[kms-GenerateDataKey.png]]
+![kms-GenerateDataKey](./_assets/kms-generatedatakey.png)
 
 - **Two-Part Output:** When the GenerateDataKey API is called, AWS KMS generates a unique data encryption key (DEK). The API returns both a plaintext copy of the DEK (for immediate use in client-side encryption) and an encrypted copy of the DEK (wrapped by the customer master key or CMK).
 - **Usage Pattern:** The plaintext DEK is used to encrypt large files or data payloads on the client side, while the encrypted DEK is stored alongside the ciphertext in what is referred to as the “envelope.”
@@ -153,13 +153,13 @@ The GenerateDataKey API is designed to facilitate efficient and secure encryptio
 
 Once the DEK has been generated, the client-side encryption workflow proceeds as follows:
 
-![[kms-Client-Side Encryption.png]]
+![kms-Client-Side Encryption](./_assets/kms-client-side_encryption.png)
 
 - **Encryption of Data:** The client application uses the plaintext DEK to encrypt a large file or data stream. This process is carried out entirely on the client side using conventional symmetric encryption algorithms.
 - **Creation of the Envelope:** After encryption, the client creates an “envelope” that includes both the ciphertext (the encrypted data) and the encrypted DEK. The envelope serves as a secure container that bundles the data with the key needed to decrypt it.
 - **Storage and Transmission:** The envelope is stored or transmitted as a single unit. Because the encrypted DEK is part of the envelope, any subsequent decryption operations can reference it.
 
-![[kms- Client-Side Dec.png]]
+![kms- Client-Side Dec](./_assets/kms-_client-side_dec.png)
 
 - **Decryption Process:** When the data needs to be decrypted, the client retrieves the envelope and extracts the encrypted DEK. This encrypted DEK is then sent to AWS KMS via the decrypt API. Once KMS returns the plaintext DEK, the client can use it to decrypt the data locally.
 - **Cost and Latency Trade-offs:** Although envelope encryption requires additional steps, it significantly reduces the number of API calls to AWS KMS, thereby lowering operational costs and reducing latency in high-throughput environments.
@@ -179,7 +179,7 @@ Regular rotation of cryptographic keys is a best practice to reduce the risk of 
 
 Automatic key rotation is a feature that allows AWS KMS to rotate the backing key on an annual basis:
 
-![[kms-rotation-Automatic.png]]
+![kms-rotation-Automatic](./_assets/kms-rotation-automatic.png)
 
 - **Annual Rotation:** By default, customer-managed symmetric keys can be configured to rotate automatically every 365 days, though the rotation interval can be customized between 90 and 2,560 days.
 - **Seamless Transition:** When a key is rotated automatically, the old backing key remains available for decryption operations. This ensures that data encrypted with a previous version of the key can still be decrypted.
@@ -192,7 +192,7 @@ Automatic and on-demand key rotation are designed to provide a balance between o
 
 For scenarios where keys are not eligible for automatic rotation—such as asymmetric keys or cases where more frequent rotation is required—manual rotation is the solution:
 
-![[kms-Manual Rotation.png]]
+![kms-Manual Rotation](./_assets/kms-manual_rotation.png)
 
 - **Creating a New Key:** In a manual rotation scenario, a new key is created with a different key ID.
 - **Using Aliases to Mask Changes:** To avoid disrupting applications that reference the key, AWS KMS supports the use of aliases. An alias is a friendly name that points to a specific key ID. When manual rotation is performed, the alias is updated to reference the new key.

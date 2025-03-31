@@ -20,7 +20,7 @@ The EC2 instances in an Auto Scaling group have a path, or lifecycle, that diffe
 
 The following illustration shows the transitions between instance states in the Amazon EC2 Auto Scaling lifecycle.
 
-![[ec2-aut-scaling-lifecycle.png]]
+![ec2-aut-scaling-lifecycle](../_assets/ec2-aut-scaling-lifecycle.png)
 - **Scale Out**  
     When demand increases, a scale‐out event triggers the launch of new EC2 instances. These new instances start in a _Pending_ state and, once fully configured and having passed health checks (and optionally after any lifecycle hook actions), are attached to the Auto Scaling group and transition to the _InService_ state.  
 
@@ -147,7 +147,7 @@ When rolling back, Amazon EC2 Auto Scaling replaces the instances that have been
 
 When using an instance refresh, you can choose to replace instances in phases, so that you can perform verifications on your instances as you go. To do a phased replacement, you add checkpoints, which are points in time where the instance refresh pauses. Using checkpoints gives you greater control over how you choose to update your Auto Scaling group. It helps you to confirm that your application will function in a reliable, predictable manner.
 
-![[instance-refresh-checkpoint.png]]
+![instance-refresh-checkpoint](../_assets/instance-refresh-checkpoint.png)
 
 ## 7. Scaling Method
 
@@ -215,7 +215,7 @@ Simple scaling uses a single adjustment and incorporates a cooldown period betwe
 
 Predictive scaling uses machine learning to analyze historical data and forecast future load. Based on these forecasts, capacity is proactively adjusted before the load actually increases. This is particularly useful for workloads with regular, predictable patterns.
 
-![[predictive-scaling.png]]
+![predictive-scaling](../_assets/predictive-scaling.png)
 
 **Key Points:**
 - It examines historical metrics (typically over a 14-day period) to predict the load for the next two days.

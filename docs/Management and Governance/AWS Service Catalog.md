@@ -103,7 +103,7 @@ This workflow outlines how administrators:
 - Configure constraints and permissions.
 - Share portfolios with the appropriate AWS accounts or organizational units.
 
-![[service-catalog-Administrator Workflow.png]]
+![service-catalog-Administrator Workflow](./_assets/service-catalog-administrator_workflow.png)
 
 ### 4.2 Initial End User Workflow
 
@@ -114,7 +114,7 @@ End users follow this workflow to deploy products:
 - Provide necessary inputs and configuration parameters.
 - Launch and manage the lifecycle of the provisioned product (i.e., CloudFormation stack).
 
-![[service-catalog-End User Workflow.png]]
+![service-catalog-End User Workflow](./_assets/service-catalog-end_user_workflow.png)
 
 ## 5. Simplifying Governance with AWS Service Catalog
 

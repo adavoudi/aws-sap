@@ -34,7 +34,7 @@ Here are the key characteristics of DynamoDB along with explanations:
 
 ## 3. Tables, Items, and Attributes
 
-![[dynamodb-table-items.png]]
+![dynamodb-table-items](./_assets/dynamodb-table-items.png)
 
 The following are the basic DynamoDB components:
 
@@ -168,7 +168,7 @@ Each stream record also contains the name of the table, the event timestamp, and
 
 You can use DynamoDB Streams together with AWS Lambda to create a _trigger_—code that runs automatically whenever an event of interest appears in a stream. For example, consider a _Customers_ table that contains customer information for a company. Suppose that you want to send a "welcome" email to each new customer. You could enable a stream on that table, and then associate the stream with a Lambda function. The Lambda function would run whenever a new stream record appears, but only process new items added to the _Customers_ table. For any item that has an `EmailAddress` attribute, the Lambda function would invoke Amazon Simple Email Service (Amazon SES) to send an email to that address.
 
-![[dynamodb-streams.png]]
+![dynamodb-streams](./_assets/dynamodb-streams.png)
 
 ## 13. Time to Live
 

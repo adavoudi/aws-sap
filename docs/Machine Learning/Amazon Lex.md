@@ -6,7 +6,7 @@ Amazon Lex is a fully managed AWS service that enables you to build conversation
 
 ## 2. Key Features and Capabilities
 
-![[amazon-lex.png]]
+![amazon-lex](./_assets/amazon-lex.png)
 
 - **Conversational Interfaces:**  
     Create chatbots that interact naturally via text or speech. Lex handles the complexities of NLU and ASR, allowing you to focus on designing the conversation flow and integrating backend services.
@@ -16,7 +16,7 @@ Amazon Lex is a fully managed AWS service that enables you to build conversation
     
 - **Multi-Turn Dialogue Management:**  
     Amazon Lex supports complex conversation flows, including slot elicitation, confirmation, and conditional branching. This enables bots to maintain context across multiple exchanges and handle interruptions gracefully.
-    
+     
 - **Integration with AWS Services:**  
     Seamlessly integrate with AWS Lambda to run custom fulfillment logic, Amazon CloudWatch for monitoring, and Amazon Connect for building omnichannel contact centers. Lex is also designed to work with other AWS tools for security and scalability.  
     
@@ -28,7 +28,7 @@ Amazon Lex is a fully managed AWS service that enables you to build conversation
 
 ## 3. Architecture
 
-![[amazon-lex-arch.png]]
+![amazon-lex-arch](./_assets/amazon-lex-arch.png)
 
 ## 4. Pricing  
 

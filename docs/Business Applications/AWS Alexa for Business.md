@@ -8,13 +8,13 @@ AWS Alexa for Business is an enterprise service that brings the familiar Alexa v
 - **Deploy and manage skills**—both public and custom private skills
 - **Improve productivity** through voice-driven actions such as meeting room booking, initiating conference calls, accessing calendars, and more
 
-![[alexa-for-biz-example.png]]
+![alexa-for-biz-example](./_assets/alexa-for-biz-example.png)
 
 This service is designed so that IT administrators can provision devices, enroll users, and set configurations for shared spaces (e.g., conference rooms) as well as allow employees to extend these capabilities to their personal devices.
 
 ## 2. Architecture and Management Tools
 
-![[alexa-for-biz.png]]
+![alexa-for-biz](./_assets/alexa-for-biz.png)
 
 - **Centralized Management Console:**  
     Administrators use the Alexa for Business console to:

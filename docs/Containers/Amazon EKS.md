@@ -52,7 +52,7 @@ Amazon EKS is designed to address a wide range of containerized application scen
 
 The following diagram shows key activities you would do as a Kubernetes Admin or Application Developer to create and use a Kubernetes cluster. In the process, it illustrates how Kubernetes components interact with each other, using the AWS cloud as the example of the underlying cloud provider.
 
-![[kubernetes-in-action.png]]
+![kubernetes-in-action](./_assets/kubernetes-in-action.png)
 
 A Kubernetes Admin creates the Kubernetes cluster using a tool specific to the type of provider on which the cluster will be built. This example uses the AWS cloud as the provider, which offers the managed Kubernetes service called Amazon EKS. The managed service automatically allocates the resources needed to create the cluster, including creating two new Virtual Private Clouds (Amazon VPCs) for the cluster, setting up networking, and mapping Kubernetes permissions directly into the new VPCs for cloud asset management. The managed service also sees that the control plane services have places to run and allocates zero or more Amazon EC2 instances as Kubernetes nodes for running workloads. AWS manages one Amazon VPC itself for the control plane, while the other Amazon VPC contains the customer nodes that run workloads.
 
@@ -64,7 +64,7 @@ To run the application, the developer can create YAML-formatted configuration fi
 
 ## 4. Worker Nodes
 
-![[eks-workers.png]]
+![eks-workers](./_assets/eks-workers.png)
 
 - **EC2 and Fargate Options:** You can run your Kubernetes worker nodes on Amazon EC2 instances (using managed node groups) or opt for serverless compute with AWS Fargate, which abstracts away the underlying infrastructure management.
 - **Integration with AWS Services:** Worker nodes integrate seamlessly with other AWS services such as Amazon VPC for networking, AWS IAM for authentication and authorization, and Amazon EBS for storage.
@@ -73,7 +73,7 @@ To run the application, the developer can create YAML-formatted configuration fi
 
 Amazon Elastic Kubernetes Service (EKS) uses Amazon EKS Distro, a Kubernetes distribution built and maintained by AWS. Amazon EKS Distro makes it easier to create reliable and secure clusters.
 
-![[eks-distro.png]]
+![eks-distro](./_assets/eks-distro.png)
 
 **Use Cases:**
 

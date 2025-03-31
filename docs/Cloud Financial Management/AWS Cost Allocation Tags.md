@@ -28,7 +28,7 @@ AWS provides two types of cost allocation tags, an _AWS-generated tags_ and _
 
 In the following example, you've assigned and activated tags on two Amazon EC2 instances, one tag called Cost Center and another tag called Stack. Each of the tags has an associated value. You also activated the AWS-generated tags, `createdBy` before creating these resources. The `createdBy` tag tracks who created the resource. The user-defined tags use the `user` prefix, and the AWS-generated tag uses the `aws:` prefix.
 
-![[allocation-tag.png]]
+![allocation-tag](./_assets/allocation-tag.png)
 
 ## 4. Use case
 
@@ -36,7 +36,7 @@ After you or AWS applies tags to your AWS resources (such as Amazon EC2 instance
 
 The cost allocation report includes all of your AWS costs for each billing period. The report includes both tagged and untagged resources, so that you can clearly organize the charges for resources. For example, if you tag resources with an application name, you can track the total cost of a single application that runs on those resources. The following screenshot shows a partial report with columns for each tag.
 
-![[aws-cost-tags.png]]
+![aws-cost-tags](./_assets/aws-cost-tags.png)
 
 You can also use tags to filter views in Cost Explorer. For more information about Cost Explorer, see [Analyzing your costs with AWS Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html).
 
