@@ -8,7 +8,7 @@ AWS WAF is part of the suite of AWS networking security services that protect ap
 
 AWS WAF offers several key features and benefits that simplify web application protection while ensuring robust security controls.
 
-![AWS WAF](./_assets/aws_waf.png)
+![AWS WAF](../_assets/aws_waf.png)
 
 ### 2.1. Managed Rules and Quick Deployment
 

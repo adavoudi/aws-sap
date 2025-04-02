@@ -27,7 +27,7 @@ It is important to note that while using the Cost Explorer user interface is fre
 
 ## 4. Navigating the Cost Explorer Dashboard
 
-![cost-explorer-dash](./_assets/cost-explorer-dash.png)
+![cost-explorer-dash](../_assets/cost-explorer-dash.png)
 
 Once set up, the Cost Explorer dashboard offers a wealth of information at a glance:
 ### 4.1. Key Dashboard Elements

@@ -53,7 +53,7 @@ AWS RDS manages these backups seamlessly—once enabled, it periodically transfe
 
 Cross-Region read replicas allow you to replicate your RDS databases asynchronously into a different AWS Region. They serve several purposes: reducing read latency for globally distributed users, enhancing application performance by offloading read traffic, and providing a disaster recovery solution. In the event of a regional disruption, a read replica can be promoted to become the new primary database, helping to maintain business continuity.
 
-![rds-cross-region-rep](./_assets/rds-cross-region-rep.png)
+![rds-cross-region-rep](../_assets/rds-cross-region-rep.png)
 
 This feature uses the native replication capabilities of your chosen database engine and integrates with AWS tools like AWS Database Migration Service (DMS) if needed. By enabling cross-region replication, you gain both performance benefits for end users and an extra layer of protection against regional outages.
 ### 3.4. Database Activity Streams
@@ -90,13 +90,13 @@ By using Kerberos authentication in Amazon RDS, you can support external authent
 
 Multi-AZ deployments can have one standby or two standby DB instances. When the deployment has one standby DB instance, it's called a _Multi-AZ DB instance deployment_. A Multi-AZ DB instance deployment has one standby DB instance that provides failover support, but doesn't serve read traffic. When the deployment has two standby DB instances, it's called a _Multi-AZ DB cluster deployment_. A Multi-AZ DB cluster deployment has standby DB instances that provide failover support and can also serve read traffic.
 
-![rds-multi-az](./_assets/rds-multi-az.png)
+![rds-multi-az](../_assets/rds-multi-az.png)
 
 ### 3.10. Performance Insights
 
 Performance Insights is a monitoring and tuning tool that helps you analyze the performance of your RDS database. It provides a dashboard that visualizes key performance metrics such as database load, wait states, and query performance over time. With Performance Insights, you can identify performance bottlenecks and quickly pinpoint the underlying causes of database issues.
 
-![rds-performance-insight](./_assets/rds-performance-insight.png)
+![rds-performance-insight](../_assets/rds-performance-insight.png)
 
 ### 3.11. RDS Custom
 
@@ -117,7 +117,7 @@ Previously, if you needed to customize your application, you had to deploy your 
 
 By using Amazon RDS Proxy, you can allow your applications to pool and share database connections to improve their ability to scale. RDS Proxy makes applications more resilient to database failures by automatically connecting to a standby DB instance while preserving application connections. By using RDS Proxy, you can also enforce AWS Identity and Access Management (IAM) authentication for databases, and securely store credentials in AWS Secrets Manager.
 
-![rds-proxy](./_assets/rds-proxy.png)
+![rds-proxy](../_assets/rds-proxy.png)
 
 Using RDS Proxy, you can handle unpredictable surges in database traffic. Otherwise, these surges might cause issues due to oversubscribing connections or new connections being created at a fast rate. RDS Proxy establishes a database connection pool and reuses connections in this pool. This approach avoids the memory and CPU overhead of opening a new database connection each time. To protect a database against oversubscription, you can control the number of database connections that are created.
 
@@ -145,7 +145,7 @@ To create a zero-ETL integration, you specify an RDS database as the _source_
 
 The following diagram illustrates this functionality:
 
-![rds-zero-etl](./_assets/rds-zero-etl.png)
+![rds-zero-etl](../_assets/rds-zero-etl.png)
 
 ## 4. Storage
 

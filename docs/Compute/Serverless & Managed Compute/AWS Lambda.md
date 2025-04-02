@@ -22,7 +22,7 @@ To configure a function to run in response to a specific event, you add a **_tr
 
 Some types of stream and queue service, such as Amazon Kinesis or Amazon Simple Queue Service (Amazon SQS), can't directly invoke Lambda using a trigger. For these services, you need to create an _**event source mapping**_ instead. Event source mappings are a special type of Lambda resource that continuously polls a stream or queue to check for new events. For example, an event source mapping might poll an Amazon SQS queue to check whether new messages have been added. Lambda batches new messages into a single payload until a limit that you configure is reached, and then invokes your function with a single event object containing all the records in the batch.
 
-![lambda-event-source-mapping](./_assets/lambda-event-source-mapping.png)
+![lambda-event-source-mapping](../_assets/lambda-event-source-mapping.png)
 
 ### 2.4. The Event Object
 
@@ -55,7 +55,7 @@ Each container has access to a temporary storage directory (usually `/tmp`, **wi
 
 ### 3.1. Execution Environment Lifecycle
 
-![lambda-lifecycle](./_assets/lambda-lifecycle.png)
+![lambda-lifecycle](../_assets/lambda-lifecycle.png)
 
 **1. Initialization (Cold Start)**
 
@@ -96,7 +96,7 @@ In an event-driven architecture, each Lambda function is treated as a microservi
 
 **1. Replacing Polling and Webhooks:**  
 
-![lambda-webhook](./_assets/lambda-webhook.png)
+![lambda-webhook](../_assets/lambda-webhook.png)
 
 Traditional integration methods like polling and webhooks can be inefficient and hard to scale. Event-driven architectures replace these with events that are filtered, routed, and pushed to consumers, reducing latency and resource waste.
 
@@ -104,7 +104,7 @@ Traditional integration methods like polling and webhooks can be inefficient and
 
 By breaking a monolithic application into decoupled microservices, each function can focus on a single responsibility. For instance, an ecommerce application can split order acceptance, payment processing, and inventory management into separate, independently scalable services. This decoupling also allows buffering (e.g., via Amazon SQS) between services running at different speeds.
 
-![lambda-event-arch-example](./_assets/lambda-event-arch-example.png)
+![lambda-event-arch-example](../_assets/lambda-event-arch-example.png)
 
 **3. Improving Scalability and Extensibility:**  
 
@@ -128,19 +128,19 @@ Events published to messaging services (like Amazon SNS, SQS, or EventBridge) cr
 
 - **The Lambda Monolith:**  
     Migrating an existing monolithic application “as-is” into a single Lambda function can lead to a bulky deployment package, overly broad permissions, and difficulties in testing, maintaining, and upgrading the code. The recommended approach is to break the application into smaller, focused Lambda functions (microservices).
-    ![lambda-microservice](./_assets/lambda-microservice.png)
+    ![lambda-microservice](../_assets/lambda-microservice.png)
     
 - **Recursive Patterns That Cause Run-Away Invocations:**  
     If a Lambda function writes an event that in turn triggers itself (for example, a function that writes to S3 and is triggered by S3 put events), it can create an infinite loop. Detecting and preventing such recursive loops is crucial to avoid exhausting resources.
-	![lambda-recursive](./_assets/lambda-recursive.png)
+	![lambda-recursive](../_assets/lambda-recursive.png)
     
 - **Lambda Functions Calling Lambda Functions Synchronously:**  
     While code reuse is a common practice, invoking one Lambda function directly from another (and waiting for its response) can increase execution time and costs. Instead, decoupling via messaging (e.g., using SQS or AWS Step Functions for orchestration) is preferred for scalability and fault tolerance.
-    ![lambda-calling-lambda](./_assets/lambda-calling-lambda.png)
+    ![lambda-calling-lambda](../_assets/lambda-calling-lambda.png)
     
 - **Synchronous Waiting Within a Single Lambda Function:**  
     Combining sequential tasks within one function (e.g., writing to S3 and then writing to DynamoDB) may lead to compounded latency. Splitting the tasks into separate functions that communicate via events can reduce wait times and optimize resource usage.
-	![lambda-sequential-lambda](./_assets/lambda-sequential-lambda.png)
+	![lambda-sequential-lambda](../_assets/lambda-sequential-lambda.png)
 
 ## 5. Lambda Memory
 
@@ -154,7 +154,7 @@ You can also consider using the open source [AWS Lambda Power Tuning](https://g
 
 AWS Lambda supports container images as an alternative packaging format for your functions. This feature lets you bundle your code, its dependencies, and even a custom runtime into a standard container image, which is then stored in Amazon Elastic Container Registry (ECR) and used to run your function. 
 
-![lambda-docker](./_assets/lambda-docker.png)
+![lambda-docker](../_assets/lambda-docker.png)
 
 **Benefits and Use Cases:**
 
@@ -204,7 +204,7 @@ You can use environment variables to customize function behavior in your test en
 
 The following example shows how to define the database host and database name as environment variables.
 
-![lambda-env](./_assets/lambda-env.png)
+![lambda-env](../_assets/lambda-env.png)
 ### 9.1. Defined runtime environment variables
 
 Lambda runtimes set several environment variables during initialization. Most of the environment variables provide information about the function or runtime. The keys for these environment variables are _reserved_ and cannot be set in your function configuration. You can see a list of these variables [here](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-runtime). 
@@ -223,7 +223,7 @@ A Lambda alias is essentially a pointer or reference to a specific version of yo
 
 Aliases enable you to decouple your function’s invocation from its underlying version. This abstraction lets you update the function’s version behind the alias without changing the clients or other services that call it.
 
-![lambda-alias](./_assets/lambda-alias.png)
+![lambda-alias](../_assets/lambda-alias.png)
 ### 12.1. Using Lambda Aliases
 
 Each alias has a unique ARN. An alias can point only to a function version, not to another alias. You can update an alias to point to a new version of the function.
@@ -236,7 +236,7 @@ In a resource policy, you can grant permissions for event sources to use your La
 
 You can use a weighted alias to split traffic between two different versions of the same function. With this approach, you can test new versions of your functions with a small percentage of traffic and quickly roll back if necessary. This is known as a [canary deployment](https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/canary-deployments.html). Canary deployments differ from blue/green deployments by exposing the new version to only a portion of requests rather than switching all traffic at once.
 
-![lambda-weighted-alias](./_assets/lambda-weighted-alias.png)
+![lambda-weighted-alias](../_assets/lambda-weighted-alias.png)
 
 You can point an alias to a maximum of two Lambda function versions. The versions must meet the following criteria:
 
@@ -261,7 +261,7 @@ When a function is invoked synchronously (using the invocation type `RequestResp
 - The status code (e.g., 200 OK if successful)
 - The payload returned by your function (or error details if the function fails)
 
-![lambda-sync](./_assets/lambda-sync.png)
+![lambda-sync](../_assets/lambda-sync.png)
 
 **Use Cases:**
 - **Web APIs and Microservices:** Services like Amazon API Gateway invoke Lambda functions synchronously to serve HTTP requests.
@@ -273,7 +273,7 @@ When a function is invoked synchronously (using the invocation type `RequestResp
 
 With asynchronous invocations (using the invocation type `Event`), the caller sends the event to Lambda and does not wait for the function’s execution to complete. Instead, Lambda immediately returns a response indicating that the event has been received and queued for processing.
 
-![lambda-async](./_assets/lambda-async.png)
+![lambda-async](../_assets/lambda-async.png)
 
 **How It Works:**
 - The event is placed into an internal queue.
@@ -292,7 +292,7 @@ With asynchronous invocations (using the invocation type `Event`), the caller se
 
 Lambda Destinations let you specify where to send the outcome of an asynchronous invocation—whether it’s a success or a failure. When you configure a function for asynchronous invocations, you can set up two separate destinations:
 
-![lambda-destinations](./_assets/lambda-destinations.png)
+![lambda-destinations](../_assets/lambda-destinations.png)
 
 - **On Success:**  
     You can direct the successful response (or metadata about it) to a target such as an SNS topic, SQS queue, Lambda function, or an EventBridge bus. This enables downstream processing, notifications, or further actions once your function completes successfully.
@@ -337,7 +337,7 @@ Unintentional recursive loops can result in unexpected charges being billed to y
 
 Lambda currently detects recursive loops between your functions, Amazon SQS, Amazon S3, and Amazon SNS. The following diagrams show some examples of loops that Lambda can detect:
 
-![lambda-recursion](./_assets/lambda-recursion.png)
+![lambda-recursion](../_assets/lambda-recursion.png)
 
 When another AWS service such as Amazon DynamoDB forms part of the loop, Lambda can't currently detect and stop it.
 
@@ -359,7 +359,7 @@ Function URLs are dual stack-enabled, supporting IPv4 and IPv6. After you config
 
 As your function receives more concurrent requests, Lambda scales up the number of execution environment instances in response. The following animation tracks the number of concurrent requests over time:
 
-![lambda-concurrency](./_assets/lambda-concurrency.png)
+![lambda-concurrency](../_assets/lambda-concurrency.png)
 For example, at time `t1`, there are three active environments serving three concurrent requests. The maximum number of concurrent requests in this simulation occurs at time `t4`, when there are six active environments serving six concurrent requests.
 
 ### 18.1. Reserved Concurrency and Provisioned Concurrency
@@ -376,7 +376,7 @@ Reserved concurrency is the maximum number of concurrent instances that you want
 
 To better understand reserved concurrency, consider the following diagram:
 
-![lambda-reserved](./_assets/lambda-reserved.png)
+![lambda-reserved](../_assets/lambda-reserved.png)
 In this diagram, your account concurrency limit for all the functions in this Region is at the default limit of 1,000. Suppose you have two critical functions, `function-blue` and `function-orange`, that routinely expect to get high invocation volumes. You decide to give 400 units of reserved concurrency to `function-blue`, and 400 units of reserved concurrency to `function-orange`. In this example, all other functions in your account must share the remaining 200 units of unreserved concurrency.
 
 **2. Provisioned concurrency:**
@@ -417,7 +417,7 @@ There are multiple reasons why you might consider using layers:
 
 The following diagram illustrates the high-level architectural differences between two functions that share dependencies. One uses Lambda layers, and the other does not.
 
-![lambda-layers](./_assets/lambda-layers.png)
+![lambda-layers](../_assets/lambda-layers.png)
 
 When you add a layer to a function, Lambda extracts the layer contents into the `/opt` directory in your function’s execution environment. All natively supported Lambda runtimes include paths to specific directories within the `/opt` directory. This gives your function access to your layer content.
 
@@ -427,7 +427,7 @@ You can include up to five layers per function. Also, you can use layers only wi
 
 Lambda extensions are an addition to the AWS Lambda programming model that allow you to integrate additional functionality—such as monitoring, security, logging, and governance—directly into your function’s execution environment without modifying your function code.
 
-![lambda-extensions](./_assets/lambda-extensions.png)
+![lambda-extensions](../_assets/lambda-extensions.png)
 
 Extensions enable you to run additional processes alongside your Lambda function to perform tasks that are typically orthogonal to your business logic. Common use cases include:
 
@@ -453,7 +453,7 @@ You can build your own extensions or use ones provided by AWS partners. Once dev
 
 When you configure a Lambda function to run within a VPC, you’re effectively placing the function’s execution environment into your private network. This integration enables your function to communicate with other VPC resources that are not publicly accessible while still benefiting from the serverless, auto-scaling, and pay-as-you-go model of Lambda.
 
-![lambda-in-vpc](./_assets/lambda-in-vpc.png)
+![lambda-in-vpc](../_assets/lambda-in-vpc.png)
 ### 23.1. How It Works
 
 #### 1. **VPC Configuration for Lambda**

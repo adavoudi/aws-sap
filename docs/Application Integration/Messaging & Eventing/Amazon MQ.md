@@ -6,7 +6,7 @@ Organizations migrating to AWS often face a challenge when their on-premises app
 
 ## 2. Understanding the Need for Amazon MQ
 
-![amazon-mq](./_assets/amazon-mq.png)
+![amazon-mq](../_assets/amazon-mq.png)
 
 On-premises environments frequently rely on RabbitMQ or ActiveMQ because they support open messaging protocols out of the box. When these applications migrate to AWS and require the same interfaces, Amazon MQ steps in to offer broker compatibility without requiring a complete rewrite of messaging logic. 
 

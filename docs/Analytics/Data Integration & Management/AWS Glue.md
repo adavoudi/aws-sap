@@ -21,7 +21,7 @@ AWS Glue is a fully managed, serverless data integration service that simplifies
     AWS Glue integrates with AWS Identity and Access Management (IAM), Virtual Private Clouds (VPCs), and encryption protocols (both in transit and at rest). It also works with AWS Lake Formation and AWS CloudTrail for robust data governance and audit capabilities.
 ## 2. The Glue Data Catalog and Crawlers
 
-![glue-catalog](./_assets/glue-catalog.png)
+![glue-catalog](../_assets/glue-catalog.png)
 
 One of the foundational elements of AWS Glue is its **Data Catalog**. This central repository stores table definitions and schema information for your datasets while leaving the original data intact in S3. The **Glue Crawler** plays a vital role here—it scans your data periodically, infers schema details, and populates the Data Catalog automatically. With your data cataloged, you can leverage services such as Redshift Spectrum, Athena, EMR, and Quicksight to run queries on data that was once unstructured.
 ## 3. Organizing Data with S3 Partitions
@@ -37,7 +37,7 @@ Choosing the right partitioning scheme up front can significantly enhance query 
 For organizations that already leverage Apache Hive for SQL-like queries on large datasets, AWS Glue offers seamless integration. The Glue Data Catalog can function as a Hive metastore, allowing EMR clusters to run Hive queries on your data without needing a separate metastore. Moreover, you have the option to import an existing Hive metastore into Glue, simplifying the transition and integration process.
 ## 5. AWS Glue ETL Capabilities
 
-![glue](./_assets/glue.png)
+![glue](../_assets/glue.png)
 ### 5.1 Automated Code Generation and Customization
 
 AWS Glue’s ETL engine can automatically generate transformation code in **Scala** or **Python**, which you can further modify as needed. The service supports:
@@ -122,7 +122,7 @@ Starting from April 2020, AWS Glue supports serverless streaming ETL. This enabl
 
 ### 11.2 Visual Workflow Design with AWS Glue Studio
 
-![glue-studio](./_assets/glue-studio.png)
+![glue-studio](../_assets/glue-studio.png)
 
 AWS Glue Studio offers a visual interface that simplifies the creation of complex ETL workflows. With a drag-and-drop job editor, you can:
 
@@ -138,7 +138,7 @@ Data quality is paramount in any data processing pipeline. AWS Glue Data Quality
 
 ### 12.2 Visual Data Preparation with AWS Glue DataBrew
 
-![glue-databrew](./_assets/glue-databrew.png)
+![glue-databrew](../_assets/glue-databrew.png)
 
 AWS Glue DataBrew is a visual data preparation tool that streamlines the process of cleaning and transforming large datasets. It provides:
 

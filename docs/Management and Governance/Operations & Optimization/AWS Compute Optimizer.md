@@ -18,7 +18,7 @@ Compute Optimizer currently supports recommendations for multiple AWS compute re
 
 ## 3. How It Works
 
-![aws-cost-optimizer](./_assets/aws-cost-optimizer.png)
+![aws-cost-optimizer](../_assets/aws-cost-optimizer.png)
 
 
 1. **Data Collection:**  

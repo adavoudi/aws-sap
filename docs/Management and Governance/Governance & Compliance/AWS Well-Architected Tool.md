@@ -8,7 +8,7 @@ Cloud computing has become a foundational skill in today’s technology landscap
 
 At the core of the AWS WA Tool lies the **AWS Well-Architected Framework**—a set of best practices developed by AWS Solutions Architects from years of experience. This framework provides a structured approach to evaluating and optimizing your cloud workloads and is built around **six pillars**:
 
-![Well-Architected Framework - pillars](./_assets/well-architected_framework_-_pillars.png)
+![Well-Architected Framework - pillars](../_assets/well-architected_framework_-_pillars.png)
 
 - **Operational Excellence:**  
     Focuses on running, monitoring, and improving operations. It covers automation, change management, and process improvement.
@@ -35,7 +35,7 @@ These pillars are the foundation upon which the AWS WA Tool evaluates your archi
 
 The **AWS Well-Architected Tool** is a free service provided through the AWS Management Console. It helps you assess your cloud architecture against AWS’s best practices defined in the Well-Architected Framework. By guiding you through a series of detailed questions and assessments, the tool identifies potential risks and provides actionable recommendations for improvement.
 
-![Well-Architected Framework](./_assets/well-architected_framework.png)
+![Well-Architected Framework](../_assets/well-architected_framework.png)
 
 Key points include:
 

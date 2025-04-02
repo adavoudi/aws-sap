@@ -4,7 +4,7 @@
 
 Amazon Comprehend is a fully managed natural language processing (NLP) service offered by AWS that uses advanced machine learning—specifically deep learning—to uncover insights and relationships in unstructured text. It enables you to derive meaning from your text data without requiring any machine learning expertise. By automatically detecting language, sentiment, key phrases, entities, and syntax, Amazon Comprehend helps transform raw text into actionable information. This service scales effortlessly with your business needs and integrates seamlessly with other AWS services, making it ideal for a wide range of text analysis applications.  
 
-![aws-comprehend](./_assets/aws-comprehend.png)
+![aws-comprehend](../_assets/aws-comprehend.png)
 
 ## 2. Features and Capabilities
 

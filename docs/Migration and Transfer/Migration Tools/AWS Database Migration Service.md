@@ -71,7 +71,7 @@ AWS DMS orchestrates the migration through three main components:
 
 AWS DMS supports a wide variety of databases as both sources and targets:
 
-![dms-Sources and Targets](./_assets/dms-sources_and_targets.png)
+![dms-Sources and Targets](../_assets/dms-sources_and_targets.png)
 ### Sources
 
 - **On-Premises or EC2-Hosted Databases:** Oracle, Microsoft SQL Server, MySQL, MariaDB, PostgreSQL, MongoDB, SAP, DB2.
@@ -89,7 +89,7 @@ _Note:_ Some AWS services (e.g., Amazon Redshift, Kinesis Data Streams, OpenSear
 
 ## 7. AWS Schema Conversion Tool (SCT)
 
-![AWS Schema Conversion Tool](./_assets/aws_schema_conversion_tool.png)
+![AWS Schema Conversion Tool](../_assets/aws_schema_conversion_tool.png)
 
 The AWS Schema Conversion Tool (SCT) is a utility designed to simplify database migration by automating the conversion of your source database schema and related code (like stored procedures, functions, and triggers) to a format compatible with your target database. This tool is particularly useful when migrating from commercial databases (such as Oracle or SQL Server) to open-source databases (such as PostgreSQL or MySQL) or to AWS-managed databases like Amazon RDS and Amazon Aurora. It analyzes the source schema, identifies compatibility issues, and generates a migration assessment along with conversion scripts that you can then customize as needed.
 

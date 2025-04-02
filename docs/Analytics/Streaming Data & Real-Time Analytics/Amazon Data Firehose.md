@@ -6,7 +6,7 @@ Amazon Kinesis Data Firehose is a fully managed service designed to reliably cap
 
 ## 2. Core Concepts and Key Features
 
-![kinesis-data-firehose](./_assets/kinesis-data-firehose.png)
+![kinesis-data-firehose](../_assets/kinesis-data-firehose.png)
 
 Kinesis Data Firehose continuously captures streaming data from diverse producers—whether directly from applications, IoT devices, or even from Kinesis Data Streams—and delivers it to target destinations such as:
 

@@ -35,7 +35,7 @@ While both CloudHSM and AWS KMS provide encryption capabilities, their use cases
 
 With CloudHSM, the operational responsibilities are clearly delineated:
 
-![cloudhsm-Shared Responsibility Model](./_assets/cloudhsm-shared_responsibility_model.png)
+![cloudhsm-Shared Responsibility Model](../_assets/cloudhsm-shared_responsibility_model.png)
 
 - **AWS Responsibilities:**  
     AWS is responsible for the provision and initial configuration of the HSM hardware. It ensures that the devices are compliant with industry standards and physically secure.

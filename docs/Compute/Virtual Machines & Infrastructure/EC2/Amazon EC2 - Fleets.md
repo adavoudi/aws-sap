@@ -66,7 +66,7 @@ Additional options include policies for handling excess capacity, termination be
 
 The lifecycle of a fleet encompasses every stage—from when you submit a request to launch instances, through the period the fleet is actively managing capacity, to the eventual modification or cancellation of the request.
 
-![fleet-price](../_assets/fleet-price.png)
+![fleet-price](../../_assets/fleet-price.png)
 
 ### 7.1. Submission/Creation
 

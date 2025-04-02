@@ -12,7 +12,7 @@ The Domain Name System (DNS) is a hierarchical, decentralized naming system for 
 
 DNS functions as the backbone of Internet communication, and its design is based on a tree-like hierarchical structure. At the top of this hierarchy is the root zone, represented by a dot ("."). Below the root are top-level domains (TLDs) like .com, .org, and .gov, followed by second-level domains (for example, _example.com_), and potentially subdomains (such as _[www.example.com](http://www.example.com/)_ or _api.example.com_).
 
-![dns-structure](./_assets/dns-structure.png)
+![dns-structure](../_assets/dns-structure.png)
 
 Key points to remember:
 
@@ -119,7 +119,7 @@ Use cases for simple routing include:
 
 The weighted routing policy lets you distribute traffic among multiple resources based on assigned weights. For example, if you assign weights of 70, 20, and 10 to three different endpoints, Route 53 will direct approximately 70% of the traffic to the first endpoint, 20% to the second, and 10% to the third.
 
-![Weighted Routing Policy](./_assets/weighted_routing_policy.png)
+![Weighted Routing Policy](../_assets/weighted_routing_policy.png)
 
 Key details:
 
@@ -131,7 +131,7 @@ Key details:
 
 Latency-based routing directs users to the AWS endpoint that provides the lowest latency. This is determined by measuring the network latency between the user’s location and the available AWS regions. The primary benefit of this policy is improved performance and user experience.
 
-![Latency-Based Routing Policy](./_assets/latency-based_routing_policy.png)
+![Latency-Based Routing Policy](../_assets/latency-based_routing_policy.png)
 
 Considerations include:
 
@@ -142,7 +142,7 @@ Considerations include:
 
 Geolocation routing allows you to route traffic based on the geographic location of your users. You can specify regions, countries, or even states. For example, you might configure DNS so that users in Sri Lanka are directed to a server hosting a localized version of your website, while users in the United States are sent to a different endpoint.
 
-![Geolocation Routing Policy](./_assets/geolocation_routing_policy.png)
+![Geolocation Routing Policy](../_assets/geolocation_routing_policy.png)
 
 Important points:
 
@@ -153,7 +153,7 @@ Important points:
 
 Geoproximity routing is similar to geolocation routing but adds an additional layer of control by using a “bias” value. With geoproximity routing, you can shift the proportion of traffic between endpoints based on the relative distance of users to each endpoint, adjusted by a bias factor. Increasing the bias value for a particular endpoint effectively “expands” its influence area, directing more traffic to it.
 
-![Geoproximity Routing Policy](./_assets/geoproximity_routing_policy.png)
+![Geoproximity Routing Policy](../_assets/geoproximity_routing_policy.png)
 
 Key elements:
 
@@ -173,7 +173,7 @@ Use cases include:
 
 Multi-value answer routing allows you to return multiple healthy records in response to a DNS query. With this policy, Route 53 returns up to eight IP addresses (or other values) if they pass the associated health checks. This is particularly useful when you want client-side load balancing while ensuring that only healthy endpoints are served.
 
-![Multi-Value Answer Routing Policy](./_assets/multi-value_answer_routing_policy.png)
+![Multi-Value Answer Routing Policy](../_assets/multi-value_answer_routing_policy.png)
 
 Differences from simple routing:
 
@@ -184,7 +184,7 @@ Differences from simple routing:
 
 Failover routing is a specialized policy designed for disaster recovery. Under this policy, you designate one endpoint as “primary” and another as “secondary.” Health checks are required for the primary endpoint. If the primary endpoint becomes unhealthy, Route 53 automatically directs traffic to the secondary endpoint.
 
-![Failover Routing Policy](./_assets/failover_routing_policy.png)
+![Failover Routing Policy](../_assets/failover_routing_policy.png)
 
 Important aspects:
 
@@ -288,7 +288,7 @@ The Route 53 DNS Firewall is a managed security feature that filters outbound D
 - **Choose Failover Modes:** Configure the firewall in either “fail-close” mode (where queries are blocked if the firewall is unavailable) or “fail-open” mode (where queries are allowed if the firewall fails). The choice between these modes depends on whether security or availability is your primary concern.
 - **Integration with AWS Firewall Manager:** Manage and deploy firewall rules centrally across your organization.
 
-![Route 53 DNS Firewall](./_assets/route_53_dns_firewall.png)
+![Route 53 DNS Firewall](../_assets/route_53_dns_firewall.png)
 
 By filtering DNS traffic, the DNS Firewall enhances the overall security posture of your network while providing detailed logging and reporting capabilities.
 
@@ -315,7 +315,7 @@ Many organizations operate in a hybrid environment where resources are spread ac
 
 Route 53 Resolvers enable DNS queries to be resolved between your VPC and on-premises or external networks. There are two primary components:
 
-![hybrid-dns](./_assets/hybrid-dns.png)
+![hybrid-dns](../_assets/hybrid-dns.png)
 
 - **Inbound Endpoints:** These endpoints allow external DNS resolvers (for example, on-premises servers) to forward DNS queries to your Route 53 Resolver. This enables on-premises clients to resolve DNS names for AWS resources hosted in private hosted zones.
 - **Outbound Endpoints:** These endpoints enable DNS queries initiated from within your VPC to be forwarded to on-premises DNS resolvers. This is useful when you want AWS resources to resolve domain names for services that are hosted on-premises.

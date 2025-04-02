@@ -59,7 +59,7 @@ This centralized permission management system simplifies the administrative work
 
 ## 6. Multi-Account and Application Access
 
-![identity-Multi-Account](./_assets/identity-multi-account.png)
+![identity-Multi-Account](../_assets/identity-multi-account.png)
 
 Organizations with complex AWS environments often operate multiple accounts segmented by business units, development stages, or geographic regions. AWS IAM Identity Center is designed to efficiently manage access in such scenarios:
 

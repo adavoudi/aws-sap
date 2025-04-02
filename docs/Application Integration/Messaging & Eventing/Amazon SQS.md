@@ -34,7 +34,7 @@ This pattern maintains the scalability of SQS and offloads large data storage to
 
 ## 3. Understanding Dead Letter Queues
 
-![sqs-dlq](./_assets/sqs-dlq.png)
+![sqs-dlq](../_assets/sqs-dlq.png)
 
 ### 3.1. Why Dead Letter Queues Matter
 
@@ -68,7 +68,7 @@ Designing idempotent consumers is vital for preventing data corruption and ensur
 
 ## 5. Integrations with AWS Lambda
 
-![sqs-lambda](./_assets/sqs-lambda.png)
+![sqs-lambda](../_assets/sqs-lambda.png)
 
 SQS can trigger AWS Lambda functions through an **event source mapping**. Lambda’s poller automatically uses "long polling" on the SQS queue, retrieves messages in batches, and invokes your Lambda function. Considerations include:
 

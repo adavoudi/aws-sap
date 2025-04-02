@@ -14,7 +14,7 @@ An easy way to conceptualize Amplify is to think of it as an “Elastic Beanstal
 
 ### 2.1. Amplify Studio
 
-![amplify-studio](./_assets/amplify-studio.png)
+![amplify-studio](../_assets/amplify-studio.png)
 **Amplify Studio** offers a visual development environment that helps you design both the front-end UI and the backend for your application. It includes:
 
 - **Drag-and-drop UI building**: Construct React or other front-end frameworks visually.
@@ -25,7 +25,7 @@ Amplify Studio is particularly useful for teams looking for a low-code or no-cod
 
 ### 2.2. Amplify CLI
 
-![amplify-cli](./_assets/amplify-cli.png)
+![amplify-cli](../_assets/amplify-cli.png)
 
 For developers who prefer working with a terminal, the **Amplify CLI** provides a guided approach to creating and managing AWS resources for your app. After installing the CLI, you can initialize a new project with:
 
@@ -54,7 +54,7 @@ These libraries support popular frameworks and languages, including **React.js, 
 
 ### 2.4. Amplify Hosting
 
-![aplify-hosting](./_assets/aplify-hosting.png)
+![aplify-hosting](../_assets/aplify-hosting.png)
 **Amplify Hosting** is AWS’s fully managed CI/CD and hosting platform for modern web apps. Key capabilities include:
 
 - **Automated builds**: Every time you push code to your Git repository (e.g., GitHub, GitLab, Bitbucket, or AWS CodeCommit), Amplify can automatically build your front end.

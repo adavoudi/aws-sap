@@ -8,7 +8,7 @@ Amazon Elastic Compute Cloud (EC2) is a core service within Amazon Web Services 
 
 Amazon EC2 provides a variety of instance types so you can choose the type that best meets your requirements. Instance types are named based on their _instance family_ and _instance size_. The first position of the instance family indicates the _series_, for example `c`. The second position indicates the _generation_, for example `7`. The third position indicates the _options_, for example `gn`. After the period (`.`) is the instance size, such as `small` or `4xlarge`, or `metal` for bare metal instances.
 
-![ec2-instance-types](../_assets/ec2-instance-types.png)
+![ec2-instance-types](../../_assets/ec2-instance-types.png)
 
 | Series                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Options                                                                                                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -116,7 +116,7 @@ Reserved Instances provide a billing discount on your On‑Demand usage in excha
 
 The following diagram shows a basic scenario of purchasing and using Reserved Instances.
 
-![reserved-instance](../_assets/reserved-instance.png)
+![reserved-instance](../../_assets/reserved-instance.png)
 
 In this scenario, you have a running On-Demand Instance (T2) in your account, for which you're currently paying On-Demand rates. You purchase a Reserved Instance that matches the attributes of your running instance, and the billing benefit is immediately applied. Next, you purchase a Reserved Instance for a C4 instance. You do not have any running instances in your account that match the attributes of this Reserved Instance. In the final step, you launch an instance that matches the attributes of the C4 Reserved Instance, and the billing benefit is immediately applied.
 ### 4.3. Spot Instances
@@ -180,7 +180,7 @@ An AMI is specific to the following:
 	- **implicit**: Implicit launch permissions for an AMI.
 ### 5.1. AMI Lifecycle
 
-![ami-lifecycle](../_assets/ami-lifecycle.png)
+![ami-lifecycle](../../_assets/ami-lifecycle.png)
 - **Creation & Customization:**
     - Amazon offers pre-built AMIs, or you can create your own.
     - You can launch an instance from an existing AMI, customize it (e.g., install software, change OS settings), and then save the updated environment as a new AMI.
@@ -252,7 +252,7 @@ A key pair, consisting of a public key and a private key, is a set of security c
 
 Amazon EC2 stores the public key on your instance, and you store the private key, as shown in the following diagram. It's important that you store your private key in a secure place because anyone who possesses your private key can connect to your instances that use the key pair.
 
-![ec2-key-pair](../_assets/ec2-key-pair.png)
+![ec2-key-pair](../../_assets/ec2-key-pair.png)
 
 When you launch an instance, you can [specify a key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-launch-parameters.html#liw-key-pair), so that you can connect to your instance using a method that requires a key pair. Depending on how you manage your security, you can specify the same key pair for all your instances or you can specify different key pairs.
 
@@ -264,7 +264,7 @@ An Amazon EC2 instance transitions through different states from the moment you 
 
 The following illustration represents the transitions between instance states.
 
-![ec2-instance-state](../_assets/ec2-instance-state.png)
+![ec2-instance-state](../../_assets/ec2-instance-state.png)
 
 Amazon EC2 sends an `EC2 Instance State-change Notification` event to Amazon EventBridge when the state of an instance changes.
 
@@ -303,7 +303,7 @@ If an instance or application takes a long time to bootstrap and build a memory 
 
 **EC2 instance metadata** is a service provided by AWS that makes dynamic information about a running instance available to the instance itself. This data can be used by applications on the instance to discover configuration details about the instance, such as its identity, networking information, and assigned IAM role. Additionally, the service provides access to user data—information that you supply at launch (for example, a startup script).
 
-![ec2-metadata](../_assets/ec2-metadata.png)
+![ec2-metadata](../../_assets/ec2-metadata.png)
 
 The metadata is available via HTTP requests to the special IP address `169.254.169.254`. It exposes a structured hierarchy of information (e.g., `latest/meta-data/`, `latest/user-data/`).
 
@@ -339,7 +339,7 @@ Below is a comparison table summarizing the key characteristics of the main EC2 
 
 The following figure shows the relationship between these storage options and your instance.
 
-![ec2-storage](../_assets/ec2-storage.png)
+![ec2-storage](../../_assets/ec2-storage.png)
 ## 11. Conclusion
 
 Amazon EC2 is a powerful and versatile service that forms the backbone of many cloud architectures. With its broad array of instance types, flexible pricing models, robust security features, and deep integration with other AWS services, EC2 enables businesses and developers to build, scale, and secure applications efficiently. For comprehensive and up-to-date information, always refer to the [official documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html).

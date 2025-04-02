@@ -8,7 +8,7 @@ AWS Budgets is a core AWS cost management tool that empowers you to proactively 
 
 AWS Budgets is a powerful service that lets you monitor and control your spending. You can define budgets for different dimensions—usage, cost, reservations, or savings plans—and set up alerts that notify you when actual or forecasted usage exceeds the threshold you specify.
 
-![budgets](./_assets/budgets.png)
+![budgets](../_assets/budgets.png)
 
 You can set up optional notifications that warn you if you exceed, or are forecasted to exceed, your budgeted amount for cost or usage budgets. Or if you fall below your target utilization and coverage for RI or Savings Plans budgets. You can have notifications sent to an Amazon SNS topic, to an email address, or to both.
 
@@ -43,7 +43,7 @@ You can also configure multiple actions to initiate at the same notification thr
 
 In a centralized approach, the management account controls budgets for all member accounts within an Organization. You would create one budget per member account within the management account, applying filters that target the member account’s AWS billing data.
 
-![budget-centeralized](./_assets/budget-centeralized.png)
+![budget-centeralized](../_assets/budget-centeralized.png)
 
 1. **Budget Creation**: Define the budget in the management account, using filters to track spending for a specific member account.
 2. **Alert and Automation**:

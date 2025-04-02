@@ -6,7 +6,7 @@ Amazon GuardDuty is engineered to provide intelligent threat discovery across yo
 
 ## 2. Key Features and Capabilities
 
-![Amazon GuardDuty](./_assets/amazon_guardduty.png)
+![Amazon GuardDuty](../_assets/amazon_guardduty.png)
 
 ### 2.1. Machine Learning and Threat Detection
 
@@ -30,7 +30,7 @@ One of the significant benefits of GuardDuty is its ease of deployment. Activati
 
 GuardDuty generates security findings that serve as actionable alerts when suspicious behavior is detected. These findings are pivotal in alerting security teams to potential risks and facilitating timely remediation.
 
-![GuardDuty - findings](./_assets/guardduty_-_findings.png)
+![GuardDuty - findings](../_assets/guardduty_-_findings.png)
 
 ### 3.1. Types of Findings
 
@@ -62,7 +62,7 @@ To ensure that security automation workflows are effective, GuardDuty allows adm
 
 GuardDuty is tightly integrated with Amazon EventBridge. When a finding is detected, GuardDuty automatically sends an event to EventBridge. This integration facilitates real-time alerting and can trigger automated workflows. EventBridge’s robust rule engine allows organizations to define specific criteria and route these events to various AWS services, ensuring that security alerts are both timely and appropriately disseminated.
 
-![GuardDuty - integration](./_assets/guardduty_-_integration.png)
+![GuardDuty - integration](../_assets/guardduty_-_integration.png)
 
 Building on the EventBridge integration, organizations can set up automated responses using AWS Lambda and Simple Notification Service (SNS). For example:
 
@@ -93,7 +93,7 @@ Suppressed findings are not forwarded to downstream services like Security Hub, 
 
 ### 5.3. Multi-Account Management and Delegated Administration
 
-![GuardDuty - multi account](./_assets/guardduty_-_multi_account.png)
+![GuardDuty - multi account](../_assets/guardduty_-_multi_account.png)
 
 For organizations with multiple AWS accounts, GuardDuty provides robust multi-account management capabilities. Through AWS Organizations, an administrator account can centrally manage and monitor security findings across all member accounts. Key aspects include:
 

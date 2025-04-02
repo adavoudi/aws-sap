@@ -8,7 +8,7 @@
 
 At its core, EC2 Image Builder uses a pipeline that:
 
-![ec2-image-builder](./_assets/ec2-image-builder.png)
+![ec2-image-builder](../_assets/ec2-image-builder.png)
 
 - **Defines a Recipe:**  
 	This is a declarative document that specifies the base image and a list of components. Components are scripts or configuration steps that customize the image (for example, installing software packages, applying security hardening, or running tests).

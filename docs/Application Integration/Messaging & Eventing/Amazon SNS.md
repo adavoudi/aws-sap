@@ -5,7 +5,7 @@
 Amazon SNS is a fully managed, pub‑sub messaging service that lets you build distributed, decoupled, and scalable applications. It enables both application‑to‑application (A2A) and application‑to‑person (A2P) messaging by “pushing” notifications to subscribers via multiple supported protocols. With SNS, you can quickly set up topics, add subscribers, and deliver messages without the overhead of managing and scaling your own messaging infrastructure.
 ## 2. The Pub-Sub Pattern
 
-![pub-sub](./_assets/pub-sub.png)
+![pub-sub](../_assets/pub-sub.png)
 
 Traditionally, when a system needed to send notifications to multiple receivers—such as sending an email, notifying a fraud service, and placing a message onto an Amazon SQS queue—it required multiple direct integrations. Each new receiver meant more code, more endpoints, and more complexity.
 
@@ -21,7 +21,7 @@ This model allows for straightforward addition or removal of subscribers. You no
 
 ## 3. Architecture & Components
 
-![sns](./_assets/sns.png)
+![sns](../_assets/sns.png)
 
 **Topic**  
 A topic is the primary resource in SNS where a message is published. Once a message arrives, SNS automatically distributes copies to all subscribers.
@@ -49,7 +49,7 @@ SNS supports millions of subscriptions per topic, and you can create a large num
 Simple Notification Service (SNS) provides a flexible, fully managed message delivery mechanism within AWS. However, message delivery does not always succeed on the first try due to endpoint issues or network errors. This section explores how SNS handles message delivery retries and leverages dead letter queues (DLQs) to ensure important messages are not lost when all attempts fail. Understanding these retry and failure-handling processes is key to designing resilient systems.
 ### 4.1. Default Delivery Policy and Retries for Managed Endpoints
 
-![sns-retry](./_assets/sns-retry.png)
+![sns-retry](../_assets/sns-retry.png)
 
 When SNS sends messages to AWS-managed endpoints—such as Kinesis Data Firehose, AWS Lambda, or Amazon SQS—it applies a specific, preconfigured delivery policy. This policy is structured in distinct phases, aiming to ensure maximum persistence in delivering the message:
 

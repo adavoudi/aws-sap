@@ -5,7 +5,7 @@ AWS Security Hub is a central security tool that enables organizations to manage
 
 ## 2. Key Capabilities and Architecture
 
-![AWS Security Hub](./_assets/aws_security_hub.png)
+![AWS Security Hub](../_assets/aws_security_hub.png)
 
 At its core, AWS Security Hub is built to aggregate and correlate security findings from various sources. Key capabilities include:
 

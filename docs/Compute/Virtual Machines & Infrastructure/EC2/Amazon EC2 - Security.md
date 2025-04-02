@@ -73,7 +73,7 @@ An **instance profile** is essentially a container for an IAM role that you atta
 
 If you create an IAM role for EC2 using the IAM console, AWS automatically creates an instance profile with the same name as the role. However, if you use the AWS CLI, API, or SDKs to create roles, you must create the instance profile as a separate step and then add the role to it.
 
-![instance-profile](../_assets/instance-profile.png)
+![instance-profile](../../_assets/instance-profile.png)
 
 Each instance profile can contain only one IAM role. Although the same role can be used with multiple instance profiles, an EC2 instance may have only one instance profile attached at a time.
 

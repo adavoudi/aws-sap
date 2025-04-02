@@ -22,7 +22,7 @@ Applications running on AWS Wavelength utilize the same AWS APIs, tools, and ser
 
 The following diagram demonstrates how you can create a subnet that uses resources in a communications service provider (CSP) network at a specific location. For resources that must be deployed to the Wavelength Zone, first opt in to the Wavelength Zone, and then create resources in the Wavelength Zone.
 
-![wavelength](./_assets/wavelength.png)
+![wavelength](../_assets/wavelength.png)
 ## 4. Use Cases
 
 AWS Wavelength is particularly well-suited for a number of modern application scenarios:

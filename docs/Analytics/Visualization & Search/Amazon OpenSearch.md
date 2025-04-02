@@ -6,7 +6,7 @@
 
 ## 2. Core Concepts of Amazon OpenSearch
 
-![opensearch](./_assets/opensearch.png)
+![opensearch](../_assets/opensearch.png)
 
 Amazon OpenSearch provides distributed search, analytics, and visualization capabilities through components such as **OpenSearch** (for data indexing and search), **OpenSearch Dashboards** (for interactive visualization), and optional log ingestion tools like **Logstash**.
 

@@ -31,7 +31,7 @@ Key points:
 
 ### 2.3 VPC Building Blocks
 
-![vpc-core](./_assets/vpc-core.png)
+![vpc-core](../_assets/vpc-core.png)
 
 The fundamental components that form a VPC are analogous to elements in a physical network:
 
@@ -108,7 +108,7 @@ Route tables are at the very core of your VPC’s design because they determine 
     
 - **Custom Route Tables:**  
     For greater control, you can create custom route tables and associate them with specific subnets. For example, you might want public subnets (hosting web servers) to have routes to an Internet Gateway (IGW) while keeping private subnets (hosting databases) isolated from direct internet access. 
-	![custom-route-table](./_assets/custom-route-table.png)
+	![custom-route-table](../_assets/custom-route-table.png)
     When you create a custom route table, you must:
     
     - Add a route for the VPC’s CIDR (the local route), which you cannot remove.
@@ -131,7 +131,7 @@ Instances in private subnets do not have a direct route to the internet. To allo
 - **Overview:**  
     A NAT Gateway is a fully managed AWS service designed to allow instances in a private subnet to initiate outbound connections to the internet. It abstracts the complexity of managing your own NAT solution.
     
-    ![nat-gateway](./_assets/nat-gateway.png)
+    ![nat-gateway](../_assets/nat-gateway.png)
 - **Deployment:**
     - **Location:** A NAT Gateway must be launched in a public subnet.
     - **Elastic IP Requirement:** It requires an associated Elastic IP address, which becomes the public IP used for all outbound traffic from private instances.
@@ -183,7 +183,7 @@ Security is built into every layer of your AWS networking architecture. Two prim
 
 ### 5.1 Security Groups: Stateful Firewalls for Instances
 
-![vpc-security-group](./_assets/vpc-security-group.png)
+![vpc-security-group](../_assets/vpc-security-group.png)
 
 Security groups serve as virtual firewalls that control inbound and outbound traffic at the instance (ENI) level. **They only support “allow” rules.** Key details include:
 
@@ -206,7 +206,7 @@ Security groups serve as virtual firewalls that control inbound and outbound tra
 
 ### 5.2 Network ACLs (NACLs): Stateless Subnet-Level Security
 
-![network-acl](./_assets/network-acl.png)
+![network-acl](../_assets/network-acl.png)
 
 Network ACLs provide an additional layer of security at the subnet level. **They offer both “allow” and “deny” rules.** They differ from security groups in several ways:
 
@@ -248,7 +248,7 @@ As your AWS environment grows in complexity, advanced networking components beco
 
 ### 6.1 Elastic Network Interfaces (ENIs): Multi-IP Configurations and Use Cases
 
-![eni](./_assets/eni.png)
+![eni](../_assets/eni.png)
 ENIs are the virtual network adapters that provide network connectivity for your EC2 instances. They are fundamental to AWS networking for the following reasons:
 
 - **Primary and Secondary ENIs:**
@@ -316,7 +316,7 @@ Route 53 Resolver is the core DNS service used within VPCs:
 
 In hybrid environments where you have on-premises networks connected to your VPC via VPN or AWS Direct Connect, you may need DNS resolution across boundaries:
 
-![hybrid-dns](./_assets/hybrid-dns.png)
+![hybrid-dns](../_assets/hybrid-dns.png)
 
 - **Inbound Resolver Endpoints:** These allow DNS queries originating outside the VPC (for example, from an on-premises DNS server) to be forwarded to the Route 53 Resolver inside your VPC.
 - **Outbound Resolver Endpoints:** These endpoints forward DNS queries from within the VPC to an on-premises DNS server.
@@ -328,7 +328,7 @@ This capability is essential for seamless integration in hybrid architectures.
 
 Every VPC comes with a DHCP options set that provides configuration parameters to instances when they boot:
 
-![vpc-dhcp-option-set](./_assets/vpc-dhcp-option-set.png)
+![vpc-dhcp-option-set](../_assets/vpc-dhcp-option-set.png)
 
 - **Default Options:** The default DHCP option set assigns the Amazon-provided DNS server (the Route 53 Resolver) as the primary DNS.
 - **Custom Domain Names:** You can customize the DHCP options to define your private domain name (for example, “finance.internal”), which affects how EC2 instances form their hostnames.
@@ -342,7 +342,7 @@ Correctly configuring DNS and DHCP is critical for ensuring that your applicatio
 Operational excellence depends on visibility into your network’s performance and behavior. AWS offers several built-in tools to monitor, analyze, and troubleshoot VPC traffic.
 ### 8.1 VPC Flow Logs: Capturing Traffic for Security and Audits
 
-![flow-logs](./_assets/flow-logs.png)
+![flow-logs](../_assets/flow-logs.png)
 
 VPC Flow Logs are a critical tool for capturing and analyzing network traffic metadata within your VPC. They provide insight into what traffic is flowing to and from your resources:
 
@@ -469,7 +469,7 @@ For traffic passing through the transit gateway’s requester-managed interfaces
 ```
 ### 8.2 Traffic Mirroring: Deep Packet Inspection for Analysis
 
-![traffic-mirroring](./_assets/traffic-mirroring.png)
+![traffic-mirroring](../_assets/traffic-mirroring.png)
 
 Traffic Mirroring is a feature that allows you to capture a real-time copy of network traffic from an ENI and send it to a designated monitoring appliance:
 
@@ -491,7 +491,7 @@ Traffic Mirroring is a feature that allows you to capture a real-time copy of ne
 
 ### 8.3 VPC Reachability Analyzer: Diagnosing Network Paths
 
-![VPC Reachability Analyzer](./_assets/vpc_reachability_analyzer.png)
+![VPC Reachability Analyzer](../_assets/vpc_reachability_analyzer.png)
 
 The VPC Reachability Analyzer is a tool that helps you verify whether traffic can flow between specified source and destination endpoints in your VPC:
 
@@ -508,7 +508,7 @@ AWS provides multiple options to connect VPCs to each other and to external netw
 
 ### 9.1 VPC Peering: Connecting VPCs Securely
 
-![VPC Peering](./_assets/vpc_peering.png)
+![VPC Peering](../_assets/vpc_peering.png)
 
 VPC peering establishes a private link between two VPCs over the AWS internal network. When two VPCs are peered:
 
@@ -580,7 +580,7 @@ There are two types of VPC endpoints:
 
 #### 9.2.1 Gateway Endpoints (S3, DynamoDB)
 
-![Gateway Endpoints](./_assets/gateway_endpoints.png)
+![Gateway Endpoints](../_assets/gateway_endpoints.png)
 
 Gateway endpoints are the simplest form of VPC endpoints and are designed specifically for connecting your VPC privately with Amazon S3 and DynamoDB.
 

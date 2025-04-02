@@ -8,7 +8,7 @@ Amazon SES is a cloud‐based email platform designed to help businesses and dev
 
 Amazon SES empowers you to send both bulk and individual emails in a secure, reliable way. Whether you need to distribute transactional messages like password resets or marketing campaigns to thousands of users, the service scales seamlessly.
 
-![ses-arch](./_assets/ses-arch.png)
+![ses-arch](../_assets/ses-arch.png)
 
 - **Cost‑Effective & Scalable:**  
     You pay based on the volume of emails sent and received with no upfront fees. The service automatically scales to meet high-volume demands, and EC2 users even benefit from a free tier of up to 2,000 emails per day.  
@@ -27,14 +27,14 @@ Amazon SES empowers you to send both bulk and individual emails in a secure, rel
 
 ## 3. Bulk Email and Transactional Email
 
-![ses-send](./_assets/ses-send.png)
+![ses-send](../_assets/ses-send.png)
 
 - **High-Volume Sending**: Built-in scaling ensures you can send large volumes of emails without extensive infrastructure management.
 - **Delivery Analytics**: Track deliveries, opens, bounces, and complaints to refine how and when you engage your audience.
 
 ## 4. IP Address Management
 
-![ses-ip](./_assets/ses-ip.png)
+![ses-ip](../_assets/ses-ip.png)
 
 - **Shared IPs**: Perfect for smaller workloads or those starting out, where you share sending IP addresses with other SES customers.
 - **Dedicated IPs**: Ideal for high-volume scenarios where you want tight control over your sender reputation.
@@ -44,7 +44,7 @@ Amazon SES empowers you to send both bulk and individual emails in a secure, rel
 
 ## 5. Reputation Dashboard
 
-![ses-rep-dash](./_assets/ses-rep-dash.png)
+![ses-rep-dash](../_assets/ses-rep-dash.png)
 
 Monitoring how your emails are received by the inbox providers is crucial. The built-in reputation dashboard:
 
@@ -73,7 +73,7 @@ Additionally, configuration sets support **IP Pool Management**, enabling you to
 
 ## 7. Typical Architecture and Data Flow
 
-![ses-sample-arch](./_assets/ses-sample-arch.png)
+![ses-sample-arch](../_assets/ses-sample-arch.png)
 
 1. Amazon [SES publishes email sending events](https://docs.aws.amazon.com/ses/latest/dg/monitor-using-event-publishing.html) to Amazon Kinesis Data Firehose using a default [configuration set](https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html).
 2. Amazon Kinesis Data Firehose Delivery Stream stores event data in an Amazon Simple Storage Service (Amazon S3) bucket, known as the Destination bucket.

@@ -14,7 +14,7 @@ AWS Storage Gateway offers several distinct configurations, each optimized for s
 
 The S3 File Gateway is designed to provide seamless access to Amazon S3 buckets using standard file protocols such as NFS and SMB. Its key features include:
 
-![S3 File Gateway](./_assets/s3_file_gateway.png)
+![S3 File Gateway](../_assets/s3_file_gateway.png)
 
 - **Protocol Translation:** It converts file-based access requests into secure HTTPS calls that interact with Amazon S3. This means on-premises applications perceive the gateway as a conventional file share, while all data is stored in an S3 bucket.
 - **Storage Class Flexibility:** Users can leverage various S3 storage classes (for instance, S3 Standard, S3 Standard-Infrequent Access, S3 One Zone-Infrequent Access, and S3 Intelligent-Tiering). Although direct storage in archival classes like Glacier isn’t supported, lifecycle policies can transition data as needed.
@@ -35,7 +35,7 @@ While Amazon FSx for Windows File Server can be directly accessed from on-premis
 
 The Volume Gateway provides block storage functionality by exposing iSCSI volumes that are backed by cloud storage. It operates in two distinct modes:
 
-![Volume Gateway](./_assets/volume_gateway.png)
+![Volume Gateway](../_assets/volume_gateway.png)
 
 - **Cached Volumes:** In this mode, frequently accessed data is stored locally, while the complete dataset remains in Amazon S3. This configuration minimizes on-premises storage requirements while still offering low-latency access to active data.
 - **Stored Volumes:** The entire dataset is retained on-premises, with periodic backups to Amazon S3. This mode is particularly useful when low-latency access to the entire dataset is essential, and backups are required for disaster recovery.
@@ -48,7 +48,7 @@ Historically, "tape" refers to magnetic tape—a storage medium used for decades
 
 For organizations that rely on traditional tape backup processes, the Tape Gateway offers a modern, cloud-enabled solution:
 
-![Tape Gateway](./_assets/tape_gateway.png)
+![Tape Gateway](../_assets/tape_gateway.png)
 
 - **Virtual Tape Library (VTL):** The Tape Gateway emulates a physical tape library, enabling existing backup applications to interface with it via the iSCSI protocol.
 - **Cloud-based Backup Storage:** Virtual tapes created by the gateway are stored in Amazon S3, with lifecycle policies available to archive data to Amazon Glacier or Glacier Deep Archive for long-term retention.

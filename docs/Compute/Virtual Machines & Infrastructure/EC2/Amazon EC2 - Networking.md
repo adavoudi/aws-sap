@@ -8,7 +8,7 @@ Amazon EC2’s networking capabilities are designed to give you complete control
 
 Amazon VPC enables you to provision a private, isolated section of the AWS Cloud where you can launch your EC2 instances. You determine the IP address range, create subnets, and configure route tables and network gateways to control connectivity both within the cloud and to your on-premises networks.
 
-![ec2-vpc](../_assets/ec2-vpc.png)
+![ec2-vpc](../../_assets/ec2-vpc.png)
 
 AWS offers various connectivity solutions such as VPC peering, AWS Transit Gateway, and VPN connections to extend your network to on-premises data centers or between different VPCs.
 
@@ -79,7 +79,7 @@ The Elastic Fabric Adapter is a network interface designed to support applicatio
 
 Placement groups are a critical component for optimizing the physical placement of EC2 instances to meet specific application requirements, whether that be low latency, high throughput, or fault isolation. AWS provides three distinct types of placement groups:
 
-![ec2-placement-groups](../_assets/ec2-placement-groups.png)
+![ec2-placement-groups](../../_assets/ec2-placement-groups.png)
 
 
 Here’s a comparison table for EC2 placement groups:

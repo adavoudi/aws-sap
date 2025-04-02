@@ -6,7 +6,7 @@ In today’s fast‐paced cloud environments, managing and securing resource con
 
 ### 1.1. What Is AWS Config?
 
-![AWS Config](./_assets/aws_config.png)
+![AWS Config](../_assets/aws_config.png)
 
 AWS Config is designed to help you understand the current and historical configuration of your AWS environment. It records the state of your AWS resources, including their relationships and changes over time, and delivers configuration snapshots and change histories to a destination of your choice, such as an Amazon S3 bucket. In short, AWS Config acts as a continuous monitoring service that provides:
 

@@ -4,7 +4,7 @@
 
 AWS Device Farm offers a streamlined way to test mobile and web applications across a variety of real devices. By running tests on hardware that mirrors actual end-user environments, developers and QA teams can identify device-specific issues more reliably. With automated test frameworks, robust logging, and remote debugging, AWS Device Farm helps ensure apps run smoothly on the broadest set of browsers and devices.
 
-![device-farm](./_assets/device-farm.png)
+![device-farm](../_assets/device-farm.png)
 
 ## 2. Key Capabilities  
 

@@ -14,7 +14,7 @@ Trusted Advisor essentially serves as an automated auditor, ensuring that your a
 
 ## 2. How Does AWS Trusted Advisor Work?
 
-![AWS Trusted Advisor - status](./_assets/aws_trusted_advisor_-_status.png)
+![AWS Trusted Advisor - status](../_assets/aws_trusted_advisor_-_status.png)
 
 Trusted Advisor continuously scans your AWS environment and compares its configuration and usage patterns against AWS best practices. Its dashboard uses a simple, intuitive color‑coding system to communicate the status of each check:
 
@@ -24,7 +24,7 @@ Trusted Advisor continuously scans your AWS environment and compares its configu
 
 For example, when planning a new RDS deployment, if Trusted Advisor detects that some existing RDS instances have been idle for over 30 days, you might repurpose an idle instance rather than provisioning a new one—thus saving costs.
 
-![AWS Trusted Advisor - example](./_assets/aws_trusted_advisor_-_example.png)
+![AWS Trusted Advisor - example](../_assets/aws_trusted_advisor_-_example.png)
 
 The Trusted Advisor checks cover a wide array of services and aspects of your infrastructure, grouped primarily into four categories:
 

@@ -5,7 +5,7 @@
 AWS Firewall Manager is a centralized security management service designed to simplify the administration and enforcement of firewall rules across multiple AWS accounts within an organization. By enabling security teams to define and propagate a common set of security policies, Firewall Manager ensures a consistent security posture across diverse resources and accounts, streamlining compliance and reducing operational overhead.
 ## 2. Overview of AWS Firewall Manager
 
-![AWS Firewall Manager](./_assets/aws_firewall_manager.png)
+![AWS Firewall Manager](../_assets/aws_firewall_manager.png)
 
 AWS Firewall Manager is engineered to provide a single pane of glass for managing firewall rules across your entire AWS Organization. Key features include:
 

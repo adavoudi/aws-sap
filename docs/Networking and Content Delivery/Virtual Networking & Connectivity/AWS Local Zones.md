@@ -8,7 +8,7 @@ AWS Local Zones have emerged as a solution for modern applications that demand u
 
 At its core, AWS Local Zones are an extension of an existing AWS Region. Typically, a region consists of multiple Availability Zones (AZs) that provide geographic redundancy and fault tolerance. However, these AZs are often located at considerable distances from major metropolitan centers, which may introduce unacceptable network latencies for certain applications. AWS Local Zones address this challenge by allowing customers to extend their AWS Regions into new, strategically located zones.
 
-![AWS Local Zones](./_assets/aws_local_zones.png)
+![AWS Local Zones](../_assets/aws_local_zones.png)
 
 ### 2.1. Key Concepts
 

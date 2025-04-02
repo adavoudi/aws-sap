@@ -7,7 +7,7 @@ For Systems Manager to work, your nodes must be _managed_. This means the SSM Ag
 
 The unified console also includes a powerful dashboard that offers a high‑level overview of your nodes. You can drill down to view detailed insights—such as outdated operating system versions—and use advanced filters based on metadata (like OS, OS version, AWS Region, account, and SSM Agent version). This capability lets you quickly retrieve relevant information at both an account and application level across your organization.
 
-![ssm-arch](./_assets/ssm-arch.png)
+![ssm-arch](../_assets/ssm-arch.png)
 
 ## 2. How Can Systems Manager Benefit My Operations?
 
@@ -54,7 +54,7 @@ This legacy naming underscores the deep integration of SSM across AWS services.
 
 The unified Systems Manager console is a consolidated interface that brings together a variety of tools to help you perform common node management tasks across multiple AWS accounts and Regions—or within a single account and Region. Whether your nodes are EC2 instances, hybrid servers, or part of a multicloud environment, the unified console provides comprehensive insights and management capabilities.
 
-![ssm-unified-console-1](./_assets/ssm-unified-console-1.png)
+![ssm-unified-console-1](../_assets/ssm-unified-console-1.png)
 
 Within the console, you can:
 
@@ -62,7 +62,7 @@ Within the console, you can:
 - Diagnose and remediate issues—such as connectivity problems that prevent nodes from being recognized as managed.
 - View specific details like software inventories and patching statuses.
 
-![ssm-unified-console-2](./_assets/ssm-unified-console-2.png)
+![ssm-unified-console-2](../_assets/ssm-unified-console-2.png)
 
 For example, a company operating across several Regions can use the unified console to quickly drill down into problematic instances, filter nodes based on criteria like OS version or SSM Agent version, and execute corrective actions—all from a single, cohesive dashboard. As AWS continues to enhance the unified console, more node management tasks are being integrated, making it the recommended interface for efficient and effective infrastructure management.
 
@@ -285,7 +285,7 @@ Maintenance Windows execute tasks defined in Run Command, Automation, Lambda, or
 
 Compliance aggregates data from Patch Manager and State Manager into a centralized dashboard. 
 
-![ssm-compliance](./_assets/ssm-compliance.png)
+![ssm-compliance](../_assets/ssm-compliance.png)
 
 ### 16.1. Remediating Non‑Compliant Resources
 
@@ -300,7 +300,7 @@ In the **Compliance UI**, if an instance is non-compliant for patches, the cons
  It’s essentially an operational dashboard where you can view alerts and issues from multiple AWS services and manage them through their lifecycle (investigate -> remediate -> resolve). OpsCenter is designed to reduce Mean Time to Resolution by providing context and tooling in one place. For example, CloudWatch alarms, Config rule violations, Security Hub findings, and Systems Manager itself (like compliance or automation failures) can all create OpsItems in OpsCenter. Instead of jumping between CloudWatch, Config, etc., OpsCenter shows a list of issues with details, and for each OpsItem, it pulls in **contextual data**: information about the resource involved, related AWS Config changes, CloudTrail logs, CloudWatch metrics graphs, and even links to relevant runbooks or past similar OpsItems.
 
 
-![ssm-ops-center](./_assets/ssm-ops-center.png)
+![ssm-ops-center](../_assets/ssm-ops-center.png)
 
 ### 17.1. Creating and Managing OpsItems
 
