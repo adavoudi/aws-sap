@@ -115,7 +115,7 @@ The following diagram illustrates a conceptual flow of data from producers to mu
 
 ```mermaid
 flowchart LR
-    A["Producers\n(Web Apps, IoT Devices, etc.)"] --> B[Kinesis Data Streams]
+    A["Producers<br />(Web Apps, IoT Devices, etc.)"] --> B[Kinesis Data Streams]
     B --> C[Custom Consumer / KCL]
     B --> D[AWS Lambda]
     B --> E[Kinesis Data Firehose]

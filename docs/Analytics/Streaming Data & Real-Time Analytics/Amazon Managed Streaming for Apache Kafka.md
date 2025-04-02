@@ -20,10 +20,10 @@ The following diagram illustrates the flow of data and the key components within
 
 ```mermaid
 flowchart LR
-    A[Producers] -->|Publish Messages| B["MSK Cluster\n(Kafka Brokers & Metadata Management)"]
+    A[Producers] -->|Publish Messages| B["MSK Cluster<br />(Kafka Brokers & Metadata Management)"]
     B -->|Stream Data| C[Kafka Topic]
     C -->|Pull Messages| D[Consumers]
-    D -->|Processing & Storage| E[S3, EMR, RDS,\nAnalytics Services, etc.]
+    D -->|Processing & Storage| E[S3, EMR, RDS,<br />Analytics Services, etc.]
 ```
 
 **Brokers and ZooKeeper:**

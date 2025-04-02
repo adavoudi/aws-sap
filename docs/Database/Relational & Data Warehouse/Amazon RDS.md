@@ -21,7 +21,7 @@ Each engine comes with its own set of features and configurations, so you can ch
 
 Amazon RDS offers a lot of features, but not all features are available in every DB engine. The following table lists each feature and available RDS DB engine. 
 
-| Feature                                                          | RDS for Db2 | RDS for MariaDB | RDS \nfor MySQL | RDS for Oracle | RDS for PostgreSQL | RDS for SQL Server |
+| Feature                                                          | RDS for Db2 | RDS for MariaDB | RDS <br />for MySQL | RDS for Oracle | RDS for PostgreSQL | RDS for SQL Server |
 | ---------------------------------------------------------------- | ----------- | --------------- | ----------------- | -------------- | ------------------ | ------------------ |
 | Blue/Green Deployments                                           | ❌           | ✅               | ✅                 | ❌              | ✅                  | ❌                  |
 | Cross-Region automated backups                                   | ✅           | ✅               | ✅                 | ✅              | ✅                  | ✅                  |

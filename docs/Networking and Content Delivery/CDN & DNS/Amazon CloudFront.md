@@ -468,16 +468,16 @@ To help you understand the difference between CloudFront Functions and Lambda@Ed
 
 |                               | **CloudFront Functions**                      | **Lambda@Edge**                                                              |
 | ----------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
-| Runtime support               | JavaScript  \n(ECMAScript 5.1 compliant)    | Node.js, Python                                                              |
-| Execution location            | 218+ CloudFront  \n**Edge Locations**       | 13 CloudFront  \n**Regional Edge Caches**                                  |
-| CloudFront triggers supported | Viewer request  \nViewer response           | Viewer request  \nViewer response  \nOrigin request  \nOrigin response |
-| Maximum execution time        | Less than 1 millisecond                       | 5 seconds (viewer triggers)  \n30 seconds (origin triggers)                |
-| Maximum memory                | 2MB                                           | 128MB (viewer triggers)  \n10GB (origin triggers)                          |
-| Total package size            | 10 KB                                         | 1 MB (viewer triggers)  \n50 MB (origin triggers)                          |
+| Runtime support               | JavaScript  <br />(ECMAScript 5.1 compliant)    | Node.js, Python                                                              |
+| Execution location            | 218+ CloudFront  <br />**Edge Locations**       | 13 CloudFront  <br />**Regional Edge Caches**                                  |
+| CloudFront triggers supported | Viewer request  <br />Viewer response           | Viewer request  <br />Viewer response  <br />Origin request  <br />Origin response |
+| Maximum execution time        | Less than 1 millisecond                       | 5 seconds (viewer triggers)  <br />30 seconds (origin triggers)                |
+| Maximum memory                | 2MB                                           | 128MB (viewer triggers)  <br />10GB (origin triggers)                          |
+| Total package size            | 10 KB                                         | 1 MB (viewer triggers)  <br />50 MB (origin triggers)                          |
 | Network access                | No                                            | Yes                                                                          |
 | File system access            | No                                            | Yes                                                                          |
 | Access to the request body    | No                                            | Yes                                                                          |
-| Pricing                       | Free tier available;  \ncharged per request | No free tier; charged per request and function duration                      |
+| Pricing                       | Free tier available;  <br />charged per request | No free tier; charged per request and function duration                      |
 
 In many architectures, you might use a combination of both approaches—CloudFront Functions for ultra-fast, simple tasks, and Lambda@Edge for more sophisticated processing.
 

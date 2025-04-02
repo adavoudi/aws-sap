@@ -86,9 +86,9 @@ Here’s a comparison table for EC2 placement groups:
 
 | **Placement Type**       | **Benefits**                                                                 | **Considerations**                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| **Cluster Placement** 🏢 | 🐇 **Low Latency**: Ideal for rapid inter-instance communication. \n 🚀 **High Throughput**: Optimized for HPC workloads. | 🏠 **Single AZ Only**: All instances must reside in one Availability Zone. \n ⚠️ **Capacity Limits**: Risk of constraints for large deployments. |
-| **Spread Placement** 🌐  | 🛡️ **Fault Isolation**: Instances on separate hardware. \n 🌟 **Critical Apps**: High-availability focus. | 🔢 **Instance Limits**: Up to 7 instances per group. \n ⚖️ **Scalability Issues**: Not ideal for large-scale workloads. |
-| **Partition Placement** 🧩 | 💪 **Resilience**: Failures in one partition don’t affect others. \n 🌐 **Optimized Network**: High bandwidth within partitions. \n 📈 **Scalability**: Supports large-scale distributed workloads. | 🏗️ **Multi-Rack Setup**: Instances spread across racks in the same AZ. \n 🧠 **Complex Planning**: Requires careful partition sizing and balancing. |
+| **Cluster Placement** 🏢 | 🐇 **Low Latency**: Ideal for rapid inter-instance communication. <br /> 🚀 **High Throughput**: Optimized for HPC workloads. | 🏠 **Single AZ Only**: All instances must reside in one Availability Zone. <br /> ⚠️ **Capacity Limits**: Risk of constraints for large deployments. |
+| **Spread Placement** 🌐  | 🛡️ **Fault Isolation**: Instances on separate hardware. <br /> 🌟 **Critical Apps**: High-availability focus. | 🔢 **Instance Limits**: Up to 7 instances per group. <br /> ⚖️ **Scalability Issues**: Not ideal for large-scale workloads. |
+| **Partition Placement** 🧩 | 💪 **Resilience**: Failures in one partition don’t affect others. <br /> 🌐 **Optimized Network**: High bandwidth within partitions. <br /> 📈 **Scalability**: Supports large-scale distributed workloads. | 🏗️ **Multi-Rack Setup**: Instances spread across racks in the same AZ. <br /> 🧠 **Complex Planning**: Requires careful partition sizing and balancing. |
 
 ### 6.1. Cluster Placement Groups
 
