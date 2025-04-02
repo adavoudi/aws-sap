@@ -1,4 +1,4 @@
-# EC2 Fleet and Spot Fleet
+# Amazon EC2 - Fleets
 
 ## 1. Introduction
 
