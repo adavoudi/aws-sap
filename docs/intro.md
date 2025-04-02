@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Study Plan
 
+_A comprehensive guide to help you prepare for the AWS Certified Solutions Architect – Professional exam. This structured study plan moves from foundational AWS services to advanced topics, covering all the services in the [exam guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf)._
+
 ## Phase 1: Foundations & Core Services
 
 ### 1. Compute Fundamentals

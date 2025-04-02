@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'AWS Pro Architect Prep',
-  tagline: 'Prepare for AWS Certified Solutions Architect - Professional',
+  tagline: 'Master AWS and pass the AWS Certified Solutions Architect – Professional exam',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
