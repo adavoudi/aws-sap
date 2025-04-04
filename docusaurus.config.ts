@@ -97,6 +97,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://adavoudi.info/posts',
+          label: 'Blog',
+          position: 'left',
+        },
       ],
     },
     footer: {
