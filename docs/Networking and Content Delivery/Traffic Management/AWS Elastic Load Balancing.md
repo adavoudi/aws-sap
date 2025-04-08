@@ -379,7 +379,10 @@ In addition to hybrid on-premises connectivity, AWS also supports multi-VPC and 
 - **VPC Peering:**  
     VPC peering allows two or more VPCs to communicate as if they were within the same network. When an Application Load Balancer in one VPC needs to route traffic to EC2 instances in another peered VPC, target groups are defined with the private IP addresses of the instances.
 - **Inter-Region Load Balancing:**  
-    Although more complex, it is possible to configure load balancing across AWS regions using features like Route 53 and global accelerator services. This ensures that users are directed to the closest available region, thereby reducing latency.
+    Although more complex, it is possible to configure load balancing across AWS regions using features like Route 53 and global accelerator services. This ensures that users are directed to the closest available region, thereby reducing latency. For more information, please refer to [this AWS document](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/cross-region-dns-based-load-balancing-and-failover.html).
+
+    ![Cross-Region Load balancing](../_assets/cross-region-load-balancing.png)
+    
 
 #### 5.1.4 Internet-Facing vs. Internal Load Balancers
 
