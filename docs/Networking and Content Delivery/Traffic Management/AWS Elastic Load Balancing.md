@@ -372,13 +372,13 @@ When using an Application Load Balancer in a hybrid scenario:
 - **Routing Considerations:**  
     Depending on the latency and performance requirements, you may choose to create separate target groups for on-premises and AWS-based workloads. Advanced routing rules can then direct traffic appropriately, enabling a seamless user experience.
 
-#### 5.1.3 VPC Peering and Inter-Region Connectivity
+#### 5.1.3 VPC Peering and Cross-Region Connectivity
 
-In addition to hybrid on-premises connectivity, AWS also supports multi-VPC and inter-region deployments:
+In addition to hybrid on-premises connectivity, AWS also supports multi-VPC and cross-region deployments:
 
 - **VPC Peering:**  
     VPC peering allows two or more VPCs to communicate as if they were within the same network. When an Application Load Balancer in one VPC needs to route traffic to EC2 instances in another peered VPC, target groups are defined with the private IP addresses of the instances.
-- **Inter-Region Load Balancing:**  
+- **Cross-Region Load Balancing:**  
     Although more complex, it is possible to configure load balancing across AWS regions using features like Route 53 and global accelerator services. This ensures that users are directed to the closest available region, thereby reducing latency. For more information, please refer to [this AWS document](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/cross-region-dns-based-load-balancing-and-failover.html).
 
     ![Cross-Region Load balancing](../_assets/cross-region-load-balancing.png)
