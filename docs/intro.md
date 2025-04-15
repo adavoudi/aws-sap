@@ -55,8 +55,8 @@ _A comprehensive guide to help you prepare for the AWS Certified Solutions Archi
 
 #### Object, Block, & File Storage
 - [Amazon S3](Storage/Object,%20Block,%20&%20File%20Storage/Amazon%20S3)
-- [Amazon Elastic Block Storage (EBS)](Storage/Object,%20Block,%20&%20File%20Storage/Amazon%20Elastic%20Block%20Storage%20(EBS))
-- [Amazon Elastic File System (EFS)](Storage/Object,%20Block,%20&%20File%20Storage/Amazon%20Elastic%20File%20System%20(EFS))
+- [Amazon Elastic Block Storage (EBS)](Storage/Object,%20Block,%20&%20File%20Storage/Amazon%20Elastic%20Block%20Storage)
+- [Amazon Elastic File System (EFS)](Storage/Object,%20Block,%20&%20File%20Storage/Amazon%20Elastic%20File%20System)
 - [Amazon FSx](Storage/Object,%20Block,%20&%20File%20Storage/Amazon%20FSx)
 
 #### Backup & Disaster Recovery
