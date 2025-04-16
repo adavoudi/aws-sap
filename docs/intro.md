@@ -199,7 +199,7 @@ _A comprehensive guide to help you prepare for the AWS Certified Solutions Archi
 
 #### Migration Tools
 - [AWS Application Discovery Service](Migration%20and%20Transfer/Migration%20Tools/AWS%20Application%20Discovery%20Service)
-- [AWS Application Migration Service (MGN)](Migration%20and%20Transfer/Migration%20Tools/AWS%20Application%20Migration%20Service%20(MGN))
+- [AWS Application Migration Service (MGN)](Migration%20and%20Transfer/Migration%20Tools/AWS%20Application%20Migration%20Service)
 - [AWS Database Migration Service](Migration%20and%20Transfer/Migration%20Tools/AWS%20Database%20Migration%20Service)
 - [AWS DataSync](Migration%20and%20Transfer/Migration%20Tools/AWS%20DataSync)
 - [AWS Migration Evaluator](Migration%20and%20Transfer/Migration%20Tools/AWS%20Migration%20Evaluator)
