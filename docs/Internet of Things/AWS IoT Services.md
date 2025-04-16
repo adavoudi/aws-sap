@@ -94,6 +94,14 @@ For IoT devices operating in locations with intermittent or limited connectivity
 
 Additionally, Greengrass supports **Connectors** that simplify integration with common third-party applications, on-premises software, and other AWS services. This feature extends device capabilities and accelerates new deployments.
 
+
+:::tip
+
+AWS Snowball devices are primarily designed for data transfer, not for ongoing local real-time inference. Deploying continuous inference on a Snowball is not an optimal or intended use case. On the other hand, AWS IoT Greengrass is designed precisely for extending cloud capabilities—such as running ML models—to the edge. 
+
+:::
+
+
 ## 7. AWS IoT SiteWise
 
 ![iot-sitewise](./_assets/iot-sitewise.png)

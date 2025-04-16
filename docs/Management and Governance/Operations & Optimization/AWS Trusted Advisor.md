@@ -48,6 +48,12 @@ Trusted Advisor recommends actions such as:
 
 These recommendations can help significantly lower your AWS bills by eliminating waste.
 
+:::tip
+
+For EC2 Instances, it checks any instances that were running at any time during the last 14 days. This check alerts you if the daily CPU utilization was 10% or less and network I/O was 5 MB or less for at least 4 days.
+
+:::
+
 ### 3.2 Security
 
 Security checks help you harden your environment by:
