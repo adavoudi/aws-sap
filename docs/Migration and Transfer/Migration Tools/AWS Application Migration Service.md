@@ -70,7 +70,6 @@ The service continuously replicates your source servers into your AWS account. O
     
 - **Training and Documentation:**  
     AWS provides extensive online training, detailed user guides, and best practices documentation to help you navigate the migration process—from initial planning to post-migration optimization.  
-    citeturn0search1
     
 - **Community and Support:**  
     AWS offers community support through forums, customer case studies, and AWS Prescriptive Guidance, which includes recommendations tailored to various migration scenarios.
