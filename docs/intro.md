@@ -116,7 +116,7 @@ _A comprehensive guide to help you prepare for the AWS Certified Solutions Archi
 
 #### Infrastructure Automation
 - [AWS CloudFormation](Management%20and%20Governance/Infrastructure%20Automation/AWS%20CloudFormation)
-- [AWS Cloud Development Kit (CDK)](Management%20and%20Governance/Infrastructure%20Automation/AWS%20Cloud%20Development%20Kit%20(CDK))
+- [AWS Cloud Development Kit (CDK)](Management%20and%20Governance/Infrastructure%20Automation/AWS%20Cloud%20Development%20Kit)
 
 #### Governance & Compliance (Advanced)
 - [AWS Config](Management%20and%20Governance/Governance%20&%20Compliance/AWS%20Config)
