@@ -36,6 +36,8 @@ Amazon FSx for Windows File Server is engineered to offer a fully managed, nativ
     
 - **Storage Options:**  
     Offers SSD storage for workloads requiring very low latency (e.g., databases, media processing, analytics) and HDD storage for cost-sensitive, broad-spectrum workloads such as home directories.
+
+    You can change your file system storage type from HDD to SSD using the AWS Management Console and AWS CLI. You can't change your file system storage type from SSD to HDD. If you want to change a file system's storage type from SSD to HDD, you will need to restore a backup of the file system to a new file system that you configure to use HDD storage. 
     
 - **High Availability and Disaster Recovery:**  
     With the option to configure the file system in Multi-AZ mode, FSx for Windows File Server can provide high availability through synchronous replication across two availability zones. Daily backups to Amazon S3 further enhance disaster recovery capabilities.
