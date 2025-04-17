@@ -61,7 +61,7 @@ _A comprehensive guide to help you prepare for the AWS Certified Solutions Archi
 
 #### Backup & Disaster Recovery
 - [AWS Backup](Storage/Backup%20&%20Disaster%20Recovery/AWS%20Backup)
-- [AWS Elastic Disaster Recovery (DRS)](Storage/Backup%20&%20Disaster%20Recovery/AWS%20Elastic%20Disaster%20Recovery%20(DRS))
+- [AWS Elastic Disaster Recovery (DRS)](Storage/Backup%20&%20Disaster%20Recovery/AWS%20Elastic%20Disaster%20Recovery)
 - [AWS Storage Gateway](Storage/Backup%20&%20Disaster%20Recovery/AWS%20Storage%20Gateway)
 
 #### Relational & Data Warehouse
