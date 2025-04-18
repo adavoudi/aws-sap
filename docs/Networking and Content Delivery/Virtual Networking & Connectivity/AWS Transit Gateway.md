@@ -27,6 +27,8 @@ By abstracting the complexity of individual VPC-to-VPC connections, Transit Gate
 
 Transit Gateway offers a rich set of features that make it a powerful component in modern network architectures. Some of the most important features and their typical use cases include:
 
+![transit-gateway](../_assets/transit-gateway.png)
+
 - **VPC Attachments:** Enables the connection of multiple VPCs to the Transit Gateway. This allows for transitive routing among VPCs, meaning that every VPC can communicate with every other VPC through the centralized gateway.
 - **VPN Attachments:** Provides the ability to terminate AWS-managed site-to-site VPN connections directly on the Transit Gateway. This is particularly useful for hybrid network architectures, where on-premises data centers or branch offices must securely connect to AWS.
 - **Direct Connect Integration:** Supports integration with AWS Direct Connect through Transit VIFs (Virtual Interfaces), offering a high-throughput, low-latency link between on-premises networks and the AWS cloud.
