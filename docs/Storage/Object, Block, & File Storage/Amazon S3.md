@@ -570,6 +570,28 @@ S3 Replication is designed to automatically and asynchronously copy objects betw
 - **Additional Considerations:**  
     You can configure replication rules to include delete markers and, optionally, exclude certain objects based on prefixes or tags. This flexibility enables you to tailor replication to your specific business needs.
 
+#### 6.2.1. S3 Replication Time Control  
+Amazon S3 Replication Time Control (S3 RTC) is a feature of Amazon S3 replication that provides predictable replication latency by replicating most objects in seconds and guaranteeing that 99.99 % of objects are replicated within 15 minutes of upload. S3 RTC is designed to help customers meet compliance or business requirements for data replication by offering visibility and control over replication timelines.  
+
+##### Service Level Agreement  
+S3 RTC is backed by a Service Level Agreement (SLA) committing to replicate 99.9 % of objects within 15 minutes during any billing month.
+
+##### Built‑in Monitoring and Alerts  
+- **Replication Metrics**: By default, S3 RTC enables S3 Replication metrics, which you can monitor via Amazon CloudWatch to track pending operations, total size pending, maximum replication time, and failures in near real‑time 
+- **Event Notifications**: It emits two special S3 event notifications—`OperationMissedThreshold` (when replication exceeds 15 minutes) and `OperationReplicatedAfterThreshold` (when replication completes after the threshold)—delivered via SQS, SNS, or Lambda 
+
+##### Configuration and Prerequisites  
+- **Replication Rules**: Enable S3 RTC on a replication rule in the S3 Management Console, AWS CLI, SDKs, or API. You can apply the rule to an entire bucket, a specific prefix, or objects with certain tags. 
+- **Versioning Requirement**: Both the source and destination buckets must have versioning enabled; without versioning, replication (and thus RTC) cannot function.
+- **Permissions**: The IAM role used for replication must grant S3 the necessary permissions (e.g., `s3:GetObject`, `s3:ReplicateObject`, and, for Object Lock scenarios, `s3:GetObjectLegalHold` and `s3:GetObjectRetention`) 
+
+##### Pricing Considerations  
+S3 RTC incurs additional charges beyond standard replication:  
+- **Data Transfer Fee**: $0.015 per GB for the Replication Time Control data transfer.  
+- **Metrics Charges**: S3 Replication metrics are billed as Amazon CloudWatch custom metrics at standard custom‑metric rates 
+
+With S3 RTC enabled, you gain guaranteed replication times, proactive monitoring, and SLA‑backed reliability for your critical data replication workflows.
+
 
 ### 6.3. S3 Lifecycle Rules
 
