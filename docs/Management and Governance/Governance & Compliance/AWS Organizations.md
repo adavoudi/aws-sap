@@ -51,6 +51,13 @@ One of the most powerful features of AWS Organizations is its ability to enforce
 
 - **Service Control Policies (SCPs):** These JSON policies set the maximum permissions for member accounts. They serve as guardrails that restrict actions regardless of the individual IAM policies in the account. For example, an SCP might prevent the use of certain high-risk services or restrict resource creation to approved AWS regions.
 - **Tag Policies:** These help standardize the way resources are tagged across accounts. Enforcing consistent tagging is critical for cost allocation, resource management, and compliance.
+
+:::tip
+
+Tag Policies only provide governance and reporting; they do not actually block non‑compliant resources from being created. To enforce the existence of Tags you have to use SCPs.
+
+:::
+
 - **Backup Policies:** If you are using AWS Backup with Organizations, you can centrally define backup schedules and retention rules that automatically apply to all accounts or selected OUs.
 - **AI Services Opt-Out Policies:** For organizations with privacy or regulatory concerns, this type of policy can be used to opt out of having your content used to improve AWS AI services.
 

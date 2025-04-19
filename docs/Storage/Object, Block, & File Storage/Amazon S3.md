@@ -590,8 +590,6 @@ S3 RTC incurs additional charges beyond standard replication:
 - **Data Transfer Fee**: $0.015 per GB for the Replication Time Control data transfer.  
 - **Metrics Charges**: S3 Replication metrics are billed as Amazon CloudWatch custom metrics at standard custom‑metric rates 
 
-With S3 RTC enabled, you gain guaranteed replication times, proactive monitoring, and SLA‑backed reliability for your critical data replication workflows.
-
 
 ### 6.3. S3 Lifecycle Rules
 
