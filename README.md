@@ -1,41 +1,45 @@
-# Website
+# AWS Pro Architect Prep
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The official study guide and reference site for mastering AWS and passing the **AWS Certified Solutions Architect – Professional** exam. Built with [Docusaurus](https://docusaurus.io/), it offers in-depth coverage of AWS services, best practices, and architectural guidance.
 
-### Installation
+🌐 **Live Site:** [https://adavoudi.info/aws-sap/](https://adavoudi.info/aws-sap/)
 
-```
-$ yarn
-```
+---
 
-### Local Development
+## Introduction
 
-```
-$ yarn start
-```
+This repository powers the AWS Pro Architect Prep website, organizing content according to the key domains of the Solutions Architect Professional certification. You'll find concise explanations, visual diagrams, and practical examples covering everything from Compute and Networking to Security and Disaster Recovery.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Whether you're reviewing a specific service or studying end-to-end architectural patterns, this site is designed for efficient self-study.
 
-### Build
+---
 
-```
-$ yarn build
-```
+## Contributing
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+We welcome your improvements and additions! To contribute:
 
-### Deployment
+1. **Fork** this repository and **clone** your fork:
+   ```bash
+   git clone https://github.com/your-org/aws-sap.git
+   cd aws-sap
+   ```
+2. **Create** a feature branch:
+   ```bash
+   git checkout -b feature/your-topic
+   ```
+3. **Add or update** Markdown files under `docs/<Domain>/`. Place any related images in the same folder’s `_assets` subdirectory.
+4. **Verify** your changes locally:
+   ```bash
+   yarn install
+   yarn start
+   ```
+5. **Commit**, **push**, and open a **Pull Request** against `main`.
 
-Using SSH:
+Please adhere to the existing style conventions and naming schemes. Thank you for making this resource better!
 
-```
-$ USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## License
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This work is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE). Feel free to share and adapt with attribution.
