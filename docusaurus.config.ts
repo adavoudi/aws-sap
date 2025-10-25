@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import sidebars from './sidebars';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -124,6 +125,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
