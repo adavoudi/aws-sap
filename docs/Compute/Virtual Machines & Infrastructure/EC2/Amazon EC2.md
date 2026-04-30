@@ -95,6 +95,12 @@ Even though Amazon EC2 automatically increases your On-Demand Instance quotas ba
 Savings Plans let you commit to a consistent amount of usage (measured in USD per hour) for a one‑ or three‑year term, offering significant savings compared to On‑Demand pricing.
 
 Unlike Reserved Instances, Savings Plans provide flexibility to change instance families, sizes, Regions, operating systems, or even AWS services (such as AWS Lambda and Fargate) while still receiving a discounted rate.  
+
+#### Example:
+Let's say you commit to paying 5 USD* per month for 1 or 3 years for EC2. For that commitment AWS rewards you with 40%* discount. You could then use any EC2 instance with a 40%* discount as long as the monthly price does not exceed 5 USD*. If you use no EC2 at all you will still pay 5 USD* per month. If you use more than 5 USD* per month, the exceeding fee will be without 40%* discount.
+
+\* These numbers are completely made up and arbitrary. They are just here to explain the mechanics of the savings plan.
+
 ### 4.2. Reserved Instances (RIs)
 
 Reserved Instances provide a billing discount on your On‑Demand usage in exchange for a commitment to a specific instance configuration over a one‑ or three‑year term. They are not physical instances but a pricing mechanism that applies when your running instances match the reservation’s attributes. **AWS recommends Savings Plans over Reserved Instances**.
