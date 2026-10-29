@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-documentdb
 description: "Amazon DocumentDB (with MongoDB compatibility) is engineered for modern, scalable applications that require a flexible, JSON-based document database."
 ---
 

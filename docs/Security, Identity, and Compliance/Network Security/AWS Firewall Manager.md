@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-firewall-manager
 description: "AWS Firewall Manager is a centralized security management service designed to simplify the administration and enforcement of firewall rules across multiple..."
 ---
 

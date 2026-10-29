@@ -1,4 +1,5 @@
 ---
+slug: /compute/aws-lambda
 description: "AWS Lambda is Amazon Web Services’ serverless, event‐driven compute service that lets you run your code without provisioning or managing servers."
 ---
 

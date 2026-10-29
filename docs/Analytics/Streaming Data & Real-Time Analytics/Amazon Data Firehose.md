@@ -1,4 +1,5 @@
 ---
+slug: /analytics/amazon-data-firehose
 description: "Amazon Kinesis Data Firehose is a fully managed service designed to reliably capture, transform, and load streaming data into various destinations."
 ---
 

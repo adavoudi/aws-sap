@@ -1,4 +1,5 @@
 ---
+slug: /storage/aws-storage-gateway
 description: "AWS Storage Gateway is a hybrid cloud storage service that connects your on-premises environments with AWS cloud storage. SAP-C02 exam study notes."
 ---
 

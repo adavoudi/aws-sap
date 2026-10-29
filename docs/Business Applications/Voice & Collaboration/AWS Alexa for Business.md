@@ -1,4 +1,5 @@
 ---
+slug: /business-applications/aws-alexa-for-business
 description: "AWS Alexa for Business: provisioning shared devices, enrolling users, and integrating voice into workplace tools. SAP-C02 exam study notes."
 ---
 

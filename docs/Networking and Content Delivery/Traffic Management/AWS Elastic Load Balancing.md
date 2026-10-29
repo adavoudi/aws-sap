@@ -1,4 +1,5 @@
 ---
+slug: /networking/aws-elastic-load-balancing
 description: "Elastic Load Balancing: ALB vs NLB vs GWLB, target groups, health checks, stickiness, cross-zone balancing, and TLS. SAP-C02 exam study notes."
 ---
 

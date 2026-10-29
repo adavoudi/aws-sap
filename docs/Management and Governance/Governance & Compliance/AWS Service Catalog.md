@@ -1,4 +1,5 @@
 ---
+slug: /management-governance/aws-service-catalog
 description: "AWS Service Catalog is a managed service that enables organizations to create, manage, and distribute catalogs of IT services approved for AWS."
 ---
 

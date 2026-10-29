@@ -1,4 +1,5 @@
 ---
+slug: /management-governance/aws-well-architected-tool
 description: "AWS Well-Architected Framework and Tool: the six pillars, lenses, workload reviews, and improvement plans. SAP-C02 exam study notes."
 ---
 

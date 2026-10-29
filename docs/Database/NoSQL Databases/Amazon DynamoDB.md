@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-dynamodb
 description: "Amazon DynamoDB is a fully managed NoSQL database service offered by AWS. SAP-C02 exam study notes."
 ---
 

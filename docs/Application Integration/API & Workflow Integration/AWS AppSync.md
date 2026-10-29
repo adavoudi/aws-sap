@@ -1,4 +1,5 @@
 ---
+slug: /application-integration/aws-appsync
 description: "AWS AppSync: managed GraphQL and real-time APIs, resolvers, data sources, caching, and security. SAP-C02 exam study notes."
 ---
 

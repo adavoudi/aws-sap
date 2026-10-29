@@ -1,4 +1,5 @@
 ---
+slug: /developer-tools/aws-x-ray
 description: "AWS X‑Ray is a distributed tracing service designed to help developers analyze and debug production and distributed applications. SAP-C02 exam study notes."
 ---
 

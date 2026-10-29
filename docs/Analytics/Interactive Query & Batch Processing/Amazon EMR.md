@@ -1,4 +1,5 @@
 ---
+slug: /analytics/amazon-emr
 description: "Amazon EMR is a cloud‑based service that simplifies large‑scale distributed data processing by managing clusters that run frameworks like Apache Hadoop..."
 ---
 

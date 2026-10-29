@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-iam-identity-center
 description: "AWS IAM Identity Center provides a unified sign-on experience that consolidates access to multiple AWS accounts, business cloud applications, and even EC2..."
 ---
 

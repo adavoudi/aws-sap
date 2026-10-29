@@ -1,4 +1,5 @@
 ---
+slug: /machine-learning/amazon-lex
 description: "Amazon Lex is a fully managed AWS service that enables you to build conversational interfaces into any application using voice and text."
 ---
 

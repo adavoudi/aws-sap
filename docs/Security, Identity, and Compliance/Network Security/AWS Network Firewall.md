@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-network-firewall
 description: "AWS Network Firewall: stateful and stateless rule groups, deployment models, and centralized inspection architectures. SAP-C02 exam study notes."
 ---
 

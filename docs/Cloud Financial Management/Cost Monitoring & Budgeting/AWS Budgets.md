@@ -1,4 +1,5 @@
 ---
+slug: /cost-management/aws-budgets
 description: "AWS Budgets is a core AWS cost management tool that empowers you to proactively monitor and control your cloud spending. SAP-C02 exam study notes."
 ---
 

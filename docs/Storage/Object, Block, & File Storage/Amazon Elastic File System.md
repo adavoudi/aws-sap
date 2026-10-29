@@ -1,4 +1,5 @@
 ---
+slug: /storage/amazon-elastic-file-system
 description: "Amazon EFS: managed NFS file storage, performance and throughput modes, storage classes, and access points. SAP-C02 exam study notes."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /cost-management/aws-cost-allocation-tags
 description: "AWS Cost Allocation Tags are a key mechanism for tracking and managing your AWS costs by allowing you to assign metadata to your resources in the form of..."
 ---
 

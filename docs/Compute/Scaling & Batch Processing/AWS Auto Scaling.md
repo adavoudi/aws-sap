@@ -1,4 +1,5 @@
 ---
+slug: /compute/aws-auto-scaling
 description: "AWS Auto Scaling is AWS’s unified scaling service that goes beyond merely managing Amazon EC2 instances. SAP-C02 exam study notes."
 ---
 

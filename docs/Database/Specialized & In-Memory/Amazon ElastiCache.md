@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-elasticache
 description: "Amazon ElastiCache makes it easy to set up, manage, and scale distributed in-memory cache in the AWS Cloud. SAP-C02 exam study notes."
 ---
 

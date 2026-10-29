@@ -1,4 +1,5 @@
 ---
+slug: /security/amazon-inspector
 description: "Amazon Inspector provides a systematic approach to security by performing continuous assessments of your running infrastructure. SAP-C02 exam study notes."
 ---
 

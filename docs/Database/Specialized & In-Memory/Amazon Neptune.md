@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-neptune
 description: "Amazon Neptune: managed graph database for highly connected data, Gremlin/SPARQL/openCypher, replicas, and HA design. SAP-C02 exam study notes."
 ---
 

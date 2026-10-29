@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-resource-access-manager
 description: "AWS Resource Access Manager (RAM): sharing subnets, Transit Gateways, and other resources across accounts and Organizations. SAP-C02 study notes."
 ---
 

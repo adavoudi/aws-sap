@@ -1,4 +1,5 @@
 ---
+slug: /compute/aws-app-runner
 description: "AWS App Runner is an AWS service that provides a fast, simple, and cost-effective way to deploy from source code or a container image directly to a scalable..."
 ---
 

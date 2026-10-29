@@ -1,4 +1,5 @@
 ---
+slug: /networking/aws-vpn
 description: "AWS Site-to-Site VPN and Client VPN: tunnels, BGP routing, accelerated VPN, and pairing with Direct Connect. SAP-C02 exam study notes."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-rds
 description: "Amazon RDS is a fully managed service designed to simplify the setup, operation, and scaling of a relational database in the cloud. SAP-C02 exam study notes."
 ---
 

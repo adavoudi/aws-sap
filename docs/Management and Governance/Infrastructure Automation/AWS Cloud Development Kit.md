@@ -1,4 +1,5 @@
 ---
+slug: /management-governance/aws-cloud-development-kit
 description: "The AWS Cloud Development Kit is an open-source software framework that allows you to define cloud infrastructure using familiar programming languages such..."
 ---
 

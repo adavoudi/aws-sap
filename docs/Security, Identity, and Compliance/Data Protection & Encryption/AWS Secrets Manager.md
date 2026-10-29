@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-secrets-manager
 description: "AWS Secrets Manager is a fully managed service designed to help you securely store, manage, and automatically rotate sensitive information such as..."
 ---
 

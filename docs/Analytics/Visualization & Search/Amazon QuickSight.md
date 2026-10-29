@@ -1,4 +1,5 @@
 ---
+slug: /analytics/amazon-quicksight
 description: "Amazon QuickSight is a fully managed, visually rich analytics solution that enables organizations to derive insights from their data in a highly scalable..."
 ---
 

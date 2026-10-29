@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-audit-manager
 description: "AWS Audit Manager: continuous evidence collection, prebuilt compliance frameworks, and audit-ready reports. SAP-C02 exam study notes."
 ---
 

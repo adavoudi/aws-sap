@@ -1,4 +1,5 @@
 ---
+slug: /compute/amazon-lightsail
 description: "Amazon Lightsail represents an excellent entry point into cloud computing by offering a simplified, cost-effective platform that covers essential compute..."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /machine-learning/amazon-sagemaker
 description: "Amazon SageMaker is a fully managed machine learning service from AWS that streamlines the process of building, training, and deploying machine learning..."
 ---
 

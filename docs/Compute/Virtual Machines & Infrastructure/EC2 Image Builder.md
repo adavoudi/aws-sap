@@ -1,4 +1,5 @@
 ---
+slug: /compute/ec2-image-builder
 description: "EC2 Image Builder offers a complete, automated solution for building and managing server and container images in AWS. SAP-C02 exam study notes."
 ---
 

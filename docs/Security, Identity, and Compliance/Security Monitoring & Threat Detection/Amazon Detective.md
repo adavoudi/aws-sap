@@ -1,4 +1,5 @@
 ---
+slug: /security/amazon-detective
 description: "Amazon Detective is an AWS service purpose-built to streamline the investigation of security findings and incidents. SAP-C02 exam study notes."
 ---
 

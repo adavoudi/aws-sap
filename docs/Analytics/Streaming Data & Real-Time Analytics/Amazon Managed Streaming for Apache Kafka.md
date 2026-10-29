@@ -1,4 +1,5 @@
 ---
+slug: /analytics/amazon-managed-streaming-for-apache-kafka
 description: "Amazon MSK is a fully managed service that makes it easy to build and run applications using Apache Kafka to process streaming data. SAP-C02 exam study notes."
 ---
 

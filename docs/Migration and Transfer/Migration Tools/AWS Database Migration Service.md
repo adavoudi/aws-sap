@@ -1,4 +1,5 @@
 ---
+slug: /migration/aws-database-migration-service
 description: "AWS Database Migration Service (DMS): homogeneous and heterogeneous migrations, CDC replication, SCT, and migration patterns. SAP-C02 study notes."
 ---
 

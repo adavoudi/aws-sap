@@ -1,4 +1,5 @@
 ---
+slug: /networking/amazon-cloudfront
 description: "Amazon CloudFront: CDN architecture, origins, cache behaviors, OAC, signed URLs, Lambda@Edge and CloudFront Functions. SAP-C02 exam study notes."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-certificate-manager
 description: "AWS Certificate Manager is a fully managed service that simplifies the provisioning, management, and deployment of SSL/TLS certificates to secure network..."
 ---
 

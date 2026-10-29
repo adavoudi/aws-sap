@@ -1,4 +1,5 @@
 ---
+slug: /cost-management/aws-cost-explorer
 description: "AWS Cost Explorer: analyzing and forecasting AWS spend, filters and grouping, RI and Savings Plans reports. SAP-C02 exam study notes."
 ---
 

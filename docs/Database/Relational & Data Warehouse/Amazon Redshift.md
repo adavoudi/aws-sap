@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-redshift
 description: "Amazon Redshift is a fully managed, petabyte-scale data warehouse service designed for online analytical processing (OLAP). SAP-C02 exam study notes."
 ---
 

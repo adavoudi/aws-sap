@@ -1,4 +1,5 @@
 ---
+slug: /application-integration/amazon-sqs
 description: "Amazon SQS is a fully managed, highly scalable message queuing service that decouples distributed application components such as microservices, serverless..."
 ---
 

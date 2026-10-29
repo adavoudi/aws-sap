@@ -1,4 +1,5 @@
 ---
+slug: /management-governance/aws-compute-optimizer
 description: "AWS Compute Optimizer: ML-based rightsizing for EC2, Auto Scaling groups, EBS, Lambda, and ECS across Organizations. SAP-C02 exam study notes."
 ---
 

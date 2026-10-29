@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-macie
 description: "AWS Macie is engineered to help organizations secure their data by continuously monitoring Amazon S3 buckets for sensitive information."
 ---
 

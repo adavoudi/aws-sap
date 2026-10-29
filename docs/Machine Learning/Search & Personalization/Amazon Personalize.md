@@ -1,4 +1,5 @@
 ---
+slug: /machine-learning/amazon-personalize
 description: "Amazon Personalize is a fully managed machine learning service that enables developers to build and deploy real-time personalized recommendation engines..."
 ---
 

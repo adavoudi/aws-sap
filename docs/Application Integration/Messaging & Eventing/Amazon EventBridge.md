@@ -1,4 +1,5 @@
 ---
+slug: /application-integration/amazon-eventbridge
 description: "Amazon EventBridge, formerly known as CloudWatch Events, serves as a powerful event bus that can integrate multiple AWS services, partner applications, and..."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-security-hub
 description: "AWS Security Hub is a central security tool that enables organizations to manage security across several AWS accounts while automating continuous security..."
 ---
 

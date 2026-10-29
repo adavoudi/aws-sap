@@ -1,4 +1,5 @@
 ---
+slug: /containers/amazon-ecs
 description: "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that helps you easily deploy, manage, and scale..."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-keyspaces
 description: "Amazon Keyspaces (for Apache Cassandra) is a fully managed, scalable, and highly available database service designed to run Cassandra workloads in the AWS..."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /compute/amazon-ec2-security
 description: "Amazon EC2 security: IAM roles, security groups, key pairs, IMDSv2, EBS encryption, and compliance controls. SAP-C02 exam study notes."
 ---
 

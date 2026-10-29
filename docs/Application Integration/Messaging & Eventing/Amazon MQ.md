@@ -1,4 +1,5 @@
 ---
+slug: /application-integration/amazon-mq
 description: "Amazon MQ: managed ActiveMQ and RabbitMQ brokers for migrating apps that use MQTT, AMQP, or STOMP; and when to pick SQS/SNS instead. SAP-C02 notes."
 ---
 

@@ -1,0 +1,534 @@
+[
+  {
+    "from": "/docs/Analytics/Interactive Query & Batch Processing/Amazon Athena",
+    "to": "/analytics/amazon-athena/"
+  },
+  {
+    "from": "/docs/Analytics/Streaming Data & Real-Time Analytics/Amazon Data Firehose",
+    "to": "/analytics/amazon-data-firehose/"
+  },
+  {
+    "from": "/docs/Analytics/Interactive Query & Batch Processing/Amazon EMR",
+    "to": "/analytics/amazon-emr/"
+  },
+  {
+    "from": "/docs/Analytics/Streaming Data & Real-Time Analytics/Amazon Kinesis Data Streams",
+    "to": "/analytics/amazon-kinesis-data-streams/"
+  },
+  {
+    "from": "/docs/Analytics/Streaming Data & Real-Time Analytics/Amazon Managed Service for Apache Flink",
+    "to": "/analytics/amazon-managed-service-for-apache-flink/"
+  },
+  {
+    "from": "/docs/Analytics/Streaming Data & Real-Time Analytics/Amazon Managed Streaming for Apache Kafka",
+    "to": "/analytics/amazon-managed-streaming-for-apache-kafka/"
+  },
+  {
+    "from": "/docs/Analytics/Visualization & Search/Amazon OpenSearch",
+    "to": "/analytics/amazon-opensearch/"
+  },
+  {
+    "from": "/docs/Analytics/Visualization & Search/Amazon QuickSight",
+    "to": "/analytics/amazon-quicksight/"
+  },
+  {
+    "from": "/docs/Analytics/Data Integration & Management/AWS Data Exchange",
+    "to": "/analytics/aws-data-exchange/"
+  },
+  {
+    "from": "/docs/Analytics/Data Integration & Management/AWS Glue",
+    "to": "/analytics/aws-glue/"
+  },
+  {
+    "from": "/docs/Analytics/Data Integration & Management/AWS Lake Formation",
+    "to": "/analytics/aws-lake-formation/"
+  },
+  {
+    "from": "/docs/Application Integration/Messaging & Eventing/Amazon EventBridge",
+    "to": "/application-integration/amazon-eventbridge/"
+  },
+  {
+    "from": "/docs/Application Integration/Messaging & Eventing/Amazon MQ",
+    "to": "/application-integration/amazon-mq/"
+  },
+  {
+    "from": "/docs/Application Integration/Messaging & Eventing/Amazon SNS",
+    "to": "/application-integration/amazon-sns/"
+  },
+  {
+    "from": "/docs/Application Integration/Messaging & Eventing/Amazon SQS",
+    "to": "/application-integration/amazon-sqs/"
+  },
+  {
+    "from": "/docs/Application Integration/API & Workflow Integration/AWS AppSync",
+    "to": "/application-integration/aws-appsync/"
+  },
+  {
+    "from": "/docs/Application Integration/API & Workflow Integration/AWS Step Functions",
+    "to": "/application-integration/aws-step-functions/"
+  },
+  {
+    "from": "/docs/Blockchain/Amazon Managed Blockchain",
+    "to": "/blockchain/amazon-managed-blockchain/"
+  },
+  {
+    "from": "/docs/Business Applications/Contact Center & Email/Amazon Connect",
+    "to": "/business-applications/amazon-connect/"
+  },
+  {
+    "from": "/docs/Business Applications/Contact Center & Email/Amazon SES",
+    "to": "/business-applications/amazon-ses/"
+  },
+  {
+    "from": "/docs/Business Applications/Voice & Collaboration/AWS Alexa for Business",
+    "to": "/business-applications/aws-alexa-for-business/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2/Amazon EC2 - Auto Scaling",
+    "to": "/compute/amazon-ec2-auto-scaling/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2/Amazon EC2 - Fleets",
+    "to": "/compute/amazon-ec2-fleets/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2/Amazon EC2 - Monitoring",
+    "to": "/compute/amazon-ec2-monitoring/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2/Amazon EC2 - Networking",
+    "to": "/compute/amazon-ec2-networking/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2/Amazon EC2 - Security",
+    "to": "/compute/amazon-ec2-security/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2/Amazon EC2",
+    "to": "/compute/amazon-ec2/"
+  },
+  {
+    "from": "/docs/Compute/Simplified Compute/Amazon Lightsail",
+    "to": "/compute/amazon-lightsail/"
+  },
+  {
+    "from": "/docs/Compute/Serverless & Managed Compute/AWS App Runner",
+    "to": "/compute/aws-app-runner/"
+  },
+  {
+    "from": "/docs/Compute/Scaling & Batch Processing/AWS Auto Scaling",
+    "to": "/compute/aws-auto-scaling/"
+  },
+  {
+    "from": "/docs/Compute/Scaling & Batch Processing/AWS Batch",
+    "to": "/compute/aws-batch/"
+  },
+  {
+    "from": "/docs/Compute/Serverless & Managed Compute/AWS Elastic Beanstalk",
+    "to": "/compute/aws-elastic-beanstalk/"
+  },
+  {
+    "from": "/docs/Compute/Serverless & Managed Compute/AWS Lambda",
+    "to": "/compute/aws-lambda/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/AWS Outposts",
+    "to": "/compute/aws-outposts/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/AWS Wavelength",
+    "to": "/compute/aws-wavelength/"
+  },
+  {
+    "from": "/docs/Compute/Virtual Machines & Infrastructure/EC2 Image Builder",
+    "to": "/compute/ec2-image-builder/"
+  },
+  {
+    "from": "/docs/Containers/Container Registry/Amazon ECR",
+    "to": "/containers/amazon-ecr/"
+  },
+  {
+    "from": "/docs/Containers/Container Orchestration/Amazon ECS",
+    "to": "/containers/amazon-ecs/"
+  },
+  {
+    "from": "/docs/Containers/Container Orchestration/Amazon EKS",
+    "to": "/containers/amazon-eks/"
+  },
+  {
+    "from": "/docs/Cloud Financial Management/Cost Monitoring & Budgeting/AWS Budgets",
+    "to": "/cost-management/aws-budgets/"
+  },
+  {
+    "from": "/docs/Cloud Financial Management/Cost Allocation & Savings/AWS Cost Allocation Tags",
+    "to": "/cost-management/aws-cost-allocation-tags/"
+  },
+  {
+    "from": "/docs/Cloud Financial Management/Cost Monitoring & Budgeting/AWS Cost Explorer",
+    "to": "/cost-management/aws-cost-explorer/"
+  },
+  {
+    "from": "/docs/Cloud Financial Management/Cost Allocation & Savings/Savings Plans",
+    "to": "/cost-management/savings-plans/"
+  },
+  {
+    "from": "/docs/Database/Relational & Data Warehouse/Amazon Aurora",
+    "to": "/database/amazon-aurora/"
+  },
+  {
+    "from": "/docs/Database/NoSQL Databases/Amazon DocumentDB",
+    "to": "/database/amazon-documentdb/"
+  },
+  {
+    "from": "/docs/Database/NoSQL Databases/Amazon DynamoDB",
+    "to": "/database/amazon-dynamodb/"
+  },
+  {
+    "from": "/docs/Database/Specialized & In-Memory/Amazon ElastiCache",
+    "to": "/database/amazon-elasticache/"
+  },
+  {
+    "from": "/docs/Database/NoSQL Databases/Amazon Keyspaces",
+    "to": "/database/amazon-keyspaces/"
+  },
+  {
+    "from": "/docs/Database/Specialized & In-Memory/Amazon Neptune",
+    "to": "/database/amazon-neptune/"
+  },
+  {
+    "from": "/docs/Database/Relational & Data Warehouse/Amazon RDS",
+    "to": "/database/amazon-rds/"
+  },
+  {
+    "from": "/docs/Database/Relational & Data Warehouse/Amazon Redshift",
+    "to": "/database/amazon-redshift/"
+  },
+  {
+    "from": "/docs/Database/Specialized & In-Memory/Amazon Timestream",
+    "to": "/database/amazon-timestream/"
+  },
+  {
+    "from": "/docs/Developer Tools/CICD & Code Quality/Amazon CodeGuru",
+    "to": "/developer-tools/amazon-codeguru/"
+  },
+  {
+    "from": "/docs/Developer Tools/CICD & Code Quality/AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline, AWS CodeArtifact",
+    "to": "/developer-tools/aws-codepipeline-codebuild-codedeploy/"
+  },
+  {
+    "from": "/docs/Developer Tools/Observability & Testing/AWS Fault Injection Simulator",
+    "to": "/developer-tools/aws-fault-injection-simulator/"
+  },
+  {
+    "from": "/docs/Developer Tools/Observability & Testing/AWS X-Ray",
+    "to": "/developer-tools/aws-x-ray/"
+  },
+  {
+    "from": "/docs/End User Computing/Amazon AppStream 2.0",
+    "to": "/end-user-computing/amazon-appstream/"
+  },
+  {
+    "from": "/docs/End User Computing/Amazon WorkSpaces",
+    "to": "/end-user-computing/amazon-workspaces/"
+  },
+  {
+    "from": "/docs/Frontend Web and Mobile/API Management/Amazon API Gateway",
+    "to": "/frontend-mobile/amazon-api-gateway/"
+  },
+  {
+    "from": "/docs/Frontend Web and Mobile/User Engagement/Amazon Pinpoint",
+    "to": "/frontend-mobile/amazon-pinpoint/"
+  },
+  {
+    "from": "/docs/Frontend Web and Mobile/Development Platforms/AWS Amplify",
+    "to": "/frontend-mobile/aws-amplify/"
+  },
+  {
+    "from": "/docs/Frontend Web and Mobile/Development Platforms/AWS Device Farm",
+    "to": "/frontend-mobile/aws-device-farm/"
+  },
+  {
+    "from": "/docs/Internet of Things/AWS IoT Services",
+    "to": "/iot/aws-iot-services/"
+  },
+  {
+    "from": "/docs/Machine Learning/Natural Language & Speech/Amazon Comprehend",
+    "to": "/machine-learning/amazon-comprehend/"
+  },
+  {
+    "from": "/docs/Machine Learning/Search & Personalization/Amazon Kendra",
+    "to": "/machine-learning/amazon-kendra/"
+  },
+  {
+    "from": "/docs/Machine Learning/Natural Language & Speech/Amazon Lex",
+    "to": "/machine-learning/amazon-lex/"
+  },
+  {
+    "from": "/docs/Machine Learning/Search & Personalization/Amazon Personalize",
+    "to": "/machine-learning/amazon-personalize/"
+  },
+  {
+    "from": "/docs/Machine Learning/Speech Synthesis/Amazon Polly",
+    "to": "/machine-learning/amazon-polly/"
+  },
+  {
+    "from": "/docs/Machine Learning/Computer Vision & Document Processing/Amazon Rekognition",
+    "to": "/machine-learning/amazon-rekognition/"
+  },
+  {
+    "from": "/docs/Machine Learning/ML Platform/Amazon SageMaker",
+    "to": "/machine-learning/amazon-sagemaker/"
+  },
+  {
+    "from": "/docs/Machine Learning/Computer Vision & Document Processing/Amazon Textract",
+    "to": "/machine-learning/amazon-textract/"
+  },
+  {
+    "from": "/docs/Machine Learning/Natural Language & Speech/Amazon Transcribe",
+    "to": "/machine-learning/amazon-transcribe/"
+  },
+  {
+    "from": "/docs/Machine Learning/Natural Language & Speech/Amazon Translate",
+    "to": "/machine-learning/amazon-translate/"
+  },
+  {
+    "from": "/docs/Management and Governance/Monitoring & Observability/Amazon CloudWatch",
+    "to": "/management-governance/amazon-cloudwatch/"
+  },
+  {
+    "from": "/docs/Management and Governance/Infrastructure Automation/AWS Cloud Development Kit",
+    "to": "/management-governance/aws-cloud-development-kit/"
+  },
+  {
+    "from": "/docs/Management and Governance/Infrastructure Automation/AWS CloudFormation",
+    "to": "/management-governance/aws-cloudformation/"
+  },
+  {
+    "from": "/docs/Management and Governance/Monitoring & Observability/AWS CloudTrail",
+    "to": "/management-governance/aws-cloudtrail/"
+  },
+  {
+    "from": "/docs/Management and Governance/Operations & Optimization/AWS Compute Optimizer",
+    "to": "/management-governance/aws-compute-optimizer/"
+  },
+  {
+    "from": "/docs/Management and Governance/Governance & Compliance/AWS Config",
+    "to": "/management-governance/aws-config/"
+  },
+  {
+    "from": "/docs/Management and Governance/Governance & Compliance/AWS Control Tower",
+    "to": "/management-governance/aws-control-tower/"
+  },
+  {
+    "from": "/docs/Management and Governance/Governance & Compliance/AWS Organizations",
+    "to": "/management-governance/aws-organizations/"
+  },
+  {
+    "from": "/docs/Management and Governance/Monitoring & Observability/AWS Personal Health Dashboard",
+    "to": "/management-governance/aws-personal-health-dashboard/"
+  },
+  {
+    "from": "/docs/Management and Governance/Governance & Compliance/AWS Service Catalog",
+    "to": "/management-governance/aws-service-catalog/"
+  },
+  {
+    "from": "/docs/Management and Governance/Governance & Compliance/AWS Service Quotas",
+    "to": "/management-governance/aws-service-quotas/"
+  },
+  {
+    "from": "/docs/Management and Governance/Operations & Optimization/AWS Systems Manager",
+    "to": "/management-governance/aws-systems-manager/"
+  },
+  {
+    "from": "/docs/Management and Governance/Operations & Optimization/AWS Trusted Advisor",
+    "to": "/management-governance/aws-trusted-advisor/"
+  },
+  {
+    "from": "/docs/Management and Governance/Governance & Compliance/AWS Well-Architected Tool",
+    "to": "/management-governance/aws-well-architected-tool/"
+  },
+  {
+    "from": "/docs/Media Services/Amazon Kinesis Video Streams",
+    "to": "/media/amazon-kinesis-video-streams/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Migration Tools/AWS Application Discovery Service",
+    "to": "/migration/aws-application-discovery-service/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Migration Tools/AWS Application Migration Service",
+    "to": "/migration/aws-application-migration-service/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Migration Tools/AWS Database Migration Service",
+    "to": "/migration/aws-database-migration-service/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Migration Tools/AWS DataSync",
+    "to": "/migration/aws-datasync/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Migration Tools/AWS Migration Evaluator",
+    "to": "/migration/aws-migration-evaluator/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Migration Tools/AWS Migration Hub",
+    "to": "/migration/aws-migration-hub/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/Physical & Offline Migration/AWS Snow Family",
+    "to": "/migration/aws-snow-family/"
+  },
+  {
+    "from": "/docs/Migration and Transfer/File Transfer/AWS Transfer Family",
+    "to": "/migration/aws-transfer-family/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/CDN & DNS/Amazon CloudFront",
+    "to": "/networking/amazon-cloudfront/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Virtual Networking & Connectivity/Amazon VPC",
+    "to": "/networking/amazon-vpc/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Virtual Networking & Connectivity/AWS Direct Connect",
+    "to": "/networking/aws-direct-connect/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Traffic Management/AWS Elastic Load Balancing",
+    "to": "/networking/aws-elastic-load-balancing/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Virtual Networking & Connectivity/AWS Local Zones",
+    "to": "/networking/aws-local-zones/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Hybrid Connectivity/AWS PrivateLink",
+    "to": "/networking/aws-privatelink/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/CDN & DNS/AWS Route 53",
+    "to": "/networking/aws-route-53/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Virtual Networking & Connectivity/AWS Transit Gateway",
+    "to": "/networking/aws-transit-gateway/"
+  },
+  {
+    "from": "/docs/Networking and Content Delivery/Virtual Networking & Connectivity/AWS VPN",
+    "to": "/networking/aws-vpn/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Identity & Access Management/Amazon Cognito",
+    "to": "/security/amazon-cognito/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Security Monitoring & Threat Detection/Amazon Detective",
+    "to": "/security/amazon-detective/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Security Monitoring & Threat Detection/Amazon GuardDuty",
+    "to": "/security/amazon-guardduty/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Security Monitoring & Threat Detection/Amazon Inspector",
+    "to": "/security/amazon-inspector/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Compliance & Governance/AWS Artifact",
+    "to": "/security/aws-artifact/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Compliance & Governance/AWS Audit Manager",
+    "to": "/security/aws-audit-manager/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Data Protection & Encryption/AWS Certificate Manager",
+    "to": "/security/aws-certificate-manager/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Data Protection & Encryption/AWS CloudHSM",
+    "to": "/security/aws-cloudhsm/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Identity & Access Management/AWS Directory Services",
+    "to": "/security/aws-directory-services/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Network Security/AWS Firewall Manager",
+    "to": "/security/aws-firewall-manager/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Identity & Access Management/AWS IAM Identity Center",
+    "to": "/security/aws-iam-identity-center/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Identity & Access Management/AWS Identity and Access Management",
+    "to": "/security/aws-identity-and-access-management/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Data Protection & Encryption/AWS Key Management Service",
+    "to": "/security/aws-key-management-service/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Data Protection & Encryption/AWS Macie",
+    "to": "/security/aws-macie/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Network Security/AWS Network Firewall",
+    "to": "/security/aws-network-firewall/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Compliance & Governance/AWS Resource Access Manager",
+    "to": "/security/aws-resource-access-manager/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Data Protection & Encryption/AWS Secrets Manager",
+    "to": "/security/aws-secrets-manager/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Security Monitoring & Threat Detection/AWS Security Hub",
+    "to": "/security/aws-security-hub/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Network Security/AWS Shield",
+    "to": "/security/aws-shield/"
+  },
+  {
+    "from": "/docs/Security, Identity, and Compliance/Network Security/AWS WAF",
+    "to": "/security/aws-waf/"
+  },
+  {
+    "from": "/docs/Storage/Object, Block, & File Storage/Amazon Elastic Block Storage",
+    "to": "/storage/amazon-elastic-block-storage/"
+  },
+  {
+    "from": "/docs/Storage/Object, Block, & File Storage/Amazon Elastic File System",
+    "to": "/storage/amazon-elastic-file-system/"
+  },
+  {
+    "from": "/docs/Storage/Object, Block, & File Storage/Amazon FSx",
+    "to": "/storage/amazon-fsx/"
+  },
+  {
+    "from": "/docs/Storage/Object, Block, & File Storage/Amazon S3",
+    "to": "/storage/amazon-s3/"
+  },
+  {
+    "from": "/docs/Storage/Backup & Disaster Recovery/AWS Backup",
+    "to": "/storage/aws-backup/"
+  },
+  {
+    "from": "/docs/Storage/Backup & Disaster Recovery/AWS Elastic Disaster Recovery",
+    "to": "/storage/aws-elastic-disaster-recovery/"
+  },
+  {
+    "from": "/docs/Storage/Backup & Disaster Recovery/AWS Storage Gateway",
+    "to": "/storage/aws-storage-gateway/"
+  },
+  {
+    "from": "/docs/intro",
+    "to": "/study-plan/"
+  }
+]

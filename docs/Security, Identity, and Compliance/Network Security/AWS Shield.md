@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-shield
 description: "AWS Shield Standard vs Advanced: DDoS protection, Shield Response Team, cost protection, and integration with WAF. SAP-C02 exam study notes."
 ---
 

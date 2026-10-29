@@ -1,4 +1,5 @@
 ---
+slug: /end-user-computing/amazon-workspaces
 description: "Amazon WorkSpaces offers a highly secure, scalable, and flexible virtual desktop solution built on AWS’s global infrastructure. SAP-C02 exam study notes."
 ---
 

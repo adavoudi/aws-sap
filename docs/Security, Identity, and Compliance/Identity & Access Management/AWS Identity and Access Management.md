@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-identity-and-access-management
 description: "AWS IAM: users, roles, policies, permission boundaries, policy evaluation logic, and cross-account access. SAP-C02 exam study notes."
 ---
 

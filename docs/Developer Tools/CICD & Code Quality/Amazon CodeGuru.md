@@ -1,4 +1,5 @@
 ---
+slug: /developer-tools/amazon-codeguru
 description: "Amazon CodeGuru: ML-powered code reviews (Reviewer), application profiling (Profiler), and security scanning. SAP-C02 exam study notes."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /containers/amazon-eks
 description: "Amazon EKS is a fully managed Kubernetes service designed to simplify the deployment, management, and scaling of containerized applications using Kubernetes..."
 ---
 

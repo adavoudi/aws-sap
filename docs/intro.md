@@ -1,4 +1,5 @@
 ---
+slug: /study-plan
 sidebar_position: 1
 title: AWS SAP-C02 Study Plan
 sidebar_label: Study Plan

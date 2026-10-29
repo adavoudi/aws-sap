@@ -1,4 +1,5 @@
 ---
+slug: /migration/aws-migration-evaluator
 description: "AWS Migration Evaluator: data-driven business cases for cloud migration from on-premises inventory and utilization. SAP-C02 exam study notes."
 ---
 

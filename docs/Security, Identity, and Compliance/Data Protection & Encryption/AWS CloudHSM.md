@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-cloudhsm
 description: "AWS CloudHSM is a service that provisions dedicated Hardware Security Modules (HSMs) in the AWS Cloud. SAP-C02 exam study notes."
 ---
 

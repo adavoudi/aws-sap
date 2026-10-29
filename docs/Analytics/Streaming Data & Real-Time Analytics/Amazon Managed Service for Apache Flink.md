@@ -1,4 +1,5 @@
 ---
+slug: /analytics/amazon-managed-service-for-apache-flink
 description: "Amazon Managed Service for Apache Flink: real-time stream processing, architecture, scaling, and integrations with Kinesis and MSK. SAP-C02 study notes."
 ---
 

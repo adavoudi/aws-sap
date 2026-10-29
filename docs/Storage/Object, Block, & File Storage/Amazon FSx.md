@@ -1,4 +1,5 @@
 ---
+slug: /storage/amazon-fsx
 description: "Amazon FSx offers a range of file system solutions designed to meet diverse workload requirements, from high-performance computing to enterprise file sharing."
 ---
 

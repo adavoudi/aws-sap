@@ -1,4 +1,5 @@
 ---
+slug: /business-applications/amazon-connect
 description: "Amazon Connect: AWS cloud contact center, contact flows, routing, integrations, and analytics. SAP-C02 exam study notes."
 ---
 

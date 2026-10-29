@@ -1,4 +1,5 @@
 ---
+slug: /database/amazon-timestream
 description: "Amazon Timestream is a fully managed, serverless database service specially designed for time series data. SAP-C02 exam study notes."
 ---
 

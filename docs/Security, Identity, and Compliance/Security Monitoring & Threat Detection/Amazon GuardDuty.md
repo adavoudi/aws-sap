@@ -1,4 +1,5 @@
 ---
+slug: /security/amazon-guardduty
 description: "Amazon GuardDuty is engineered to provide intelligent threat discovery across your AWS accounts. SAP-C02 exam study notes."
 ---
 

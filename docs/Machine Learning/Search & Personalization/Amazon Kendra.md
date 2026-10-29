@@ -1,4 +1,5 @@
 ---
+slug: /machine-learning/amazon-kendra
 description: "Amazon Kendra is a fully managed, intelligent search service that leverages advanced machine learning and natural language processing techniques to deliver..."
 ---
 

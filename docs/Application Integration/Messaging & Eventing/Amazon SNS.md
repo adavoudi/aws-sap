@@ -1,4 +1,5 @@
 ---
+slug: /application-integration/amazon-sns
 description: "Amazon SNS is a fully managed, pub‑sub messaging service that lets you build distributed, decoupled, and scalable applications. SAP-C02 exam study notes."
 ---
 

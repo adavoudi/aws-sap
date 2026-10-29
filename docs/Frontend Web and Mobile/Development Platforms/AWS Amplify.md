@@ -1,4 +1,5 @@
 ---
+slug: /frontend-mobile/aws-amplify
 description: "AWS Amplify: build, host, and deploy full-stack web and mobile apps with managed backends and CI/CD. SAP-C02 exam study notes."
 ---
 

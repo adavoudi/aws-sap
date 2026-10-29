@@ -1,4 +1,5 @@
 ---
+slug: /analytics/aws-glue
 description: "AWS Glue is a fully managed, serverless data integration service that simplifies the extract, transform, and load (ETL) process. SAP-C02 exam study notes."
 ---
 

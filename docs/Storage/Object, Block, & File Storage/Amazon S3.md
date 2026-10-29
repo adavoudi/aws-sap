@@ -1,4 +1,5 @@
 ---
+slug: /storage/amazon-s3
 description: "Amazon Simple Storage Service (Amazon S3) is a highly scalable, durable, and secure object storage service used by organizations worldwide as a backbone for..."
 ---
 

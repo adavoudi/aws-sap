@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-directory-services
 description: "AWS Directory Service: Managed Microsoft AD, AD Connector, Simple AD, trusts, and hybrid identity designs. SAP-C02 exam study notes."
 ---
 

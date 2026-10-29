@@ -1,4 +1,5 @@
 ---
+slug: /end-user-computing/amazon-appstream
 description: "Amazon AppStream 2.0: streaming desktop applications to a browser, fleets, image builders, and scaling; vs WorkSpaces. SAP-C02 exam study notes."
 ---
 

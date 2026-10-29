@@ -1,4 +1,5 @@
 ---
+slug: /machine-learning/amazon-translate
 description: "Amazon Translate is a fully managed neural machine translation service offered by AWS that leverages deep learning techniques to produce fast, high-quality..."
 ---
 

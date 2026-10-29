@@ -1,4 +1,5 @@
 ---
+slug: /management-governance/aws-control-tower
 description: "AWS Control Tower is an AWS-managed service that simplifies the setup and governance of a multi-account environment. SAP-C02 exam study notes."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /developer-tools/aws-codepipeline-codebuild-codedeploy
 description: "AWS CI/CD services: CodePipeline, CodeBuild, CodeDeploy deployment strategies, and CodeArtifact package management. SAP-C02 exam study notes."
 ---
 

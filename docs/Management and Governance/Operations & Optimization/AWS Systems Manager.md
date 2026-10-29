@@ -1,4 +1,5 @@
 ---
+slug: /management-governance/aws-systems-manager
 description: "AWS Systems Manager provides a centralized way to view, manage, and operate your nodes—whether they run on AWS, on‑premises, or in multicloud environments."
 ---
 

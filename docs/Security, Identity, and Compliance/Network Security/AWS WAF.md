@@ -1,4 +1,5 @@
 ---
+slug: /security/aws-waf
 description: "AWS WAF is part of the suite of AWS networking security services that protect applications against threats targeting the application layer."
 ---
 

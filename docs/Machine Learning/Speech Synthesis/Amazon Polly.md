@@ -1,4 +1,5 @@
 ---
+slug: /machine-learning/amazon-polly
 description: "Amazon Polly is a fully managed cloud service from AWS that converts text into lifelike speech. SAP-C02 exam study notes."
 ---
 

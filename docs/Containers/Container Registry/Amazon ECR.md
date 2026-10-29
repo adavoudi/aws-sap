@@ -1,4 +1,5 @@
 ---
+slug: /containers/amazon-ecr
 description: "Amazon Elastic Container Registry (ECR) is a fully managed container registry service designed to simplify storing, managing, and deploying Docker and Open..."
 ---
 

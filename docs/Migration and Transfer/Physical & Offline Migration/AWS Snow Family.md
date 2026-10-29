@@ -1,4 +1,5 @@
 ---
+slug: /migration/aws-snow-family
 description: "The AWS Snow Family is a suite of physical devices designed to simplify and secure the transfer, migration, and processing of large volumes of data between..."
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: /migration/aws-application-discovery-service
 description: "AWS Application Discovery Service is a comprehensive toolset designed to help organizations gain visibility into their on-premises infrastructure in..."
 ---
 

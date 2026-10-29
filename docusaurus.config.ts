@@ -2,6 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import sidebars from './sidebars';
+import redirects from './redirects.json';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -77,6 +78,8 @@ const config: Config = {
           anonymizeIP: false,
         },
         docs: {
+          // Docs carry short `slug`s at the site root, e.g. /aws-sap/compute/aws-lambda/
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -101,6 +104,11 @@ const config: Config = {
       } satisfies Preset.Options,
       
     ],
+  ],
+
+  plugins: [
+    // Old /docs/<Category>/<Subcategory>/<Service> URLs forward to the short slugs
+    ['@docusaurus/plugin-client-redirects', {redirects}],
   ],
 
   markdown: {

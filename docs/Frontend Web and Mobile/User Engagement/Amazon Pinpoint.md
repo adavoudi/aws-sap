@@ -1,4 +1,5 @@
 ---
+slug: /frontend-mobile/amazon-pinpoint
 description: "Amazon Pinpoint is a fully managed AWS service designed for customer engagement and targeted messaging. SAP-C02 exam study notes."
 ---
 
