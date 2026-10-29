@@ -125,6 +125,13 @@ const config: Config = {
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
 
+        // Docs live at the site root (routeBasePath: '/'), not the default /docs
+        docsRouteBasePath: '/',
+        indexBlog: false,
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 10,
+        searchResultContextMaxLength: 80,
+
         // For Docs using Chinese, it is recomended to set:
         // language: ["en", "zh"],
 
