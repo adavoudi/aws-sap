@@ -1,3 +1,7 @@
+---
+description: "AWS Direct Connect: dedicated and hosted connections, VIFs, Direct Connect Gateway, resiliency models, and VPN backup. SAP-C02 exam study notes."
+---
+
 # AWS Direct Connect
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "Monitoring Amazon EC2: CloudWatch metrics, detailed monitoring, status checks, the CloudWatch agent, and alarms. SAP-C02 exam study notes."
+---
+
 # Amazon EC2 - Monitoring
 
 ## 1. Introduction

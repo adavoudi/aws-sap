@@ -1,3 +1,7 @@
+---
+description: "Amazon Kendra is a fully managed, intelligent search service that leverages advanced machine learning and natural language processing techniques to deliver..."
+---
+
 # Amazon Kendra
 
 ## 1. Introduction

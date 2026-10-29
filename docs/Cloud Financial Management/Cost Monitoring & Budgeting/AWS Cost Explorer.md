@@ -1,3 +1,7 @@
+---
+description: "AWS Cost Explorer: analyzing and forecasting AWS spend, filters and grouping, RI and Savings Plans reports. SAP-C02 exam study notes."
+---
+
 # AWS Cost Explorer
 
 ## 1. Introduction

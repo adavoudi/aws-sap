@@ -1,3 +1,7 @@
+---
+description: "Amazon Managed Blockchain is a fully managed service that makes it simple to create, manage, and scale blockchain networks. SAP-C02 exam study notes."
+---
+
 # Amazon Managed Blockchain
 ## 1. Introduction
 

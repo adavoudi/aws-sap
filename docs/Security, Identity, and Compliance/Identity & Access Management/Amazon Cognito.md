@@ -1,3 +1,7 @@
+---
+description: "Amazon Cognito is an AWS service designed to simplify the process of managing user identities and authentication for web and mobile applications."
+---
+
 # Amazon Cognito
 
 ## 1. Introduction

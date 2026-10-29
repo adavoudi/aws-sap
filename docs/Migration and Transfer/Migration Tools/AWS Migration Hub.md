@@ -1,3 +1,7 @@
+---
+description: "AWS Migration Hub is a centralized service designed to streamline and simplify your journey to the AWS Cloud. SAP-C02 exam study notes."
+---
+
 # AWS Migration Hub
 
 ## 1. Introduction

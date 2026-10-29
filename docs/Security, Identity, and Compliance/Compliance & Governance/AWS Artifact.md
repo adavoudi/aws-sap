@@ -1,3 +1,7 @@
+---
+description: "AWS Artifact: on-demand access to AWS compliance reports (SOC, PCI, ISO) and agreements such as the BAA. SAP-C02 exam study notes."
+---
+
 # AWS Artifact
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "AWS Config: resource inventory, configuration history, managed and custom rules, conformance packs, and auto-remediation. SAP-C02 exam study notes."
+---
+
 # AWS Config
 
 ## 1. Introduction

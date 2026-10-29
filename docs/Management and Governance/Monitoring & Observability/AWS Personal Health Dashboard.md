@@ -1,3 +1,7 @@
+---
+description: "AWS Health and the Personal Health Dashboard: account-specific service events, scheduled maintenance, and automated responses. SAP-C02 study notes."
+---
+
 # AWS Personal Health Dashboard
 
 ## 1. Introduction

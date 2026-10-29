@@ -1,3 +1,7 @@
+---
+description: "AWS Application Discovery Service is a comprehensive toolset designed to help organizations gain visibility into their on-premises infrastructure in..."
+---
+
 # AWS Application Discovery Service
 ## 1. Introduction
 

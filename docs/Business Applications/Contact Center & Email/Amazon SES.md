@@ -1,3 +1,7 @@
+---
+description: "Amazon SES is a cloud‐based email platform designed to help businesses and developers send and receive email using their own verified email addresses and..."
+---
+
 # Amazon Simple Email Service (SES)
 
 ## 1. Introduction

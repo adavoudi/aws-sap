@@ -1,3 +1,7 @@
+---
+description: "AWS Service Quotas provides a unified view of resource limits (or “quotas”) across more than 200 AWS services. SAP-C02 exam study notes."
+---
+
 # AWS Service Quotas
 
 ## 1. Introduction

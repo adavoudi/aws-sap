@@ -1,3 +1,7 @@
+---
+description: "Amazon Kinesis Video Streams is a fully managed AWS service designed to ingest, process, store, and retrieve streaming video (as well as audio and other..."
+---
+
 # Amazon Kinesis Video Streams
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "Amazon Elastic Compute Cloud (EC2) is a core service within Amazon Web Services (AWS) that provides resizable compute capacity in the cloud."
+---
+
 # Amazon EC2
 
 ## 1. Introduction

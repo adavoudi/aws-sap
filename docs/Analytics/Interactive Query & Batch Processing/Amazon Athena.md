@@ -1,3 +1,7 @@
+---
+description: "Amazon Athena is a fully managed, serverless query service that empowers organizations to analyze data directly in Amazon S3 using standard SQL."
+---
+
 # Amazon Athena
 
 ## 1. Introduction

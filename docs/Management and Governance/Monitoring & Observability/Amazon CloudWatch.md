@@ -1,3 +1,7 @@
+---
+description: "Amazon CloudWatch: metrics, logs, alarms, dashboards, Logs Insights, and cross-account observability. SAP-C02 exam study notes."
+---
+
 # Amazon CloudWatch
 ## 1. Introduction
 

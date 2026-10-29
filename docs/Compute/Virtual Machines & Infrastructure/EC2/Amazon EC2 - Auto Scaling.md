@@ -1,3 +1,7 @@
+---
+description: "Amazon EC2 Auto Scaling helps you maintain application availability by automatically launching or terminating EC2 instances according to the demand of your..."
+---
+
 # Amazon EC2 - Auto Scaling
 
 ## 1. Introduction

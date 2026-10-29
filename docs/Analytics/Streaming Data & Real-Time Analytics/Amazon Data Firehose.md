@@ -1,3 +1,7 @@
+---
+description: "Amazon Kinesis Data Firehose is a fully managed service designed to reliably capture, transform, and load streaming data into various destinations."
+---
+
 # Kinesis Data Firehose
 
 ## 1. Introduction

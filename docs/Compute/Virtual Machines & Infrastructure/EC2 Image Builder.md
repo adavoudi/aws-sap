@@ -1,3 +1,7 @@
+---
+description: "EC2 Image Builder offers a complete, automated solution for building and managing server and container images in AWS. SAP-C02 exam study notes."
+---
+
 # EC2 Image Builder
 
 ## 1. Introduction

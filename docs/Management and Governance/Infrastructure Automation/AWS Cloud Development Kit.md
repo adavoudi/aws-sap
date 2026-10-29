@@ -1,3 +1,7 @@
+---
+description: "The AWS Cloud Development Kit is an open-source software framework that allows you to define cloud infrastructure using familiar programming languages such..."
+---
+
 # AWS Cloud Development Kit (CDK)
 ## 1. Introduction
 

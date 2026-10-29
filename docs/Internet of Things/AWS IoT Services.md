@@ -1,3 +1,7 @@
+---
+description: "AWS IoT services: IoT Core, Greengrass, device management, rules engine, and IoT analytics architectures. SAP-C02 exam study notes."
+---
+
 # AWS IoT Services
 
 ## 1. Introduction

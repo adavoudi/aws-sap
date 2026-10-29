@@ -1,3 +1,7 @@
+---
+description: "Amazon EC2’s networking capabilities are designed to give you complete control over both the connectivity and security of your compute resources."
+---
+
 # Amazon EC2 - Networking
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "AWS Systems Manager provides a centralized way to view, manage, and operate your nodes—whether they run on AWS, on‑premises, or in multicloud environments."
+---
+
 # AWS Systems Manager
 ## 1. Introduction
 

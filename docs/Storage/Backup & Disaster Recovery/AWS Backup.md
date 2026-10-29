@@ -1,3 +1,7 @@
+---
+description: "AWS Backup is a fully managed service designed to simplify and centralize the protection of your data across a wide range of AWS services."
+---
+
 # AWS Backup
 
 ## 1. Introduction

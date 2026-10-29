@@ -1,3 +1,7 @@
+---
+description: "AWS Trusted Advisor: automated checks for cost, performance, security, fault tolerance, and service limits by support plan. SAP-C02 study notes."
+---
+
 # AWS Trusted Advisor
 
 ## 1. Introduction

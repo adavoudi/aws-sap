@@ -1,3 +1,7 @@
+---
+description: "AWS Device Farm offers a streamlined way to test mobile and web applications across a variety of real devices. SAP-C02 exam study notes."
+---
+
 # AWS Device Farm
 
 ## 1. Introduction  

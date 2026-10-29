@@ -1,3 +1,7 @@
+---
+description: "Amazon Translate is a fully managed neural machine translation service offered by AWS that leverages deep learning techniques to produce fast, high-quality..."
+---
+
 # Amazon Translate
 
 ## 1. Introduction

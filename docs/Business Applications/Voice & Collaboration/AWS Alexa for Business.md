@@ -1,3 +1,7 @@
+---
+description: "AWS Alexa for Business: provisioning shared devices, enrolling users, and integrating voice into workplace tools. SAP-C02 exam study notes."
+---
+
 # AWS Alexa for Business
 
 ## 1. Introduction

@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="AWS Pro Architect Prep | Master AWS and pass the AWS Certified Solutions Architect – Professional exam">
+      title="AWS Solutions Architect Professional (SAP-C02) Study Guide"
+      description="Free AWS Certified Solutions Architect – Professional (SAP-C02) study guide: a structured study plan and in-depth notes on 130+ AWS services.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

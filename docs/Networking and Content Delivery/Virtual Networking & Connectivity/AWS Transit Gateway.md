@@ -1,3 +1,7 @@
+---
+description: "AWS Transit Gateway: hub-and-spoke VPC connectivity, route tables, peering, multicast, and hybrid network designs. SAP-C02 exam study notes."
+---
+
 # AWS Transit Gateway
 
 ## 1. Introduction

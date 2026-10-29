@@ -1,3 +1,7 @@
+---
+description: "Amazon Comprehend is a fully managed natural language processing (NLP) service offered by AWS that uses advanced machine learning—specifically deep..."
+---
+
 # Amazon Comprehend
 
 ## 1. Introduction

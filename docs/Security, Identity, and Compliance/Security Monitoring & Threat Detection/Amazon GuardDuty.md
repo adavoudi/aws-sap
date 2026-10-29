@@ -1,3 +1,7 @@
+---
+description: "Amazon GuardDuty is engineered to provide intelligent threat discovery across your AWS accounts. SAP-C02 exam study notes."
+---
+
 # Amazon GuardDuty
 
 ## 1. Introduction

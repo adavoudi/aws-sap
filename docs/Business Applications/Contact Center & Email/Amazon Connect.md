@@ -1,3 +1,7 @@
+---
+description: "Amazon Connect: AWS cloud contact center, contact flows, routing, integrations, and analytics. SAP-C02 exam study notes."
+---
+
 # Amazon Connect
 
 ## 1. Introduction

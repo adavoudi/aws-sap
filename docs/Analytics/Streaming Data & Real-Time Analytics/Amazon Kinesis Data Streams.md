@@ -1,3 +1,7 @@
+---
+description: "Amazon Kinesis Data Streams is a fully managed, scalable service designed to ingest, process, and analyze streaming data in real time. SAP-C02 exam study notes."
+---
+
 # Amazon Kinesis Data Streams
 
 ## 1. Introduction

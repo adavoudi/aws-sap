@@ -1,3 +1,7 @@
+---
+description: "Amazon Polly is a fully managed cloud service from AWS that converts text into lifelike speech. SAP-C02 exam study notes."
+---
+
 # Amazon Polly
 ## 1. Introduction
 

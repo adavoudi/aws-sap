@@ -1,3 +1,7 @@
+---
+description: "Amazon OpenSearch provides distributed search, analytics, and visualization capabilities through components such as OpenSearch (for data indexing and..."
+---
+
 # Amazon OpenSearch
 
 ## 1. Introduction

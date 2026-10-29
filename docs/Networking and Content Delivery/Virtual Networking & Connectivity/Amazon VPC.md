@@ -1,3 +1,7 @@
+---
+description: "Amazon VPC is the foundation for virtually every network deployment on AWS. It gives you your own isolated “private cloud” inside the AWS environment."
+---
+
 # AWS Virtual Private Cloud (VPC)
 
 ## 1. Introduction

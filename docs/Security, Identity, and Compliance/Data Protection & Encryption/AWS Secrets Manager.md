@@ -1,3 +1,7 @@
+---
+description: "AWS Secrets Manager is a fully managed service designed to help you securely store, manage, and automatically rotate sensitive information such as..."
+---
+
 # AWS Secrets Manager
 
 ## 1. Introduction

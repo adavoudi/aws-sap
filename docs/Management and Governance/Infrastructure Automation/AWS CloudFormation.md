@@ -1,3 +1,7 @@
+---
+description: "AWS CloudFormation is a service that enables you to model, provision, and manage your AWS resources using code. SAP-C02 exam study notes."
+---
+
 # AWS CloudFormation
 
 ## 1. Introduction

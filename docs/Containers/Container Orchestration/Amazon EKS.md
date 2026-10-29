@@ -1,3 +1,7 @@
+---
+description: "Amazon EKS is a fully managed Kubernetes service designed to simplify the deployment, management, and scaling of containerized applications using Kubernetes..."
+---
+
 # Amazon EKS
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "AWS Compute Optimizer: ML-based rightsizing for EC2, Auto Scaling groups, EBS, Lambda, and ECS across Organizations. SAP-C02 exam study notes."
+---
+
 # AWS Compute Optimizer
 
 ## 1. Introduction

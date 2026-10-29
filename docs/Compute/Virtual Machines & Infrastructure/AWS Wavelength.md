@@ -1,3 +1,7 @@
+---
+description: "AWS Wavelength: AWS compute and storage embedded in telecom 5G networks for ultra-low-latency apps; vs Local Zones and Outposts. SAP-C02 study notes."
+---
+
 # AWS Wavelength
 
 ## 1. Introduction

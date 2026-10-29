@@ -1,3 +1,7 @@
+---
+description: "AWS Organizations: multi-account structure, OUs, service control policies (SCPs), consolidated billing, and delegated admin. SAP-C02 exam study notes."
+---
+
 # AWS Organizations
 
 ## 1. Introduction

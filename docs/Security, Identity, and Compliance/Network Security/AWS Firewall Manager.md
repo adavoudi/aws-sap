@@ -1,3 +1,7 @@
+---
+description: "AWS Firewall Manager is a centralized security management service designed to simplify the administration and enforcement of firewall rules across multiple..."
+---
+
 # AWS Firewall Manager
 
 ## 1. Introduction

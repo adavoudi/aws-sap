@@ -1,3 +1,7 @@
+---
+description: "AWS Macie is engineered to help organizations secure their data by continuously monitoring Amazon S3 buckets for sensitive information."
+---
+
 # AWS Macie
 
 ## 1. Introduction

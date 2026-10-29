@@ -1,3 +1,7 @@
+---
+description: "AWS Lake Formation is a fully managed service for managing and building data lakes. SAP-C02 exam study notes."
+---
+
 # AWS Lake Formation
 
 ## 1. Introduction

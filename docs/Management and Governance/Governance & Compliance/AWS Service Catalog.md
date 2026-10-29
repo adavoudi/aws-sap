@@ -1,3 +1,7 @@
+---
+description: "AWS Service Catalog is a managed service that enables organizations to create, manage, and distribute catalogs of IT services approved for AWS."
+---
+
 # AWS Service Catalog
 ## 1. Introduction
 

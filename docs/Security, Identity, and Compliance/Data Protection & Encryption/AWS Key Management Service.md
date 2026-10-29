@@ -1,3 +1,7 @@
+---
+description: "AWS KMS: customer managed keys, key policies, envelope encryption, multi-Region keys, grants, and rotation. SAP-C02 exam study notes."
+---
+
 # AWS Key Management Service (KMS)
 
 ## 1. Introduction

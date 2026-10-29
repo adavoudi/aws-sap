@@ -1,3 +1,7 @@
+---
+description: "Amazon Transcribe is a fully managed automatic speech recognition (ASR) service offered by Amazon Web Services (AWS) that converts speech to text using..."
+---
+
 # Amazon Transcribe
 
 ## 1. Introduction

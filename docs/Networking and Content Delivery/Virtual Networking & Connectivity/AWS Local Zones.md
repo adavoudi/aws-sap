@@ -1,3 +1,7 @@
+---
+description: "AWS Local Zones have emerged as a solution for modern applications that demand ultra-low latency and rapid responsiveness. SAP-C02 exam study notes."
+---
+
 # AWS Local Zone
 
 ## 1. Introduction

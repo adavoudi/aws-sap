@@ -1,3 +1,7 @@
+---
+description: "Amazon DocumentDB (with MongoDB compatibility) is engineered for modern, scalable applications that require a flexible, JSON-based document database."
+---
+
 # Amazon DocumentDB
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "AWS DataSync provides a streamlined solution for transferring large volumes of data between on‑premises systems, third‑party clouds, and AWS services such..."
+---
+
 ## AWS DataSync
 
 ## 1. Introduction

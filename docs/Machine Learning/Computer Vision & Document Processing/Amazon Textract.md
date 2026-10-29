@@ -1,3 +1,7 @@
+---
+description: "Amazon Textract is a fully managed machine learning service provided by AWS that automatically extracts printed text, handwriting, and structured data from..."
+---
+
 # Amazon Textract
 
 ## 1. Introduction

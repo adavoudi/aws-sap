@@ -1,3 +1,7 @@
+---
+description: "Amazon WorkSpaces offers a highly secure, scalable, and flexible virtual desktop solution built on AWS’s global infrastructure. SAP-C02 exam study notes."
+---
+
 # Amazon WorkSpaces
 
 ## 1. Introduction

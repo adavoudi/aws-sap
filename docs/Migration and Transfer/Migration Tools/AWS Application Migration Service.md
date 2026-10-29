@@ -1,3 +1,7 @@
+---
+description: "AWS Application Migration Service (AWS MGN) is a comprehensive, automated solution designed to simplify, expedite, and reduce the cost of migrating..."
+---
+
 # AWS Application Migration Service (MGN)
 ## 1. Introduction
 

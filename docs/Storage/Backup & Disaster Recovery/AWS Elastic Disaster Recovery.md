@@ -1,3 +1,7 @@
+---
+description: "AWS Elastic Disaster Recovery (AWS DRS) is a comprehensive disaster recovery solution that offers fast, reliable, and cost-effective recovery for a wide..."
+---
+
 # AWS Elastic Disaster Recovery (DRS)
 ## 1. Introduction
 

@@ -1,3 +1,7 @@
+---
+description: "Amazon EBS: volume types (gp3, io2, st1, sc1), snapshots, encryption, Multi-Attach, and performance tuning. SAP-C02 exam study notes."
+---
+
 # Amazon Elastic Block Storage (EBS)
 
 ## 1. Introduction

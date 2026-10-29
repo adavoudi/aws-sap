@@ -1,3 +1,7 @@
+---
+description: "AWS Outposts extends AWS infrastructure, services, APIs, and tools to on-premises environments. SAP-C02 exam study notes."
+---
+
 # AWS Outposts
 
 ## 1. Introduction

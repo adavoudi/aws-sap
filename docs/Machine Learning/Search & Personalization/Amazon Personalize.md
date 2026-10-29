@@ -1,3 +1,7 @@
+---
+description: "Amazon Personalize is a fully managed machine learning service that enables developers to build and deploy real-time personalized recommendation engines..."
+---
+
 # Amazon Personalize
 ## 1. Introduction
 

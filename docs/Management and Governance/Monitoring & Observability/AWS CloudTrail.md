@@ -1,3 +1,7 @@
+---
+description: "AWS CloudTrail: management and data events, organization trails, CloudTrail Lake, log integrity, and auditing. SAP-C02 exam study notes."
+---
+
 # AWS CloudTrail
 
 ## 1. Introduction

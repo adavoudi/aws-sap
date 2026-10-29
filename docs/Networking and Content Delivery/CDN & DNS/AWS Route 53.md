@@ -1,3 +1,7 @@
+---
+description: "AWS Route 53 is a fully managed, highly available, and scalable Domain Name System (DNS) service provided by Amazon Web Services (AWS)."
+---
+
 # AWS Route 53
 
 ## **1. Introduction**

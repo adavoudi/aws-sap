@@ -1,3 +1,7 @@
+---
+description: "Amazon Rekognition is a fully managed computer vision service from Amazon Web Services (AWS) that leverages deep learning to analyze images and videos."
+---
+
 # Amazon Rekognition
 
 ## 1. Introduction

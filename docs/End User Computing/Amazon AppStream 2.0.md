@@ -1,3 +1,7 @@
+---
+description: "Amazon AppStream 2.0: streaming desktop applications to a browser, fleets, image builders, and scaling; vs WorkSpaces. SAP-C02 exam study notes."
+---
+
 # Amazon AppStream 2.0
 
 ## 1. Introduction

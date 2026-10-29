@@ -1,3 +1,7 @@
+---
+description: "AWS Data Exchange is a fully managed service that helps AWS customers easily share, subscribe to, and manage third‐party data in the cloud."
+---
+
 # AWS Data Exchange
 
 ## 1. Introduction

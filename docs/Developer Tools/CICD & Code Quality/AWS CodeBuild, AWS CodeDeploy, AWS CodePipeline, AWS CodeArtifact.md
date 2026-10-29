@@ -1,3 +1,7 @@
+---
+description: "AWS CI/CD services: CodePipeline, CodeBuild, CodeDeploy deployment strategies, and CodeArtifact package management. SAP-C02 exam study notes."
+---
+
 # AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline, AWS CodeArtifact
 
 ## 1. Introduction 

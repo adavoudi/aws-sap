@@ -1,3 +1,7 @@
+---
+description: "AWS PrivateLink provides a highly secure and scalable solution for exposing services privately from one VPC to thousands of other VPCs."
+---
+
 # AWS PrivateLink
 
 ## 1. Introduction

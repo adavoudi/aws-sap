@@ -1,3 +1,7 @@
+---
+description: "Amazon EFS: managed NFS file storage, performance and throughput modes, storage classes, and access points. SAP-C02 exam study notes."
+---
+
 # Amazon Elastic File System (EFS)
 ## 1. Introduction
 

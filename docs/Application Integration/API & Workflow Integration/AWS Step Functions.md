@@ -1,3 +1,7 @@
+---
+description: "Amazon Step Functions is a fully managed serverless orchestration service that helps you build and run distributed applications and microservices using..."
+---
+
 # AWS Step Functions
 
 ## 1. Introduction

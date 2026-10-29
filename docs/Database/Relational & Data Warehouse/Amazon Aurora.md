@@ -1,3 +1,7 @@
+---
+description: "Amazon Aurora is a fully managed, cloud‐native relational database engine that’s part of Amazon RDS. SAP-C02 exam study notes."
+---
+
 # Amazon Aurora
 
 ## 1. Introduction

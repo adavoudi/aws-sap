@@ -1,3 +1,7 @@
+---
+description: "AWS Elastic Beanstalk is a fully managed Platform as a Service (PaaS) that makes it simple to deploy, manage, and scale web applications and services."
+---
+
 # AWS Elastic Beanstalk
 
 ## 1. Introduction

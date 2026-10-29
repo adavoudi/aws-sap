@@ -1,3 +1,7 @@
+---
+description: "AWS Batch is a fully managed batch processing service that enables developers, scientists, and engineers to run hundreds of thousands of batch computing..."
+---
+
 # AWS Batch
 
 ## 1. Introduction

@@ -1,3 +1,7 @@
+---
+description: "EC2 Fleet vs Spot Fleet: allocation strategies, On-Demand and Spot mixes, and capacity planning for large instance groups. SAP-C02 exam study notes."
+---
+
 # Amazon EC2 - Fleets
 
 ## 1. Introduction

@@ -7,7 +7,7 @@ import sidebars from './sidebars';
 
 const config: Config = {
   title: 'AWS Pro Architect Prep',
-  tagline: 'Master AWS and pass the AWS Certified Solutions Architect – Professional exam',
+  tagline: 'Master AWS and pass the AWS Certified Solutions Architect – Professional (SAP-C02) exam',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -15,6 +15,9 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/aws-sap/',
+  // GitHub Pages serves each page as <path>/index.html and 301-redirects the
+  // slash-less URL, so canonicals and sitemap entries must end with a slash.
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -27,6 +30,39 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {type: 'application/ld+json'},
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'WebSite',
+            '@id': 'https://adavoudi.info/aws-sap/#website',
+            url: 'https://adavoudi.info/aws-sap/',
+            name: 'AWS Pro Architect Prep',
+            description:
+              'Free study guide for the AWS Certified Solutions Architect – Professional (SAP-C02) exam.',
+            inLanguage: 'en',
+            author: {'@id': 'https://adavoudi.info/#person'},
+            publisher: {'@id': 'https://adavoudi.info/#person'},
+          },
+          {
+            '@type': 'Person',
+            '@id': 'https://adavoudi.info/#person',
+            name: 'Alireza Davoudi',
+            url: 'https://adavoudi.info/',
+            sameAs: [
+              'https://github.com/adavoudi',
+              'https://www.linkedin.com/in/alireza-davoudi/',
+            ],
+          },
+        ],
+      }),
+    },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -54,7 +90,7 @@ const config: Config = {
           lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          ignorePatterns: ['/aws-sap/tags/**', '/aws-sap/search/**'],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
             const {defaultCreateSitemapItems, ...rest} = params;
@@ -92,11 +128,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
+    metadata: [{name: 'author', content: 'Alireza Davoudi'}],
     navbar: {
       title: 'AWS Pro Architect Prep',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'AWS Pro Architect Prep logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -120,7 +157,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} AWS Pro Architect Prep. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://adavoudi.info/">Alireza Davoudi</a>. AWS Pro Architect Prep is an independent study guide, not affiliated with Amazon Web Services.`,
     },
     prism: {
       theme: prismThemes.github,

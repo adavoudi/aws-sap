@@ -1,3 +1,7 @@
+---
+description: "Amazon Lex is a fully managed AWS service that enables you to build conversational interfaces into any application using voice and text."
+---
+
 # Amazon Lex
 
 ## 1. Introduction
